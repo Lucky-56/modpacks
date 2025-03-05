@@ -1,0 +1,20 @@
+{
+	"schemaVersion": 1,
+	"hotfixesFormat": null,
+	"versions": [
+	  {
+		"id": "0.1",
+		"releasedAt": 1740846240786,
+		"promotions": {
+			"downloads": {
+				"generic": "https://discord.com/channels/1303326539378589767/1346911253833973871"
+			}
+		}
+	  },
+	  {
+		"id": "1.0",
+		"releasedAt": 987654321098765,
+		"updateType": "incompatible"
+	  }
+	]
+  }
