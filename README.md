@@ -1,2 +1,9 @@
-# MPUC for my modpacks
-[Modpack Update Checker](https://modrinth.com/mod/modpack-update-checker)
+The under promising sequel to creëren,
+
+a modpack all focused around the create mod.
+
+
+
+Featuring other big mods such as:
+
+- TODO
