@@ -1,0 +1,34 @@
+name: Bug Report
+description: File a bug report
+assignees: Lucky-56
+title: '[Bug]: '
+labels: [ bug ]
+body:
+  - type: dropdown
+    attributes:
+      label: Modpack
+      description: What modpack are you reporting for?
+      options:
+        - karton creëren
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Bug Description
+      description: >
+        Please describe the issue with as much detail as possible.
+        Explain what happened, and what should have happened instead.
+        Add images, screenshots, or videos if they could be useful.
+    validations:
+      required: true
+
+  - type: checkboxes
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree that you have done your due diligence and done the following
+      options:
+        - label: I have searched the issue tracker and confirmed that the issue has not been reported
+          required: true
+        - label: I have verified that I am using the latest version of the modpack
+          required: true
