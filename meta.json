@@ -2,33 +2,43 @@
 	"schemaVersion": 1,
 	"hotfixesFormat": null,
 	"versions": [
-	  {
-		"id": "0.1",
-		"releasedAt": 1740846240786
-	  },
-	  {
-		"id": "1.0",
-		"releasedAt": 1742696700000,
-		"promotions": {
-			"downloads": {
-				"generic": "https://github.com/Lucky-56/modpacks/releases/download/1.0/creeren2-1.0.mrpack"
+		{
+			"id": "0.1",
+			"releasedAt": 1740846240786
+		},
+		{
+			"id": "1.0",
+			"releasedAt": 1742696700000,
+			"promotions": {
+				"downloads": {
+					"generic": "https://github.com/Lucky-56/modpacks/releases/download/1.0/creeren2-1.0.mrpack"
+				}
 			}
-		}
-	  },
-	  {
-		"id": "1.0.1",
-		"releasedAt": 1742697834000,
-		"updateType": "minor",
-		"promotions": {
-			"downloads": {
-				"generic": "https://github.com/Lucky-56/modpacks/releases/download/1.0.1/creeren2-1.0.1.mrpack"
+		},
+		{
+			"id": "1.0.1",
+			"releasedAt": 1742697834000,
+			"updateType": "minor",
+			"promotions": {
+				"downloads": {
+					"generic": "https://github.com/Lucky-56/modpacks/releases/download/1.0.1/creeren2-1.0.1.mrpack"
+				}
 			}
+		},
+		{
+			"id": "1.0.2",
+			"releasedAt": 1742732160000,
+			"updateType": "minor",
+			"promotions": {
+				"downloads": {
+					"generic": "https://github.com/Lucky-56/modpacks/releases/download/1.0.2/creeren2-1.0.2.mrpack"
+				}
+			}
+		},
+		{
+			"id": "1.1",
+			"releasedAt": 987654321098765,
+			"updateType": "incompatible"
 		}
-	  },
-	  {
-		"id": "1.1",
-		"releasedAt": 987654321098765,
-		"updateType": "incompatible"
-	  }
 	]
-  }
+}
