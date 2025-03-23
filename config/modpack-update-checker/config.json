@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 9,
+  "currentVersion": "1.0",
+  "modpackName": "karton creëren",
+  "modpackAuthor": "Lucky56",
+  "modpackReleaseType": "release",
+  "updateCheckerId": "https://raw.githubusercontent.com/Lucky-56/modpacks/refs/heads/creeren2/",
+  "advanced": {
+    "addButton": true,
+    "bccEnabled": true,
+    "expandButton": false,
+    "mainMenuCreditsIntegration": true,
+    "retroWarning": false,
+    "updateCheckerType": 2,
+    "modpackMods": []
+  }
+}

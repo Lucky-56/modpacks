@@ -1,0 +1,6 @@
+{
+    "type": "emi:world_interaction",
+    "left": ["fluid:minecraft:lava", true],
+    "right": ["fluid:create:chocolate", true],
+    "output": "item:create:scoria"
+}

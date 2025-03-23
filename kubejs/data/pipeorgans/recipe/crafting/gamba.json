@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "I",
+    "S",
+    "C"
+  ],
+  "key": {
+    "I": {
+      "tag": "c:ingots/iron"
+    },
+    "S": {
+      "tag": "c:plates/iron"
+    },
+    "C": {
+      "item": "pipeorgans:base"
+    }
+  },
+  "result": {
+    "id": "pipeorgans:gamba"
+  }
+}
