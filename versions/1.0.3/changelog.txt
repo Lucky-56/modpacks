@@ -1,0 +1,29 @@
+### performace
+
+added `common`:
+
+- [Saturn *0.1.5*](https://mods.gay/saturn/version/mc1.21.1-0.1.5)
+
+added `server`:
+
+- [AI Improvements *0.5.3*](https://mods.gay/ai-improvements/version/dGNP90t0)
+- [Chunky *1.4.16*](https://modrinth.com/plugin/chunky/version/Bq6sxES5)
+- [I'm Fast *1.0.2*](https://mods.gay/im-fast/version/qdQ7mi0j)
+- [Immersive Optimization *0.0.4*](https://mods.gay/immersive-optimization/version/PkeraQLM)
+- [Sepals *1.0.15*](https://mods.gay/sepals/version/aNydStgD)
+- [ServerCore *1.5.5*](https://mods.gay/servercore/version/nlNqnwcA)
+- [Structure Layout Optimizer *1.0.10*](https://mods.gay/structure-layout-optimizer/version/1.0.10+1.21.1-neoforge)
+- [TerraBlenderFix *0.0.1*](https://mods.gay/terrablenderfix/version/mj0Dc8K5)
+
+downgraded:
+
+- NeoForge *21.1.132*
+
+removed:
+
+- `connectiblechains-2.4.2.jar` *doesn't work on DEDICATED_SERVER enviroments*
+- LanguageReloadUnofficial *caused issues, and no one's going to change their language constantly anyway*
+
+fixed:
+
+- FancyMenu again :p

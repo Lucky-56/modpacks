@@ -1,3 +1,6 @@
-fixed oopsy two
+### oopsy two
 
-- FancyMenu + game starting
+fixed:
+
+- FancyMenu
+- game starting
