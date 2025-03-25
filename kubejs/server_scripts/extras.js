@@ -40,7 +40,12 @@ ServerEvents.tags('item', event => {
 	colors.forEach((color) => {
 		event.add('twilightforest:banned_uncrafting_ingredients', 'chalk:' + color + '_chalk')
 	})
+	//tag you're it
 	event.add('c:eggs', 'deep_aether:quail_egg')
+	event.add('farmersdelight:compost_base', 'minecraft:dirt', 'aether:aether_dirt')
+
+	event.remove('curios:head', 'create:goggles')
+	event.add('accessories:face', 'create:goggles')
 })
 
 ServerEvents.recipes(event => {
@@ -73,7 +78,7 @@ ServerEvents.recipes(event => {
 	], {
 		C: 'minecraft:chiseled_stone_bricks',
 		I: '#c:ingots/iron'
-	}).id('lodestone')
+	}).id('minecraft:lodestone')
 
 	//missing
 	event.shaped('aethersdelight:arkenium_knife', [
@@ -107,6 +112,7 @@ ServerEvents.recipes(event => {
 	})
 
 	//alloying
+	event.remove({ id: 'create_ironworks:materials/alloys/brass_from_ingots' })
 	event.custom({
 		type: "create:mixing",
 		heat_requirement: "superheated",
@@ -139,9 +145,46 @@ ServerEvents.recipes(event => {
 		results: [
 			{
 				id: "minecraft:netherite_ingot"
+			},
+			{
+				chance: 0.15,
+				id: "kubejs:netherite_chunk"
+			},
+			{
+				chance: 0.8,
+				id: "minecraft:gold_nugget"
+			},
+			{
+				chance: 0.90,
+				id: "create:experience_nugget"
 			}
 		]
 	}).id('minecraft:netherite_ingot')
+	event.custom({
+		type: "create:crushing",
+		ingredients: [
+			{
+				item: "kubejs:netherite_chunk"
+			}
+		],
+		processing_time: 600,
+		results: [
+			{
+				count: 3,
+				chance: 0.1,
+				id: "kubejs:netherite_nugget"
+			},
+			{
+				count: 3,
+				chance: 0.25,
+				id: "minecraft:gold_nugget"
+			},
+			{
+				chance: 0.50,
+				id: "create:experience_nugget"
+			}
+		]
+	}).id('kubejs:netherite_chunk')
 	event.custom({
 		type: "create:mixing",
 		heat_requirement: "heated",
@@ -163,9 +206,57 @@ ServerEvents.recipes(event => {
 			{
 				count: 2,
 				id: "cosmeticarmoursmod:rose_gold_ingot"
+			},
+			{
+				chance: 0.6,
+				id: "minecraft:gold_nugget"
+			},
+			{
+				chance: 0.2,
+				id: "create:copper_nugget"
+			},
+			{
+				chance: 0.75,
+				id: "create:experience_nugget"
 			}
 		]
 	}).id('cosmeticarmoursmod:rose_gold_crafting_rec')
+	event.custom({
+		type: "create:mixing",
+		heat_requirement: "heated",
+		ingredients: [
+			{
+				item: "create:crushed_raw_gold"
+			},
+			{
+				item: "create:crushed_raw_gold"
+			},
+			{
+				item: "create:crushed_raw_gold"
+			},
+			{
+				item: "create:crushed_raw_copper"
+			}
+		],
+		results: [
+			{
+				count: 2,
+				id: "cosmeticarmoursmod:rose_gold_ingot"
+			},
+			{
+				chance: 0.6,
+				id: "minecraft:gold_nugget"
+			},
+			{
+				chance: 0.2,
+				id: "create:copper_nugget"
+			},
+			{
+				chance: 0.75,
+				id: "create:experience_nugget"
+			}
+		]
+	}).id('cosmeticarmoursmod:rose_gold_from_crushed')
 	event.custom({
 		type: "create:mixing",
 		heat_requirement: "heated",
@@ -290,7 +381,7 @@ ServerEvents.recipes(event => {
 		s: '#c:slime_balls'
 	}).id('chalk:chalk_box')
 	// tin-tin-tin
-	event.remove({ output: 'create_ironworks:crushed_raw_tin', type: 'create:crushing' })
+	//event.remove({ output: 'create_ironworks:crushed_raw_tin', type: 'create:crushing' })
 	event.custom({
 		type: "create:crushing",
 		ingredients: [
@@ -317,12 +408,12 @@ ServerEvents.recipes(event => {
 				id: "minecraft:cobbled_deepslate"
 			}
 		]
-	}).id('create_ironworks:materials/tin/crushing/deepslate_tin_ore')
+	}).id('create:crushing/deepslate_tin_ore')
 	event.custom({
 		type: "create:crushing",
 		ingredients: [
 			{
-				item: "create_ironworks:raw_tin"
+				tag: "c:raw_materials/tin"
 			}
 		],
 		processing_time: 400,
@@ -335,12 +426,12 @@ ServerEvents.recipes(event => {
 				id: "create:experience_nugget"
 			}
 		]
-	}).id('create_ironworks:materials/tin/crushing/raw_tin')
+	}).id('create:crushing/raw_tin')
 	event.custom({
 		type: "create:crushing",
 		ingredients: [
 			{
-				item: "create_ironworks:raw_tin_block"
+				tag: "c:storage_blocks/raw_tin"
 			}
 		],
 		processing_time: 400,
@@ -355,7 +446,7 @@ ServerEvents.recipes(event => {
 				id: "create:experience_nugget"
 			}
 		]
-	}).id('create_ironworks:materials/tin/crushing/raw_tin_block')
+	}).id('create:crushing/raw_tin_block')
 	event.custom({
 		type: "create:crushing",
 		ingredients: [
@@ -363,7 +454,7 @@ ServerEvents.recipes(event => {
 				item: "create_ironworks:tin_ore"
 			}
 		],
-		processing_time: 250,
+		processing_time: 400,
 		results: [
 			{
 				count: 5,
@@ -382,14 +473,69 @@ ServerEvents.recipes(event => {
 				id: "minecraft:cobblestone"
 			}
 		]
-	}).id('create_ironworks:materials/tin/crushing/tin_ore')
+	}).id('create:crushing/tin_ore')
+	//  tin two
+	event.smelting('create_ironworks:tin_ingot', 'create:crushed_raw_tin', 0.1).id('create_ironworks:materials/tin/smelting/tin_ingot_from_crushed_raw_tin')
+	event.blasting('create_ironworks:tin_ingot', 'create:crushed_raw_tin', 0.1).id('create_ironworks:materials/tin/blasting/tin_ingot_from_crushed_raw_tin')
+	event.custom({
+		type: "create:splashing",
+		ingredients: [
+			{
+				item: "create:crushed_raw_tin"
+			}
+		],
+		results: [
+			{
+				count: 9,
+				id: "create_ironworks:tin_nugget"
+			},
+			{
+				chance: 0.5,
+				id: "minecraft:glowstone_dust"
+			}
+		]
+	}).id('create_ironworks:materials/tin/splashing/tin_nuggets_from_raw_tin')
+	event.custom({
+		type: "create:mixing",
+		ingredients: [
+			{
+				item: "create:crushed_raw_copper"
+			},
+			{
+				item: "create:crushed_raw_tin"
+			}
+		],
+		results: [
+			{
+				id: "create_ironworks:bronze_ingot"
+			},
+			{
+				chance: 0.5,
+				id: "create:copper_nugget"
+			},
+			{
+				chance: 0.5,
+				id: "create_ironworks:tin_nugget"
+			},
+			{
+				chance: 0.75,
+				id: "create:experience_nugget"
+			}
+		]
+	}).id('create_ironworks:materials/alloys/bronze_from_crushed')
 	//  doughing around
 	event.remove({ id: 'aethersdelight:wheat_dough_from_skyroot_bucket' })
 	event.remove({ id: 'create:crafting/appliances/dough' })
-	event.shapeless('farmersdelight:wheat_dough', ['potion[potion_contents={potion:"minecraft:water"}]', '#c:flours/wheat']).replaceIngredient('potion[potion_contents={potion:"minecraft:water"}]', 'glass_bottle').id('create:crafting/appliances/dough_manual_only')
+	event.shapeless('farmersdelight:wheat_dough', [
+		'potion[potion_contents={potion:"minecraft:water"}]', '#c:flours/wheat'
+	]).replaceIngredient('potion[potion_contents={potion:"minecraft:water"}]', 'glass_bottle').id('create:crafting/appliances/dough_manual_only')
 	event.remove({ id: 'farmersdelight:wheat_dough_from_water' })
-	event.shapeless(Item.of('farmersdelight:wheat_dough', 3), ['#c:buckets/water', '#c:flours/wheat', '#c:flours/wheat', '#c:flours/wheat']).replaceIngredient('water_bucket', 'bucket').replaceIngredient('aether:skyroot_water_bucket', 'aether:skyroot_bucket').id('farmersdelight:wheat_dough_from_water_manual_only')
-	event.shapeless(Item.of('farmersdelight:wheat_dough', 3), ['#c:eggs', '#c:flours/wheat', '#c:flours/wheat', '#c:flours/wheat']).id('farmersdelight:wheat_dough_from_eggs')
+	event.shapeless(Item.of('farmersdelight:wheat_dough', 3), [
+		'#c:buckets/water', '#c:flours/wheat', '#c:flours/wheat', '#c:flours/wheat'
+	]).id('farmersdelight:wheat_dough_from_water_manual_only')
+	event.shapeless(Item.of('farmersdelight:wheat_dough', 3), [
+		'#c:eggs', '#c:flours/wheat', '#c:flours/wheat', '#c:flours/wheat'
+	]).id('farmersdelight:wheat_dough_from_eggs')
 	event.custom({
 		type: "create:splashing",
 		ingredients: [
@@ -434,7 +580,9 @@ ServerEvents.recipes(event => {
 		d: 'farmersdelight:wheat_dough'
 	}).id('create:crafting/curiosities/cake')
 	event.shapeless('slime_ball', ['farmersdelight:wheat_dough', '#c:dyes/lime']).id('create:crafting/appliances/slime_ball')
-	event.shapeless(Item.of('creategarnished:peanut_butter_cookie', 4), ['farmersdelight:wheat_dough', '#c:bottles/peanut_butter', 'sugar', '#c:eggs']).replaceIngredient('creategarnished:peanut_butter_bottle', 'glass_bottle').id('creategarnished:crafting/peanut_butter_cookie')
+	event.shapeless(Item.of('creategarnished:peanut_butter_cookie', 4), [
+		'farmersdelight:wheat_dough', '#c:bottles/peanut_butter', 'sugar', '#c:eggs'
+	]).replaceIngredient('creategarnished:peanut_butter_bottle', 'glass_bottle').id('creategarnished:crafting/peanut_butter_cookie')
 	event.custom({
 		type: "create:mixing",
 		ingredients: [
@@ -562,7 +710,7 @@ ServerEvents.recipes(event => {
 			},
 			{
 				type: "fluid_stack",
-				amount: 2000,
+				amount: 1000,
 				fluid: "minecraft:water"
 			}
 		],
@@ -587,7 +735,9 @@ ServerEvents.recipes(event => {
 
 	//unbucketing the create's
 	// water
-	event.shapeless(Item.of('supplementaries:soap', 6), ['#c:buckets/water', 'supplementaries:ash', 'supplementaries:ash', 'supplementaries:ash', 'supplementaries:ash', '#c:foods/raw_pork']).id('supplementaries:soap_manual_only')
+	event.shapeless(Item.of('supplementaries:soap', 6), [
+		'#c:buckets/water', 'supplementaries:ash', 'supplementaries:ash', 'supplementaries:ash', 'supplementaries:ash', '#c:foods/raw_pork'
+	]).id('supplementaries:soap_manual_only')
 	event.custom({
 		type: "create:mixing",
 		ingredients: [
@@ -620,12 +770,18 @@ ServerEvents.recipes(event => {
 		]
 	}).id('supplementaries:soap')
 	event.remove({ id: 'create_compressed:dough_block_from_flour' })
-	event.shapeless('create_compressed:dough_block', ['#c:buckets/water', 'create_compressed:wheat_flour_pile']).id('create_compressed:dough_block_from_flour_manual_only')
+	event.shapeless('create_compressed:dough_block', [
+		'#c:buckets/water', 'create_compressed:wheat_flour_pile'
+	]).id('create_compressed:dough_block_from_flour_manual_only')
 	// milk
 	event.remove({ id: 'farmersdelight:milk_bottle' })
 	event.remove({ id: 'aethersdelight:milk_bottles_from_skyroot_bucket' })
-	event.shapeless(Item.of('farmersdelight:milk_bottle', 4), ['#c:buckets/milk', 'glass_bottle', 'glass_bottle', 'glass_bottle', 'glass_bottle']).id('farmersdelight:milk_bottle_manual_only')
-	event.shapeless('aethersdelight:aechor_ice_cream_base', ['aether:aechor_petal', 'sugar', 'sugar', '#c:eggs', '#c:foods/milk', 'aether:skyroot_bucket']).id('aethersdelight:aechor_ice_cream_base_manual_only')
+	event.shapeless(Item.of('farmersdelight:milk_bottle', 4), [
+		'#c:buckets/milk', 'glass_bottle', 'glass_bottle', 'glass_bottle', 'glass_bottle'
+	]).id('farmersdelight:milk_bottle_manual_only')
+	event.shapeless('aethersdelight:aechor_ice_cream_base', [
+		'aether:aechor_petal', 'sugar', 'sugar', '#c:eggs', '#c:foods/milk', 'aether:skyroot_bucket'
+	]).id('aethersdelight:aechor_ice_cream_base_manual_only')
 	event.custom({
 		type: "create:mixing",
 		ingredients: [
@@ -656,7 +812,9 @@ ServerEvents.recipes(event => {
 			}
 		]
 	}).id('aethersdelight:aechor_ice_cream_base')
-	event.shapeless(Item.of('creategarnished:bear_claw', 4), ['#c:flours', '#c:eggs', '#c:foods/milk', 'creategarnished:almond_paste', 'creategarnished:almond_paste', 'sugar', 'sugar']).id('creategarnished:crafting/bear_claw_manual_only')
+	event.shapeless(Item.of('creategarnished:bear_claw', 4), [
+		'#c:flours', '#c:eggs', '#c:foods/milk', 'creategarnished:almond_paste', 'creategarnished:almond_paste', 'sugar', 'sugar'
+	]).id('creategarnished:crafting/bear_claw_manual_only')
 	event.custom({
 		type: "create:mixing",
 		ingredients: [
@@ -691,7 +849,9 @@ ServerEvents.recipes(event => {
 			}
 		]
 	}).id('creategarnished:crafting/bear_claw')
-	event.shapeless('snowyspirit:eggnog', ['#c:crops/ginger', '#c:foods/milk', '#c:eggs', 'glass_bottle']).id('snowyspirit:eggnog_manual_only')
+	event.shapeless('snowyspirit:eggnog', [
+		'#c:crops/ginger', '#c:foods/milk', '#c:eggs', 'glass_bottle'
+	]).id('snowyspirit:eggnog_manual_only')
 	event.custom({
 		type: "create:mixing",
 		ingredients: [
@@ -716,7 +876,9 @@ ServerEvents.recipes(event => {
 			}
 		]
 	}).id('snowyspirit:eggnog')
-	event.shapeless(Item.of('supplementaries:pancake', 3), ['sugar', '#c:foods/milk', 'farmersdelight:wheat_dough', '#c:eggs']).id('supplementaries:integration/pancake_fd_manual_only')
+	event.shapeless(Item.of('supplementaries:pancake', 3), [
+		'sugar', '#c:foods/milk', 'farmersdelight:wheat_dough', '#c:eggs'
+	]).id('supplementaries:integration/pancake_fd_manual_only')
 	event.custom({
 		type: "create:mixing",
 		ingredients: [
@@ -742,7 +904,9 @@ ServerEvents.recipes(event => {
 			}
 		]
 	}).id('supplementaries:integration/pancake_fd')
-	event.shapeless('farmersdelight:stuffed_potato', ['minecraft:baked_potato', '#c:foods/cooked_beef', '#c:foods/milk']).id('farmersdelight:stuffed_potato_manual_only')
+	event.shapeless('farmersdelight:stuffed_potato', [
+		'minecraft:baked_potato', '#c:foods/cooked_beef', '#c:foods/milk'
+	]).id('farmersdelight:stuffed_potato_manual_only')
 	event.custom({
 		type: "create:mixing",
 		ingredients: [
@@ -764,7 +928,9 @@ ServerEvents.recipes(event => {
 			}
 		]
 	}).id('farmersdelight:stuffed_potato')
-	event.shapeless('farmersdelight:shepherds_pie_block', ['minecraft:baked_potato', '#c:foods/milk', 'minecraft:baked_potato', '#c:foods/cooked_mutton', '#c:foods/cooked_mutton', '#c:foods/cooked_mutton', '#c:crops/onion', 'bowl', '#c:crops/onion']).id('farmersdelight:shepherds_pie_block_manual_only')
+	event.shapeless('farmersdelight:shepherds_pie_block', [
+		'minecraft:baked_potato', '#c:foods/milk', 'minecraft:baked_potato', '#c:foods/cooked_mutton', '#c:foods/cooked_mutton', '#c:foods/cooked_mutton', '#c:crops/onion', 'bowl', '#c:crops/onion'
+	]).id('farmersdelight:shepherds_pie_block_manual_only')
 	event.custom({
 		type: "create:mixing",
 		ingredients: [
@@ -804,9 +970,11 @@ ServerEvents.recipes(event => {
 			}
 		]
 	}).id('farmersdelight:shepherds_pie_block')
-
 	// lava
-	event.shapeless('obsidian', ['#c:buckets/lava', 'ars_nouveau:water_essence']).id('ars_nouveau:water_essence_to_obsidian_manual_only')
+	event.shapeless('obsidian',
+		['#c:buckets/lava', 'ars_nouveau:water_essence'
+
+		]).id('ars_nouveau:water_essence_to_obsidian_manual_only')
 	event.custom({
 		type: "create:mixing",
 		ingredients: [
@@ -826,6 +994,17 @@ ServerEvents.recipes(event => {
 		]
 	}).id('ars_nouveau:water_essence_to_obsidian')
 
+	//farmers doubles
+	event.remove({ id: 'farmersdelight:paper_from_tree_bark' })
+	event.remove({ id: 'farmersdelight:organic_compost_from_tree_bark' })
+	event.remove({ id: 'aethersdelight:aether_compost_from_rotten_flesh' })
+	event.shapeless('farmersdelight:organic_compost', [
+		'#farmersdelight:compost_base', 'farmersdelight:straw', 'farmersdelight:straw', 'bone_meal', 'bone_meal', 'bone_meal', 'bone_meal', 'rotten_flesh', 'rotten_flesh'
+	]).id('farmersdelight:organic_compost_from_rotten_flesh')
+	event.shapeless('farmersdelight:organic_compost', [
+		'aether:aether_dirt', 'farmersdelight:straw', 'farmersdelight:straw', 'farmersdelight:straw', 'farmersdelight:straw', 'bone_meal', 'bone_meal', '#farmersdelight:barks', '#farmersdelight:barks'
+	]).id('aethersdelight:aether_compost_from_bone_meal')
+
 	//fixing what's broken
 	event.custom({
 		type: "create:mixing",
@@ -835,7 +1014,7 @@ ServerEvents.recipes(event => {
 			},
 			{
 				type: "fluid_stack",
-				amount: 2000,
+				amount: 1000,
 				fluid: "minecraft:water"
 			}
 		],

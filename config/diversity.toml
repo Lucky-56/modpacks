@@ -29,7 +29,7 @@
 "Click through sign/itemframe" = true
 "1 tick delay copper bulb" = true
 "Day counter" = "PER_1_DAY"
-"Ticks per day" = 23500
+"Ticks per day" = 24000
 "Deepslate generator" = true
 "Faster minecart" = true
 "Faster oxidization" = true

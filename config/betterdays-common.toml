@@ -12,7 +12,7 @@
 	#The time to start day. This is configurable within the time the sun appears and day starts.
 	#Default: 23500
 	#Range: 22300.0 ~ 24000.0
-	dayStart = 24000.0
+	dayStart = 23500.0
 	#The time to start night. This is configurable within the time sunset starts and night starts.
 	#Default: 12500
 	#Range: 12000.0 ~ 13000.0

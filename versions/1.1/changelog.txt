@@ -1,1 +1,37 @@
-**TBA**
+### update one
+
+added `client`:
+
+- [Chat Heads *0.13.13*](https://mods.gay/chat-heads/version/iSJZlVit)
+- [Particle Effects *1.0.2*](https://mods.gay/particle-effects/version/MEFLK62i)
+
+added `common`:
+
+- [Create: More Sandpapers *1.2.0*](https://mods.gay/create-more-sandpapers/version/B1ZFLRSM)
+- [Diagonal Fences *21.1.1*](https://mods.gay/diagonal-fences/version/bgR1e0O5)
+- [Diagonal Walls *21.1.2*](https://mods.gay/diagonal-walls/version/2k3GCxEt)
+- [Diagonal Windows *21.1.1*](https://mods.gay/diagonal-windows/version/IwUmOLxe)
+- [Emojiful *5.1.5*](https://mods.gay/emojiful/version/mn6IzXE5)
+
+added `server`:
+
+- [LuckPerms *5.4.140*](https://mods.gay/luckperms/version/rnvg05YO)
+
+updated:
+
+- [Amendments](https://mods.gay/amendments) *1.2.24 > 1.2.24*
+- [Balm](https://mods.gay/balm) *21.0.33 > 21.0.36*
+- [Remove Reloading Screen](https://mods.gay/rrls) *5.0.8 > 5.0.9*
+- [YetAnotherConfigLib (YACL)](https://mods.gay/yacl) *3.6.5 > 3.6.6*
+
+fixed:
+
+- repurposed structures' YUNG versions actually work, and look cool now ^.^'
+- ruined aether portals actually spawn now :o
+- `Create: Sounds of Steam` recipes work again
+
+changed:
+
+- Engineer's Goggles are now equippable on the `Face` slot instead of `Hat`
+- silking spawners is more expensive
+- hopefully fixed the day ticker

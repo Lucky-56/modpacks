@@ -12,7 +12,7 @@ added `server`:
 - [Immersive Optimization *0.0.4*](https://mods.gay/immersive-optimization/version/PkeraQLM)
 - [Sepals *1.0.15*](https://mods.gay/sepals/version/aNydStgD)
 - [ServerCore *1.5.5*](https://mods.gay/servercore/version/nlNqnwcA)
-- [Structure Layout Optimizer *1.0.10*](https://mods.gay/structure-layout-optimizer/version/1.0.10+1.21.1-neoforge)
+- [Structure Layout Optimizer *1.0.10*](https://mods.gay/structure-layout-optimizer/version/Axad8miZ)
 - [TerraBlenderFix *0.0.1*](https://mods.gay/terrablenderfix/version/mj0Dc8K5)
 
 downgraded:

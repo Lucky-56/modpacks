@@ -1,5 +1,15 @@
-[1.0 - 1.0.2] (client) {optimization} languagereload-neoforge-1.21.1-1.0.2.jar
-[1.0 - 1.0.2] (common) {decoration} connectiblechains-2.4.2.jar
+[1.1] (client) {fancy} Particle Effects-1.0.2+1.21.jar
+[1.1] (client) {QoL} chat_heads-0.13.13-neoforge-1.21.jar
+[1.1] (client) {QoL} rrls-5.0.9+mc1.21.1-forge.jar
+[1.1] (common) {social} Emojiful-Neoforge-1.21-5.1.5-all.jar
+[1.1] (common) {create} createsandpapers-1.21.1-1.2.0-1.21.1.jar
+[1.1] (common) {decoration} DiagonalFences-v21.1.1-1.21.1-NeoForge.jar
+[1.1] (common) {decoration} DiagonalWalls-v21.1.2-1.21.1-NeoForge.jar
+[1.1] (common) {decoration} DiagonalWindows-v21.1.1-1.21.1-NeoForge.jar
+[1.1] (common) {lib} balm-neoforge-1.21.1-21.0.36.jar
+[1.1] (common) {lib} yet_another_config_lib_v3-3.6.6+1.21.1-neoforge.jar
+[1.1] (common) {supplementaries} amendments-1.21-1.2.24-neoforge.jar
+[1.1] (server) {permissions} LuckPerms-NeoForge-5.4.140.jar
 [1.0.3] (common) {peformance} saturn-mc1.21.1-0.1.5.jar
 [1.0.3] (server) {chunkgen} Chunky-1.4.16.jar
 [1.0.3] (server) {peformance} AI-Improvements-1.21-0.5.3.jar
@@ -26,7 +36,6 @@
 [1.0] (common) {temp} AdditionalPlacements-NeoForge-1.21-2.2.2.jar
 [1.0] (common) {temp} almostunified-neoforge-1.21.1-1.2.3.jar
 [1.0] (common) {temp} alternate_current-mc1.21-1.9.0.jar
-[1.0] (common) {temp} amendments-1.21-1.2.24-neoforge.jar
 [1.0] (common) {temp} AnimaticaFoxified-0.1.1+1.21.1.jar
 [1.0] (common) {temp} ApothicAttributes-1.21.1-2.7.0.jar
 [1.0] (common) {temp} ApothicEnchanting-1.21.1-1.3.2.jar
@@ -42,7 +51,6 @@
 [1.0] (common) {temp} artifacts-neoforge-12.1.0.jar
 [1.0] (common) {temp} athena-neoforge-1.21-4.0.1.jar
 [1.0] (common) {temp} BadOptimizations-2.2.1-1.21.1.jar
-[1.0] (common) {temp} balm-neoforge-1.21.1-21.0.33.jar
 [1.0] (common) {temp} bcc-21.1.3+mc1.21.1.jar
 [1.0] (common) {temp} beekeeperhut-neoforge-mc1.21-2.0.1.jar
 [1.0] (common) {temp} bellsandwhistles-0.4.7-1.21.1.jar
@@ -224,7 +232,6 @@
 [1.0] (common) {temp} resourcefullib-neoforge-1.21-3.0.11.jar
 [1.0] (common) {temp} Resourcify (1.21.1-neoforge)-1.7.1.jar
 [1.0] (common) {temp} rhino-2101.2.7-build.74.jar
-[1.0] (common) {temp} rrls-5.0.8+mc1.21.1-forge.jar
 [1.0] (common) {temp} rsls-neoforge-1.1.8.jar
 [1.0] (common) {temp} sawmill-1.21-1.5.14-neoforge.jar
 [1.0] (common) {temp} Searchables-neoforge-1.21.1-1.0.2.jar
@@ -266,7 +273,6 @@
 [1.0] (common) {temp} watermedia-2.1.22.jar
 [1.0] (common) {temp} watut-neoforge-1.21.0-1.2.3.jar
 [1.0] (common) {temp} wits-1.3.0+1.21-neoforge.jar
-[1.0] (common) {temp} yet_another_config_lib_v3-3.6.5+1.21.1-neoforge.jar
 [1.0] (common) {temp} YungsApi-1.21.1-NeoForge-5.1.4.jar
 [1.0] (common) {temp} YungsBetterDesertTemples-1.21.1-NeoForge-4.1.5.jar
 [1.0] (common) {temp} YungsBetterDungeons-1.21.1-NeoForge-5.1.4.jar
@@ -280,3 +286,6 @@
 [1.0] (common) {temp} YungsBridges-1.21.1-NeoForge-5.1.1.jar
 [1.0] (common) {temp} YungsExtras-1.21.1-NeoForge-5.1.1.jar
 [1.0] (common) {temp} YungsMenuTweaks-1.21.1-NeoForge-2.1.2.jar
+
+[1.0 - 1.0.2] (client) {optimization} languagereload-neoforge-1.21.1-1.0.2.jar
+[1.0 - 1.0.2] (common) {decoration} connectiblechains-2.4.2.jar

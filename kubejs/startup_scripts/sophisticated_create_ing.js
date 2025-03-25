@@ -40,6 +40,7 @@ StartupEvents.registry('item', event => {
 		.fireResistant()
 		.tag('c:nuggets')
 		.tag('c:nuggets/netherite')
+	event.create('netherite_chunk').fireResistant()
 	//sophisticatedbackpacks
 	event.create('andesite_zinc_frame').maxStackSize(16)
 	event.create('pet').displayName('Eggo').texture('kubejs:item/eggo')

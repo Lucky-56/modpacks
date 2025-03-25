@@ -27,7 +27,7 @@ B:game_intro_fade_out = 'true';
 B:show_custom_window_icon = 'true';
 S:custom_window_icon_macos = '/config/fancymenu/assets/macos.icns';
 S:custom_window_icon_32 = '/config/fancymenu/assets/32.png';
-S:custom_window_title = 'Minecraft: karton creëren v1.0.3';
+S:custom_window_title = 'Minecraft: karton creëren v1.1';
 S:custom_window_icon_16 = '/config/fancymenu/assets/16.png';
 
 
