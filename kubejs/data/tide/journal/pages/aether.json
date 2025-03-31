@@ -1,0 +1,7 @@
+{
+    "id": "aether",
+    "name": "Aether Fish",
+    "content": "These fish live among clouds and floating islands, preferring the cold. They can be found in the lakes of the Aether.",
+    "icon": "aether:aether_grass_block",
+    "unlocked_by_default": false
+}

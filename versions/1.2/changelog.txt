@@ -1,1 +1,90 @@
-**TBA**
+### Fishing Update & Nether Reset
+
+added `client`:
+
+- [Advancement Plaques *1.6.8*](https://mods.gay/advancement-plaques/version/OWylG33I)
+- [Iceberg *1.2.9.2*](https://mods.gay/iceberg/version/18BLvCZh)
+- [Not Enough Animations *1.9.3*](https://mods.gay/not-enough-animations/version/7ariADSH)
+
+added `common`:
+
+- [Cooking for Blockheads *21.1.12*](https://mods.gay/cooking-for-blockheads/version/cm966Gh4)
+- [Fish of Thieves *4.0.3*](https://mods.gay/fish-of-thieves/version/L8v0m3uV)
+- [Fishing Real *1.9.0*](https://mods.gay/fishing-real/version/PMdqos5C)
+- [GraveStone Mod *1.0.24*](https://mods.gay/gravestone-mod/version/4QqerCZp)
+- [More Chests Variants (MCV) *1.5.9*](https://mods.gay/more-chest-variants-lieonlion/version/H9TwIeCP)
+- [More Crafting Tables (MCT) *1.2.9*](https://mods.gay/more-crafting-tables-lieonlion/version/btNg7Xzi)
+- [Nether Depths Upgrade *3.1.7*](https://mods.gay/nether-depths-upgrade/version/A9Ri2gYl)
+- [Quad *1.2.9*](https://mods.gay/quad/version/sTJ6hLWf)
+- [Tide *1.5.0*](https://mods.gay/tide/version/KJpv8fkd)
+
+added `server`:
+
+- [Login Protection[Forge/Fabric] *3.5*](https://curseforge.com/minecraft/mc-mods/login-protection/files/6293744)
+- [Neruina - Ticking Entity Fixer *2.2.8*](https://mods.gay/neruina/version/U8bdkaH2)
+- [Ready Player Fun *3.0.0.0*](https://mods.gay/ready-player-fun/version/WeKWKqwB)
+
+updated:
+
+- [3D Skin Layers](https://mods.gay/3dskinlayers) *1.7.4 > 1.7.5*
+- [Accessories](https://mods.gay/accessories) *1.1.0-b34 > 1.1.0-b35*
+- [Actually Harvest](https://mods.gay/actually-harvest) *1.1.2.1 > 1.1.3.1*
+- [Ars Technica](https://curseforge.com/minecraft/mc-mods/ars-technica) *2.0.0-a7 > 2.0.1*
+- [Artifacts](https://mods.gay/artifacts) *12.1.0 > 12.1.1*
+- [Balm](https://mods.gay/balm) *21.0.36 > 21.0.38*
+- [Better Biome Reblend](https://mods.gay/bbrb) *1.5.1 > 1.5.2*
+- [Collective](https://mods.gay/collective) *7.94 > 8.1*
+- [Controlling](https://mods.gay/controlling) *19.0.4 > 19.0.5*
+- [Create Encased](https://mods.gay/create-encased) *1.7.1 > 1.7.1-1*
+- [Create: Garnished](https://mods.gay/create-garnished) *0.1.1 > 0.1.2.1*
+- [Create: Pattern Schematics](https://mods.gay/create-pattern-schematics) *2.0.5 > 2.0.6*
+- [Create: Sound of Steam](https://mods.gay/create-sound-of-steam) *0.6.1 > 0.6.2*
+- [CreateBetterFps](https://mods.gay/createbetterfps) *1.0.0 > 1.0.0*
+- [Dynamic FPS](https://mods.gay/dynamic-fps) *3.9.0 > 3.9.2*
+- [EMI](https://mods.gay/emi) *1.1.20 > 1.1.21*
+- [Enchantment Descriptions](https://mods.gay/enchantment-descriptions) *21.1.5 > 21.1.7*
+- [Entity Culling](https://mods.gay/entityculling) *1.7.3 > 1.7.4*
+- [Fast Item Frames](https://mods.gay/fast-item-frames) *21.1.1 > 21.1.2*
+- [Flerovium](https://mods.gay/flerovium) *1.0.3 > 1.0.4*
+- [Friends&Foes (Forge/NeoForge)](https://mods.gay/friends-and-foes-forge) *3.0.8 > 3.0.9*
+- [Fzzy Config](https://mods.gay/fzzy-config) *0.6.7 > 0.6.8*
+- [ImmediatelyFast](https://mods.gay/immediatelyfast) *1.6.2 > 1.6.4*
+- [JourneyMap](https://mods.gay/journeymap) *6.0.0-b41 > 6.0.0-b43*
+- [Kiwi 🥝](https://mods.gay/kiwi) *15.4.2 > 15.5.0*
+- [Loot Integrations](https://curseforge.com/minecraft/mc-mods/loot-integrations) *4.2 > 4.3*
+- [Lootr](https://mods.gay/lootr) *1.10.35.90 > 1.10.35.91*
+- [Moonlight Lib](https://mods.gay/moonlight) *2.17.37 > 2.18.0*
+- [More Mouse Tweaks](https://mods.gay/moremousetweaks) *1.0.0-b4 > 1.0.0*
+- [Placebo](https://curseforge.com/minecraft/mc-mods/placebo) *9.7.0 > 9.7.1*
+- [Polytone](https://mods.gay/polytone) *3.3.3 > 3.3.4*
+- [Reliquified Ars Nouveau](https://mods.gay/reliquified-ars-nouveau) *0.3 > 0.4*
+- [Reliquified Twilight Forest](https://mods.gay/reliquified-twilight-forest) *0.3.0 > 0.3.2*
+- [Resourceful Lib](https://mods.gay/resourceful-lib) *3.0.11 > 3.0.12*
+- [Sawmill](https://mods.gay/universal-sawmill) *1.5.14 > 1.5.17*
+- [Snow! Real Magic! ⛄](https://mods.gay/snow-real-magic) *11.2.0 > 12.0.2*
+- [Sophisticated Core](https://mods.gay/sophisticated-core) *1.3.3.903 > 1.3.8.911*
+- [Sound Physics Remastered](https://mods.gay/sound-physics-remastered) *1.4.8 > 1.4.10*
+- [Supplementaries](https://mods.gay/supplementaries) *3.0.43 > 3.1.0*
+- [The Aether](https://mods.gay/aether) *1.5.6 > 1.5.7*
+- [The Twilight Forest](https://curseforge.com/minecraft/mc-mods/the-twilight-forest) *4.6.3003 > 4.7.3040*
+- [WATERMeDIA](https://mods.gay/watermedia) *2.1.22 > 2.1.23*
+
+removed:
+
+- Biome Spawn Point
+- Mythical Critters
+- LuckPerms *didn't let server start, gotta look at again*
+- TerraBlenderFix
+
+fixed:
+
+- few recipes, too much to list :3
+
+changed:
+
+- FancyMenu refresh button
+- backups now every 6 hours instead of every day at 6am
+- backpacks no longer support inventory blocks (e. g. shulkers, sacks)
+- backpacks can now only have 1 stack upgrade installed at a time
+- backpack items should no longer be in loot chests
+- backpacked mobs no longer drop their backpacks

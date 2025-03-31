@@ -1,4 +1,3 @@
-let $EntityInvulnerabilityCheckEvent = Java.loadClass("net.neoforged.neoforge.event.entity.EntityInvulnerabilityCheckEvent")
 ServerEvents.recipes(event => {
 	//zinc_backpack from chest
 	event.shaped('sophisticatedbackpacks:backpack', [

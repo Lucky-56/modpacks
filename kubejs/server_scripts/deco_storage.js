@@ -29,7 +29,7 @@ ServerEvents.recipes(event => {
 			C: container
 		}
 		).id(packing_recipe_id)
-		event.shapeless(Item.of(packing, 8),
+		event.shapeless('8x ' + packing,
 			packed_container
 		).id(unpacking_recipe_id).replaceIngredient(packed_container, container)
 	}
@@ -48,7 +48,7 @@ ServerEvents.recipes(event => {
 			i: uncompressed
 		}
 		).id(compressing_recipe_id)
-		event.shapeless(Item.of(uncompressed, 8),
+		event.shapeless('8x ' + uncompressed,
 			compressed
 		).id(uncompressed_recipe_id)
 	}
@@ -122,7 +122,7 @@ ServerEvents.recipes(event => {
 	clack("kubejs:empty_bag", "create_compressed:wheat_flour_pile", "cratedelight:wheat_flour_bag")
 	adjustForRepack('create:wheat_flour', 'create_compressed:wheat_flour_pile', 'create_compressed:wheat_flour')
 	adjustForRepack('farmersdelight:wheat_dough', 'create_compressed:dough_block', 'create_compressed:dough')
-	event.shaped(Item.of('minecraft:slime_ball', 8), [
+	event.shaped('8x minecraft:slime_ball', [
 		'lll',
 		'lDl',
 		'lll'

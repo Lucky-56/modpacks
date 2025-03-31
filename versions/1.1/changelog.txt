@@ -29,6 +29,7 @@ fixed:
 - repurposed structures' YUNG versions actually work, and look cool now ^.^'
 - ruined aether portals actually spawn now :o
 - `Create: Sounds of Steam` recipes work again
+- all crushed tin recipes, work now ^^'
 
 changed:
 

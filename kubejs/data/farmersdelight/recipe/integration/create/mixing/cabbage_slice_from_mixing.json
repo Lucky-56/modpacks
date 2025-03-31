@@ -1,0 +1,14 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "farmersdelight:cabbage"
+    }
+  ],
+  "results": [
+    {
+      "count": 2,
+      "id": "farmersdelight:cabbage_leaf"
+    }
+  ]
+}

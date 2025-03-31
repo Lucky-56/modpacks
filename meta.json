@@ -57,6 +57,16 @@
 		},
 		{
 			"id": "1.2",
+			"releasedAt": 1743410717000,
+			"updateType": "major",
+			"promotions": {
+				"downloads": {
+					"generic": "https://github.com/Lucky-56/modpacks/releases/download/1.2/creeren2-1.2.mrpack"
+				}
+			}
+		},
+		{
+			"id": "1.3",
 			"releasedAt": 987654321098765,
 			"updateType": "incompatible"
 		}

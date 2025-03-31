@@ -262,7 +262,7 @@ ServerEvents.recipes(event => {
 	}).id('sophisticatedbackpacks:feeding_upgrade')
 
 	//anvil from base
-	event.shapeless(Item.of('kubejs:netherite_nugget', 9), '#c:ingots/netherite').id('kubejs:netherite_nugget')
+	event.shapeless('9x kubejs:netherite_nugget', '#c:ingots/netherite').id('kubejs:netherite_nugget')
 	event.shaped('netherite_ingot', ['nnn', 'nnn', 'nnn'], { n: '#c:nuggets/netherite' }).id('kubejs:netherite_ingot')
 	event.custom({
 		type: "create:mixing",
@@ -332,6 +332,21 @@ ServerEvents.recipes(event => {
 			id: "kubejs:incomplete_netherite_anvil"
 		}
 	}).id('kubejs:netherite_anvil')
+	event.custom({
+		type: "create:compacting",
+		ingredients: [
+			{
+				type: "fluid_stack",
+				amount: 100,
+				fluid: "kubejs:molten_netherite"
+			}
+		],
+		results: [
+		  {
+			id: "kubejs:netherite_nugget"
+		  }
+		]
+	  }).id('kubejs:netherite_nugget_from_molten')
 
 	//everlasting from base
 	event.custom({
