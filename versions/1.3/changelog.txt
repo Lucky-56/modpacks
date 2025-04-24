@@ -37,7 +37,7 @@ added `server`:
 
 updated:
 
-- NeoForge *21.1.132 > 21.1.160*
+- NeoForge *21.1.132 > 21.1.162*
 
 - [\[BIG UPDATE\] Decorative Storage](https://mods.gay/decorative-storage) *3.1603 > 3.2104*
 - [Accessories](https://mods.gay/accessories) *1.1.0-beta.35 > 1.1.0-beta.42*
