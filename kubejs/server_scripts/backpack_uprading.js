@@ -1,5 +1,5 @@
 ServerEvents.recipes(event => {
-	//zinc_backpack from chest
+	//zinc_backpack
 	event.shaped('sophisticatedbackpacks:backpack', [
 		'SZS',
 		'LCL',
@@ -8,49 +8,38 @@ ServerEvents.recipes(event => {
 		S: '#c:strings',
 		Z: '#c:ingots/zinc',
 		L: '#c:leathers',
-		C: '#c:chests/wooden'
+		C: ['#c:chests/wooden', '#c:barrels/wooden']
 	}).id('sophisticatedbackpacks:backpack')
-	//zinc_backpack from barrel
-	event.shaped('sophisticatedbackpacks:backpack', [
-		'SZS',
-		'LCL',
-		'ZLZ'
-	], {
-		S: '#c:strings',
-		Z: '#c:ingots/zinc',
-		L: '#c:leathers',
-		C: '#c:barrels/wooden'
-	})
 
 	//copper_backpack
 	event.custom({
-		type: "create:mechanical_crafting",
+		type: 'create:mechanical_crafting',
 		accept_mirrored: true,
-		category: "misc",
+		category: 'misc',
 		key: {
 			c: {
-				tag: "c:ingots/copper"
+				tag: 'c:ingots/copper'
 			},
 			s: {
-				tag: "c:strings"
+				tag: 'c:strings'
 			},
 			l: {
-				tag: "c:leathers"
+				tag: 'c:leathers'
 			},
 			B: {
-				item: "kubejs:backpack_thread"
+				item: 'kubejs:backpack_thread'
 			},
 			u: {
-				item: "sophisticatedbackpacks:stack_upgrade_starter_tier"
+				item: 'sophisticatedbackpacks:stack_upgrade_starter_tier'
 			}
 		},
 		pattern: [
-			"csc",
-			"lBl",
-			"cuc"
+			'csc',
+			'lBl',
+			'cuc'
 		],
 		result: {
-			id: "kubejs:copper_backpack_thread"
+			id: 'kubejs:copper_backpack_thread'
 		}
 	})
 	//.modifyResult('backpack_copper_upgrade')
@@ -58,168 +47,168 @@ ServerEvents.recipes(event => {
 	//iron_backpack
 	event.remove({ id: 'sophisticatedbackpacks:iron_backpack_from_copper' })
 	event.custom({
-		type: "create:mechanical_crafting",
+		type: 'create:mechanical_crafting',
 		accept_mirrored: true,
-		category: "misc",
+		category: 'misc',
 		key: {
 			s: {
-				tag: "c:strings"
+				tag: 'c:strings'
 			},
 			i: {
-				tag: "c:ingots/iron"
+				tag: 'c:ingots/iron'
 			},
 			l: {
-				tag: "c:leathers"
+				tag: 'c:leathers'
 			},
 			V: {
-				tag: "create_vibrant_vaults:vaults"
+				tag: 'create_vibrant_vaults:vaults'
 			},
 			B: {
-				item: "kubejs:backpack_thread"
+				item: 'kubejs:backpack_thread'
 			},
 			u: {
-				item: "sophisticatedbackpacks:stack_upgrade_tier_1"
+				item: 'sophisticatedbackpacks:stack_upgrade_tier_1'
 			},
 			I: {
-				tag: "c:storage_blocks/iron"
+				tag: 'c:storage_blocks/iron'
 			}
 		},
 		pattern: [
-			" sis ",
-			" lVl ",
-			"siBis",
-			"iIuIi"
+			' sis ',
+			' lVl ',
+			'siBis',
+			'iIuIi'
 		],
 		result: {
-			id: "kubejs:iron_backpack_thread"
+			id: 'kubejs:iron_backpack_thread'
 		}
 	})
 	//.modifyResult('backpack_iron_upgrade')
 
 	//gold_backpack
 	event.custom({
-		type: "create:mechanical_crafting",
+		type: 'create:mechanical_crafting',
 		accept_mirrored: true,
-		category: "misc",
+		category: 'misc',
 		key: {
 			s: {
-				tag: "c:strings"
+				tag: 'c:strings'
 			},
 			l: {
-				tag: "c:leathers"
+				tag: 'c:leathers'
 			},
 			g: {
-				tag: "c:ingots/gold"
+				tag: 'c:ingots/gold'
 			},
 			V: {
-				tag: "create_vibrant_vaults:vaults"
+				tag: 'create_vibrant_vaults:vaults'
 			},
 			B: {
-				item: "kubejs:backpack_thread"
+				item: 'kubejs:backpack_thread'
 			},
 			G: {
-				tag: "c:storage_blocks/gold"
+				tag: 'c:storage_blocks/gold'
 			},
 			u: {
-				item: "sophisticatedbackpacks:stack_upgrade_tier_2"
+				item: 'sophisticatedbackpacks:stack_upgrade_tier_2'
 			}
 		},
 		pattern: [
-			" sls ",
-			" lgl ",
-			"sglgs",
-			"lVBVl",
-			"GgugG",
-			" GgG "
+			' sls ',
+			' lgl ',
+			'sglgs',
+			'lVBVl',
+			'GgugG',
+			' GgG '
 		],
 		result: {
-			id: "kubejs:gold_backpack_thread"
+			id: 'kubejs:gold_backpack_thread'
 		}
 	})
 	//.modifyResult('backpack_gold_upgrade')
 
 	//diamond_backpack
 	event.custom({
-		type: "create:mechanical_crafting",
+		type: 'create:mechanical_crafting',
 		accept_mirrored: true,
-		category: "misc",
+		category: 'misc',
 		key: {
 			s: {
-				tag: "c:strings"
+				tag: 'c:strings'
 			},
 			l: {
-				tag: "c:leathers"
+				tag: 'c:leathers'
 			},
 			d: {
-				tag: "c:gems/diamond"
+				tag: 'c:gems/diamond'
 			},
 			V: {
-				tag: "create_vibrant_vaults:vaults"
+				tag: 'create_vibrant_vaults:vaults'
 			},
 			D: {
-				tag: "c:storage_blocks/diamond"
+				tag: 'c:storage_blocks/diamond'
 			},
 			B: {
-				item: "kubejs:backpack_thread"
+				item: 'kubejs:backpack_thread'
 			},
 			u: {
-				item: "sophisticatedbackpacks:stack_upgrade_tier_3"
+				item: 'sophisticatedbackpacks:stack_upgrade_tier_3'
 			}
 		},
 		pattern: [
-			"  sls  ",
-			" sldls ",
-			"dldVdld",
-			" DlBlD ",
-			"slVuVls",
-			"DdldldD",
-			"  DlD  "
+			'  sls  ',
+			' sldls ',
+			'dldVdld',
+			' DlBlD ',
+			'slVuVls',
+			'DdldldD',
+			'  DlD  '
 		],
 		result: {
-			id: "kubejs:diamond_backpack_thread"
+			id: 'kubejs:diamond_backpack_thread'
 		}
 	})
 	//.modifyResult('backpack_diamond_upgrade')
 
 	//netherite_backpack
 	event.custom({
-		type: "create:mechanical_crafting",
+		type: 'create:mechanical_crafting',
 		accept_mirrored: true,
-		category: "misc",
+		category: 'misc',
 		key: {
 			n: {
-				tag: "c:ingots/netherite"
+				tag: 'c:ingots/netherite'
 			},
 			s: {
-				tag: "c:strings"
+				tag: 'c:strings'
 			},
 			l: {
-				tag: "c:leathers"
+				tag: 'c:leathers'
 			},
 			V: {
-				tag: "create_vibrant_vaults:vaults"
+				tag: 'create_vibrant_vaults:vaults'
 			},
 			N: {
-				tag: "c:storage_blocks/netherite"
+				tag: 'c:storage_blocks/netherite'
 			},
 			B: {
-				item: "kubejs:backpack_thread"
+				item: 'kubejs:backpack_thread'
 			},
 			u: {
-				item: "sophisticatedbackpacks:stack_upgrade_tier_4"
+				item: 'sophisticatedbackpacks:stack_upgrade_tier_4'
 			}
 		},
 		pattern: [
-			"  nsn  ",
-			" nlnln ",
-			"sVNlNVs",
-			" NlBlN ",
-			"nlVuVln",
-			"NnlVlnN",
-			"  NnN  "
+			'  nsn  ',
+			' nlnln ',
+			'sVNlNVs',
+			' NlBlN ',
+			'nlVuVln',
+			'NnlVlnN',
+			'  NnN  '
 		],
 		result: {
-			id: "kubejs:netherite_backpack_thread"
+			id: 'kubejs:netherite_backpack_thread'
 		}
 	})
 	//.modifyResult('backpack_netherite_upgrade')
@@ -244,78 +233,78 @@ ServerEvents.recipes(event => {
 	event.smithing('kubejs:netherite_needle', 'netherite_upgrade_smithing_template', 'kubejs:needle', 'netherite_ingot')
 	//threaten the backpacks
 	event.custom({
-		type: "sophisticatedbackpacks:smithing_backpack_upgrade",
+		type: 'sophisticatedbackpacks:smithing_backpack_upgrade',
 		addition: {
-			item: "kubejs:needle"
+			item: 'kubejs:needle'
 		},
 		base: {
-			item: "sophisticatedbackpacks:backpack"
+			item: 'sophisticatedbackpacks:backpack'
 		},
 		result: {
-			id: "sophisticatedbackpacks:copper_backpack"
+			id: 'sophisticatedbackpacks:copper_backpack'
 		},
 		template: {
-			item: "kubejs:copper_backpack_thread"
+			item: 'kubejs:copper_backpack_thread'
 		}
 	}).id('sophisticatedbackpacks:copper_backpack')
 	event.custom({
-		type: "sophisticatedbackpacks:smithing_backpack_upgrade",
+		type: 'sophisticatedbackpacks:smithing_backpack_upgrade',
 		addition: {
-			item: "kubejs:needle"
+			item: 'kubejs:needle'
 		},
 		base: {
-			item: "sophisticatedbackpacks:copper_backpack"
+			item: 'sophisticatedbackpacks:copper_backpack'
 		},
 		result: {
-			id: "sophisticatedbackpacks:iron_backpack"
+			id: 'sophisticatedbackpacks:iron_backpack'
 		},
 		template: {
-			item: "kubejs:iron_backpack_thread"
+			item: 'kubejs:iron_backpack_thread'
 		}
 	}).id('sophisticatedbackpacks:iron_backpack')
 	event.custom({
-		type: "sophisticatedbackpacks:smithing_backpack_upgrade",
+		type: 'sophisticatedbackpacks:smithing_backpack_upgrade',
 		addition: {
-			item: "kubejs:needle"
+			item: 'kubejs:needle'
 		},
 		base: {
-			item: "sophisticatedbackpacks:iron_backpack"
+			item: 'sophisticatedbackpacks:iron_backpack'
 		},
 		result: {
-			id: "sophisticatedbackpacks:gold_backpack"
+			id: 'sophisticatedbackpacks:gold_backpack'
 		},
 		template: {
-			item: "kubejs:gold_backpack_thread"
+			item: 'kubejs:gold_backpack_thread'
 		}
 	}).id('sophisticatedbackpacks:gold_backpack')
 	event.custom({
-		type: "sophisticatedbackpacks:smithing_backpack_upgrade",
+		type: 'sophisticatedbackpacks:smithing_backpack_upgrade',
 		addition: {
-			item: "kubejs:needle"
+			item: 'kubejs:needle'
 		},
 		base: {
-			item: "sophisticatedbackpacks:gold_backpack"
+			item: 'sophisticatedbackpacks:gold_backpack'
 		},
 		result: {
-			id: "sophisticatedbackpacks:diamond_backpack"
+			id: 'sophisticatedbackpacks:diamond_backpack'
 		},
 		template: {
-			item: "kubejs:diamond_backpack_thread"
+			item: 'kubejs:diamond_backpack_thread'
 		}
 	}).id('sophisticatedbackpacks:diamond_backpack')
 	event.custom({
-		type: "sophisticatedbackpacks:smithing_backpack_upgrade",
+		type: 'sophisticatedbackpacks:smithing_backpack_upgrade',
 		addition: {
-			item: "kubejs:netherite_needle"
+			item: 'kubejs:netherite_needle'
 		},
 		base: {
-			item: "sophisticatedbackpacks:diamond_backpack"
+			item: 'sophisticatedbackpacks:diamond_backpack'
 		},
 		result: {
-			id: "sophisticatedbackpacks:netherite_backpack"
+			id: 'sophisticatedbackpacks:netherite_backpack'
 		},
 		template: {
-			item: "kubejs:netherite_backpack_thread"
+			item: 'kubejs:netherite_backpack_thread'
 		}
 	}).id('sophisticatedbackpacks:netherite_backpack')
 })
@@ -327,7 +316,7 @@ ServerEvents.recipes(event => {
 	let result = nextTier.copy()
 
 	let upgradePatch = backpackToUpgrade.getComponentsPatch()
-	if (typeof upgradePatch === "function") {
+	if (typeof upgradePatch === 'function') {
 		upgradePatch = upgradePatch()
 	}
 
@@ -350,7 +339,7 @@ ServerEvents.modifyRecipeResult('backpack_iron_upgrade', (event) => {
 	let result = nextTier.copy()
 
 	let upgradePatch = backpackToUpgrade.getComponentsPatch()
-	if (typeof upgradePatch === "function") {
+	if (typeof upgradePatch === 'function') {
 		upgradePatch = upgradePatch()
 	}
 
@@ -373,7 +362,7 @@ ServerEvents.modifyRecipeResult('backpack_gold_upgrade', (event) => {
 	let result = nextTier.copy()
 
 	let upgradePatch = backpackToUpgrade.getComponentsPatch()
-	if (typeof upgradePatch === "function") {
+	if (typeof upgradePatch === 'function') {
 		upgradePatch = upgradePatch()
 	}
 
@@ -396,7 +385,7 @@ ServerEvents.modifyRecipeResult('backpack_diamond_upgrade', (event) => {
 	let result = nextTier.copy()
 
 	let upgradePatch = backpackToUpgrade.getComponentsPatch()
-	if (typeof upgradePatch === "function") {
+	if (typeof upgradePatch === 'function') {
 		upgradePatch = upgradePatch()
 	}
 
@@ -419,7 +408,7 @@ ServerEvents.modifyRecipeResult('backpack_netherite_upgrade', (event) => {
 	let result = nextTier.copy()
 
 	let upgradePatch = backpackToUpgrade.getComponentsPatch()
-	if (typeof upgradePatch === "function") {
+	if (typeof upgradePatch === 'function') {
 		upgradePatch = upgradePatch()
 	}
 

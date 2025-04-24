@@ -21,21 +21,23 @@
 [general]
 "Banner trophies" = true
 "Beacon extended" = true
-"Bigger radius bookshelf for enchanting table" = true
+"Bigger radius bookshelf for enchanting table" = false
 "Bonemeal coral fan/block" = true
 "Bonemeal small flowers" = true
 "Bundle's Enchantment" = true
 "Wash filled map with Cauldron" = true
 "Click through sign/itemframe" = true
 "1 tick delay copper bulb" = true
-"Day counter" = "PER_1_DAY"
+"Day counter" = 1
+"Message tick speed" = 1
 "Ticks per day" = 24000
 "Deepslate generator" = true
 "Faster minecart" = true
 "Faster oxidization" = true
 "Glow berry gives glow effect" = true
-"Invisible item frame" = true
+"Invisible item frame" = false
 "Backup Enchantments" = true
+"Mud support sugarcane" = true
 "No level limit anvil" = true
 "Prevent farmland trampling" = true
 "No set spawn on sleep" = true
@@ -77,6 +79,7 @@
 
 [compatibility]
 "EasyShulkerBoxes Compatibility Layer" = true
+"Enchancement Compatibility Layer" = true
 
 [command]
 "Emote commands" = true

@@ -84,7 +84,7 @@ changed:
 
 - FancyMenu refresh button
 - backups now every 6 hours instead of every day at 6am
-- backpacks no longer support inventory blocks (e. g. shulkers, sacks)
+- backpacks no longer support sacks
 - backpacks can now only have 1 stack upgrade installed at a time
 - backpack items should no longer be in loot chests
 - backpacked mobs no longer drop their backpacks

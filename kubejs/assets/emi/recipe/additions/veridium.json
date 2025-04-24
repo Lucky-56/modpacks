@@ -1,0 +1,46 @@
+{
+    "type": "emi:world_interaction",
+    "left": {
+        "type": "fluid",
+        "amount": 1000,
+        "id": "minecraft:lava",
+        "remainder": {
+            "type": "fluid",
+            "amount": 1000,
+            "id": "minecraft:lava"
+        }
+    },
+    "right": [
+        {
+            "type": "item",
+            "id": "minecraft:bedrock",
+            "nbt": "{lore:['{\"color\":\"green\",\"italic\":false,\"text\":\"Below lava\"}']}",
+            "remainder": {
+                "type": "item",
+                "id": "minecraft:bedrock"
+            }
+        },
+        {
+            "type": "fluid",
+            "amount": 1000,
+            "id": "create_d2d:chocolate_milkshake",
+            "remainder": {
+                "type": "fluid",
+                "amount": 1000,
+                "id": "create_d2d:chocolate_milkshake"
+            }
+        }
+    ],
+    "output": [
+        {
+            "type": "item",
+            "chance": 0.25,
+            "id": "create:veridium"
+        },
+        {
+            "type": "item",
+            "chance": 0.75,
+            "id": "create:scorchia"
+        }
+    ]
+}

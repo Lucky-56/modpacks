@@ -34,6 +34,8 @@
     "cucumber:shaped_tag"
   ],
   "ignored_recipe_ids": [
+    "create_ironworks:materials/tin/crushing/deepslate_tin_ore",
+    "create_ironworks:materials/tin/crushing/tin_ore",
     "create:crushing/copper_ore",
     "create:crushing/deepslate_copper_ore",
     "create:crushing/deepslate_diamond_ore",

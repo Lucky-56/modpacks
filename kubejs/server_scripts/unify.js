@@ -1,3 +1,14 @@
+ServerEvents.tags('item', event => {
+	//bandaid until woodgood update
+	event.add('lieonstudio:chests/normal', '#lolmcv:chests/normal')
+	event.add('lieonstudio:chests/wooden', '#lolmcv:chests/wooden')
+})
+ServerEvents.tags('block', event => {
+	//bandaid until woodgood update
+	event.add('lieonstudio:chests/normal', '#lolmcv:chests/normal')
+	event.add('lieonstudio:chests/wooden', '#lolmcv:chests/wooden')
+})
+
 ServerEvents.recipes(event => {
 	//iron substitutes
 	// tin
@@ -70,23 +81,23 @@ ServerEvents.recipes(event => {
 	}).id('create:crafting/materials/andesite_alloy')
 	event.remove({ id: 'create:mixing/andesite_alloy_from_zinc' })
 	event.custom({
-		type: "create:mixing",
+		type: 'create:mixing',
 		ingredients: [
 			{
-				item: "minecraft:andesite"
+				item: 'minecraft:andesite'
 			},
 			[
 				{
-					tag: "c:nuggets/iron"
+					tag: 'c:nuggets/iron'
 				},
 				{
-					tag: "c:nuggets/zinc"
+					tag: 'c:nuggets/zinc'
 				}
 			]
 		],
 		results: [
 			{
-				id: "create:andesite_alloy"
+				id: 'create:andesite_alloy'
 			}
 		]
 	}).id('create:mixing/andesite_alloy')
@@ -170,12 +181,6 @@ ServerEvents.recipes(event => {
 	// planks_crafting
 	event.remove({ id: 'aether:skyroot_crafting_table' })
 	event.remove({ id: 'deep_aether:skyroot_crafting_table' })
-	event.shaped('crafting_table', [
-		'PP',
-		'PP'
-	], {
-		P: ['#planks', '#aether:planks_crafting']
-	}).id('minecraft:crafting_table')
 
 	event.remove({ id: 'aether:skyroot_cartography_table' })
 	event.shaped('cartography_table', [
@@ -254,17 +259,6 @@ ServerEvents.recipes(event => {
 	event.remove({ id: 'aether:skyroot_beehive' })
 
 	event.remove({ id: 'aether:skyroot_chest' })
-	//TODO chesting
-
-	event.remove({ id: 'aether:skyroot_barrel' })
-	event.shaped('barrel', [
-		'PSP',
-		'P P',
-		'PSP'
-	], {
-		P: ['#planks', '#aether:planks_crafting'],
-		S: '#wooden_slabs'
-	}).id('minecraft:barrel')
 
 	event.remove({ id: 'aether:skyroot_tripwire_hook' })
 	event.remove({ id: 'aethersdelight:tripwire_hook_from_arkenium' })

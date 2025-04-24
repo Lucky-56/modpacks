@@ -1,0 +1,46 @@
+{
+    "type": "emi:world_interaction",
+    "left": {
+        "type": "fluid",
+        "amount": 1000,
+        "id": "minecraft:lava",
+        "remainder": {
+            "type": "fluid",
+            "amount": 1000,
+            "id": "minecraft:lava"
+        }
+    },
+    "right": [
+        {
+                "type": "item",
+                "id": "minecraft:dragon_egg",
+                "nbt": "{lore:['{\"color\":\"green\",\"italic\":false,\"text\":\"Below lava\"}']}",
+                "remainder": {
+                    "type": "item",
+                    "id": "minecraft:dragon_egg"
+                }
+            },
+        {
+            "type": "fluid",
+            "amount": 1000,
+            "id": "create_d2d:glowberry_milkshake",
+            "remainder": {
+                "type": "fluid",
+                "amount": 1000,
+                "id": "create_d2d:glowberry_milkshake"
+            }
+        }
+    ],
+    "output": [
+        {
+            "type": "item",
+            "chance": 0.05,
+            "id": "create:ochrum"
+        },
+        {
+            "type": "item",
+            "chance": 0.95,
+            "id": "create_d2d:gabbro"
+        }
+    ]
+}

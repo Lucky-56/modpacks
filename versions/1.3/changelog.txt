@@ -1,1 +1,150 @@
-**TBA**
+### QoL updates + a few mods and more create addons :3
+
+added `client`:
+
+- [EMI Addon: Extra Mod Integrations *1.0.2*](https://mods.gay/extra-mod-integrations/version/tNXLlCY0)
+- [Enchantment Sort *2.2.0*](https://curseforge.com/minecraft/mc-mods/enchantment-sort/files/6074896)
+
+added `common`:
+
+- [Additional Lights *2.1.9*](https://curseforge.com/minecraft/mc-mods/additional-lights/files/5504182)
+- [Armor Poser *6.2.0*](https://mods.gay/armor-poser/version/JKURp6XQ)
+- [Ars Creo *5.1.0*](https:/curseforge.com/minecraft/mc-mods/ars-creo/files/6279953)
+- [Cat Loaf *1.1.2*](https://mods.gay/cat-loaf/version/X1JOqbq2)
+- [Create Crafts & Additions *1.4.2*](https://mods.gay/createaddition/version/k3vtnT8F)
+- [Create: Cardboarded Conveynience *0.0.3b*](https://mods.gay/create-cardboarded-conveynience/version/ZIy7wnP5)
+- [Create: Filters Anywhere *1.4*](https://mods.gay/create-filters-anywhere/version/mkMXhjav)
+- [Dyenamics and Friends *2.0.0*](https://curseforge.com/minecraft/mc-mods/dyenamicsandfriends/files/6432479)
+- [Measurements *3.0.1*](https://mods.gay/measurements/version/x35VNfAL)
+- [Moderately Enough Effect Descriptions (MEED) *6.7*](https://curseforge.com/minecraft/mc-mods/moderately-enough-effect-descriptions-meed/files/6389492)
+- [Petrol's Parts (Create add-on) *1.2.5*](https://mods.gay/petrols-parts/version/ZdJicpl5)
+- [Petrolpark's Library *1.4.9*](https://mods.gay/petrolpark/version/yfZdKYdR)
+- [Platform *1.2.8*](https://mods.gay/platform/version/fhdekz29)
+- [Showcase Item *1.1.0*](https://mods.gay/showcase-item/version/AD6eBCKn)
+- [Sophisticated Backpacks Create Integration *0.1.1.5*](https://mods.gay/sophisticated-backpacks-create-integration/version/Zu38QooO)
+- [Stone Chest *1.0.0*](https://mods.gay/stone-chest/version/3aNTenxY)
+- [Stoneworks *21.1.0*](https://mods.gay/stoneworks/version/9XTU6J5n)
+- [Vanilla Backport *1.1.3*](https://mods.gay/vanillabackport/version/s3itYGD4)
+- [Vulpine *1.1.2*](https://mods.gay/vulpine/version/CYbo48un)
+
+added `server`:
+
+- [Clumps *19.0.0.1*](https://mods.gay/clumps/version/jo7lDoK4)
+- [Crash Utilities *9.0.4*](https://curseforge.com/minecraft/mc-mods/crash-utilities/files/5993450)
+
+updated:
+
+- NeoForge *21.1.132 > 21.1.160*
+
+- [\[BIG UPDATE\] Decorative Storage](https://mods.gay/decorative-storage) *3.1603 > 3.2104*
+- [Accessories](https://mods.gay/accessories) *1.1.0-beta.35 > 1.1.0-beta.42*
+- [Aether Addon: Emissivity](https://mods.gay/aether-emissivity) *1.0.0 > 1.0.1*
+- [Aether's Delight](https://mods.gay/the-aethers-delight) *0.1.3 > 0.1.4*
+- [Apothic Attributes (AttributesLib)](https://curseforge.com/minecraft/mc-mods/apothic-attributes) *2.7.0 > 2.8.0*
+- [Apothic Enchanting](https://curseforge.com/minecraft/mc-mods/apothic-enchanting) *1.3.2 > 1.4.0*
+- [Apothic Spawners](https://curseforge.com/minecraft/mc-mods/apothic-spawners) *1.2.1 > 1.3.0*
+- [Ars Additions](https://mods.gay/ars-additions) *21.2.0 > 21.2.2*
+- [Ars Elemental](https://curseforge.com/minecraft/mc-mods/ars-elemental) *0.7.2.7 > 0.7.3.0*
+- [Ars Nouveau](https://curseforge.com/minecraft/mc-mods/ars-nouveau) *5.7.2 > 5.8.1*
+- [Ars Technica](https://curseforge.com/minecraft/mc-mods/ars-technica) *2.0.1 > 2.1.0-b1*
+- [Artifacts](https://mods.gay/artifacts) *12.1.1 > 12.1.5*
+- [Balm](https://mods.gay/balm) *21.0.38 > 21.0.41*
+- [Better Archeology](https://mods.gay/better-archeology) *1.3.1 > 1.3.2*
+- [Better Biome Reblend](https://mods.gay/bbrb) *1.5.2 > 1.5.2*
+- [Bookshelf](https://mods.gay/bookshelf-lib) *21.1.50 > 21.1.58*
+- [Chat Heads](https://mods.gay/chat-heads) *0.13.13 > 0.13.17*
+- [Chunky](https://mods.gay/chunky) *1.4.16 > 1.4.23*
+- [Client Sort](https://mods.gay/clientsort) *1.3.0 > 1.3.3*
+- [Collective](https://mods.gay/collective) *8.1 > 8.3*
+- [Concurrent Chunk Management Engine (NeoForge)](https://mods.gay/c2me-neoforge) *0.3.0-a.0.60 > 0.3.0-a.0.62*
+- [Continents](https://mods.gay/continents) *1.1.7 > 1.1.8*
+- [Cooking for Blockheads](https://mods.gay/cooking-for-blockheads) *21.1.12 > 21.1.14*
+- [CosmeticArmours](https://mods.gay/cosmeticarmours) *1.5.1.0 > 1.5.2.1*
+- [Create Encased](https://mods.gay/create-encased) *1.7.1-f1 > 1.7.1-f2*
+- [Create: Framed](https://mods.gay/create-framed) *1.6.2 > 1.6.3*
+- [Create: Ironworks \[Forge/Fabric/NeoForge\]](https://mods.gay/create-ironworks) *3.7.0 > 3.9.0*
+- [Create: Vibrant Vaults](https://mods.gay/create-vibrant-vaults) *0.3.1 > 0.3.2*
+- [CreateBetterFps](https://mods.gay/createbetterfps) *1.0.0 > 1.0.0*
+- [CreativeCore](https://mods.gay/creativecore) *2.12.32 > 2.13.2*
+- [Curios Compat Layer for Accessories](https://mods.gay/accessories-cc-layer) *9.3.1-beta.26 > 9.3.1-beta.27*
+- [Distant Horizons](https://mods.gay/distanthorizons) *2.3.0b > 2.3.2b*
+- [Diversity](https://mods.gay/faewufs-diversity) *2.3.4 > 2.4.0*
+- [Dyenamics](https://curseforge.com/minecraft/mc-mods/dyenamics) *3.3.0 > 3.3.1*
+- [EMI Loot](https://mods.gay/emi-loot) *0.7.5 > 0.7.6*
+- [EMI](https://mods.gay/emi) *1.1.21 > 1.1.22*
+- [Every Compat (Wood Good)](https://mods.gay/every-compat) *2.9.6 > 2.9.10*
+- [Exposure: Polaroid](https://mods.gay/exposure-polaroid) *1.0.4 > 1.1.1*
+- [Exposure](https://mods.gay/exposure) *1.8.11 > 1.9.2*
+- [Faewulf's Lib](https://mods.gay/faewulfslib) *1.2.3 > 1.3.1*
+- [FancyMenu](https://mods.gay/fancymenu) *3.4.6 > 3.5.0*
+- [Fast Item Frames](https://mods.gay/fast-item-frames) *21.1.2 > 21.1.3*
+- [Forgified Fabric API](https://mods.gay/forgified-fabric-api) *0.107.0+2.0.25 > 0.107.0+2.0.26*
+- [Fzzy Config](https://mods.gay/fzzy-config) *0.6.8 > 0.6.9*
+- [Iceberg](https://mods.gay/iceberg) *1.2.9.2 > 1.3.2*
+- [ImmediatelyFast](https://mods.gay/immediatelyfast) *1.6.4 > 1.6.5*
+- [JourneyMap](https://mods.gay/journeymap) *6.0.0-b43 > 6.0.0-b44*
+- [Kiwi 🥝](https://mods.gay/kiwi) *15.5.0 > 15.5.1*
+- [M.R.U](https://mods.gay/mru) *1.0.8 > 1.0.16*
+- [MapFrontiers](https://mods.gay/mapfrontiers) *2.7.0-b5 > 2.7.0-b7*
+- [ModernFix](https://mods.gay/modernfix) *5.20.2 > 5.21.0*
+- [Moonlight Lib](https://mods.gay/moonlight) *2.18.0 > 2.18.12*
+- [More Mouse Tweaks](https://mods.gay/moremousetweaks) *1.0.0 > 1.0.1*
+- [Neruina - Ticking Entity Fixer](https://mods.gay/neruina) *2.2.8 > 2.3.0-b4*
+- [Nether Depths Upgrade](https://mods.gay/nether-depths-upgrade) *3.1.7 > 3.1.8*
+- [Not Enough Recipe Book \[NERB\]](https://mods.gay/notenoughrecipebook) *0.4.1 > 0.4.2*
+- [Nullscape](https://mods.gay/nullscape) *1.2.10 > 1.2.11*
+- [Ok Zoomer](https://mods.gay/ok-zoomer) *10.0.0-b2 > 10.0.0-b3*
+- [oωo (owo-lib)](https://mods.gay/owo-lib) *0.12.15.1-b2 > 0.12.15.1-b3*
+- [Particle Core](https://mods.gay/particle-core) *0.2.5 > 0.2.6*
+- [Perception](https://mods.gay/perception) *0.1.2.1 > 0.1.4*
+- [Placebo](https://curseforge.com/minecraft/mc-mods/placebo) *9.7.1 > 9.8.1*
+- [Polymorph](https://mods.gay/polymorph) *1.0.7 > 1.0.10*
+- [Prism](https://mods.gay/prism-lib) *1.0.9 > 1.0.11*
+- [Relics](https://mods.gay/relics-mod) *0.10.7.2 > 0.10.7.5*
+- [Reliquified Ars Nouveau](https://mods.gay/reliquified-ars-nouveau) *0.4 > 0.6*
+- [Reliquified Twilight Forest](https://mods.gay/reliquified-twilight-forest) *0.3.2 > 0.5.0*
+- [Remove Reloading Screen](https://mods.gay/rrls) *5.0.9 > 5.0.10*
+- [Sawmill](https://mods.gay/universal-sawmill) *1.5.17 > 1.5.18*
+- [Simple Voice Chat](https://mods.gay/simple-voice-chat) *2.5.28 > 2.5.30*
+- [Snow! Real Magic! ⛄](https://mods.gay/snow-real-magic) *12.0.2 > 12.0.4*
+- [Sophisticated Backpacks](https://mods.gay/sophisticated-backpacks) *3.24.1.1212 > 3.24.9.1231*
+- [Sophisticated Core](https://mods.gay/sophisticated-core) *1.3.8.911 > 1.3.32.961*
+- [Sound Physics Remastered](https://mods.gay/sound-physics-remastered) *1.4.10 > 1.4.12*
+- [Sounds](https://mods.gay/sound) *2.4.8 > 2.4.11*
+- [Structory: Towers](https://mods.gay/structory-towers) *1.0.10 > 1 .0.11*
+- [Structory](https://mods.gay/structory) *1.3.9 > 1.3.10*
+- [Supplementaries Squared](https://mods.gay/supplementaries-squared) *1.2.5 > 1.2.8*
+- [Supplementaries](https://mods.gay/supplementaries) *3.1.0 > 3.1.7*
+- [The Aether](https://mods.gay/aether) *1.5.7 > 1.5.8*
+- [The Twilight Forest](https://curseforge.com/minecraft/mc-mods/the-twilight-forest) *4.7.3040 > 4.7.3094*
+- [WATERFrAMES: Multimedia Displays](https://mods.gay/waterframes) *2.1.12 > 2.1.14*
+- [WATERMeDIA](https://mods.gay/watermedia) *2.1.23 > 2.1.24*
+- [What Are They Up To (Watut)](https://mods.gay/what-are-they-up-to) *1.2.3 > 1.2.7*
+
+removed:
+
+- Create: More Sandpapers
+- Farmer's Cutting: The Aether
+- Fish of Thieves
+
+fixed:
+
+- barrels should now be craftable with the sawmill again
+- EMI stack crafting works again
+- the day ticker finally ticks fast ^^
+- Watut now shows what you're doing while you are doing it!
+
+changed:
+
+- all create stripping recipes now give bark (credit: `joe_the_magi` on discord)
+- arkenium can now be crushed like other ores
+- ars delight's bark textures now use colors of the logs
+- ars elemental's flashing log now gives flashing bark (used for watermedia screen)
+- chainsaw enchantment should now be unobtainable and is useless
+- most of the stonecutter recipes now use create's system of being able to recycle same worth items (more will come)
+- watermedia's blocks and items now have recipes
+
+note:
+
+- cratedelight will be removed next update, convert your crates and sacks to `karton creëren` ones
+- createcompressed will be removed next update, convert your compressed items to `karton creëren` ones

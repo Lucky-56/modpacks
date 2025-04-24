@@ -42,3 +42,5 @@
 	blacklistMods = []
 	#Allow machines, like Create's deployer, to harvest crops.
 	allowFakePlayer = false
+	#List of held items to blacklist from right-click harvest. Format: "modid:item"
+	blacklistHeldItems = []

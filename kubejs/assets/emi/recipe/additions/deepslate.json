@@ -1,0 +1,28 @@
+{
+    "type": "emi:world_interaction",
+    "left": {
+        "type": "fluid",
+        "amount": 1000,
+        "id": "minecraft:water",
+        "remainder": {
+            "type": "fluid",
+            "amount": 1000,
+            "id": "minecraft:water"
+        }
+    },
+    "right": {
+        "type": "fluid",
+        "amount": 1000,
+        "id": "minecraft:lava",
+        "remainder": {
+            "type": "fluid",
+            "amount": 1000,
+            "id": "minecraft:lava"
+        }
+    },
+    "output": {
+        "type": "item",
+        "id": "minecraft:deepslate",
+        "nbt": "{lore:['[{\"color\":\"gray\",\"italic\":false,\"text\":\"From \"},{\"color\":\"white\",\"italic\":false,\"text\":\"8\"},{\"color\":\"gray\",\"italic\":false,\"text\":\" and below\"}]']}"
+    }
+}
