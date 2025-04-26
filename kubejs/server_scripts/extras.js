@@ -381,6 +381,17 @@ ServerEvents.recipes(event => {
 		]
 	})
 
+	//grab from real world using interplanar
+	event.shaped('armourers_workshop:skin-library-global', [
+		'SiS',
+		'BCB',
+		'SSS'
+	], {
+		S: '#c:stones',
+		i: 'exposure:interplanar_projector',
+		B: '#c:bookshelves',
+		C: '#armourers_workshop:skin_cubes'
+	}).id('armourers_workshop:blocks/skin-library-global')
 
 
 	//content overlap
