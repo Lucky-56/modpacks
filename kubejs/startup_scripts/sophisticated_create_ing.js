@@ -76,6 +76,16 @@ StartupEvents.registry('block', event => {
 		.tagBlock('minecraft:needs_stone_tool')
 
 	// sand
+	event.create('wheat_flour_block', 'falling')
+		.parentModel('minecraft:block/cube_all')
+		.texture('all', 'create_compressed:block/wheat_flour_pile')
+		.mapColor('SAND')
+		.displayName('Pile of Wheat Flour')
+		.sandSoundType()
+		.resistance(0.5)
+		.hardness(0.5)
+		.tag('c:storage_blocks')
+		.tagBlock('minecraft:mineable/shovel')
 	event.create('cinder_flour_block', 'falling')
 		.parentModel('minecraft:block/cube_all')
 		.texture('all', 'create_compressed:block/cinder_flour_pile')
@@ -101,16 +111,6 @@ StartupEvents.registry('block', event => {
 		.tag('c:storage_blocks')
 		.tagBlock('minecraft:mineable/shovel')
 		.tagBlock('minecraft:needs_diamond_tool')
-	event.create('wheat_flour_block', 'falling')
-		.parentModel('minecraft:block/cube_all')
-		.texture('all', 'create_compressed:block/wheat_flour_pile')
-		.mapColor('SAND')
-		.displayName('Pile of Wheat Flour')
-		.sandSoundType()
-		.resistance(0.5)
-		.hardness(0.5)
-		.tag('c:storage_blocks')
-		.tagBlock('minecraft:mineable/shovel')
 
 	// netherite_block
 	event.create('copper_sheet_block')
