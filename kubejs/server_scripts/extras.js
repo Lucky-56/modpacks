@@ -1,4 +1,15 @@
+ServerEvents.tags('block', event => {
+	//c:mushroom
+	event.add('c:mushroom', ['#c:mushroom/stems', '#c:mushroom/caps'])
+	event.add('c:mushroom/stems', 'minecraft:mushroom_stem')
+	event.add('c:mushroom/caps', ['minecraft:red_mushroom_block', 'minecraft:brown_mushroom_block', 'deep_aether:lightcap_mushroom_block'])
+})
+
 ServerEvents.tags('item', event => {
+	//c:mushroom
+	event.add('c:mushroom', ['#c:mushroom/stems', '#c:mushroom/caps'])
+	event.add('c:mushroom/stems', 'minecraft:mushroom_stem')
+	event.add('c:mushroom/caps', ['minecraft:red_mushroom_block', 'minecraft:brown_mushroom_block', 'deep_aether:lightcap_mushroom_block'])
 	//knifing
 	const materials = [
 		'wooden',
