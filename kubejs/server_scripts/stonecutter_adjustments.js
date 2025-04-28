@@ -151,10 +151,35 @@ ServerEvents.tags('item', event => {
 	event.add('create_d2d:stone_types/packed_mud', [
 		'minecraft:mud_bricks', 'minecraft:mud_brick_stairs', 'minecraft:mud_brick_wall'
 	])
+	event.add('kubejs:stone_types/prismarine', [
+		'minecraft:prismarine', 'minecraft:prismarine_stairs', 'minecraft:prismarine_wall',
+		'minecraft:prismarine_bricks', 'minecraft:prismarine_brick_stairs',
+		'stoneworks:cobbled_prismarine', 'stoneworks:cobbled_prismarine_stairs', 'stoneworks:cobbled_prismarine_wall',
+		'stoneworks:polished_prismarine', 'stoneworks:polished_prismarine_stairs', 'stoneworks:polished_prismarine_wall',
+		'stoneworks:chiseled_prismarine',
+		'stoneworks:prismarine_tiles', 'stoneworks:prismarine_tile_stairs', 'stoneworks:prismarine_tile_wall',
+		'stoneworks:prismarine_bricks', 'stoneworks:prismarine_brick_stairs', 'stoneworks:prismarine_brick_wall',
+		'stoneworks:prismarine_pavers', 'stoneworks:prismarine_paver_stairs', 'stoneworks:prismarine_paver_wall',
+		'stoneworks:prismarine_plates', 'stoneworks:prismarine_plate_stairs', 'stoneworks:prismarine_plate_wall',
+		'stoneworks:prismarine_pillar'
+	])
+	event.add('kubejs:stone_types/dark_prismarine', [
+		'minecraft:dark_prismarine', 'minecraft:dark_prismarine_stairs',
+		'stoneworks:cobbled_dark_prismarine', 'stoneworks:cobbled_dark_prismarine_stairs', 'stoneworks:cobbled_dark_prismarine_wall',
+		'stoneworks:raw_dark_prismarine', 'stoneworks:raw_dark_prismarine_stairs', 'stoneworks:raw_dark_prismarine_wall',
+		'stoneworks:polished_dark_prismarine', 'stoneworks:polished_dark_prismarine_stairs', 'stoneworks:polished_dark_prismarine_wall',
+		'stoneworks:chiseled_dark_prismarine',
+		'stoneworks:dark_prismarine_tiles', 'stoneworks:dark_prismarine_tile_stairs', 'stoneworks:dark_prismarine_tile_wall',
+		'stoneworks:dark_prismarine_bricks', 'stoneworks:dark_prismarine_brick_stairs', 'stoneworks:dark_prismarine_brick_wall',
+		'stoneworks:dark_prismarine_shingles', 'stoneworks:dark_prismarine_shingle_stairs', 'stoneworks:dark_prismarine_shingle_wall',
+		'stoneworks:dark_prismarine_plates', 'stoneworks:dark_prismarine_plate_stairs', 'stoneworks:dark_prismarine_plate_wall',
+		'stoneworks:dark_prismarine_pillar'
+	])
 })
 
 ServerEvents.recipes(event => {
 	//consistency
+	// cracked
 	function cracking(material, type, override_input, override_recipe_id) {
 		var input = material + '_' + type
 		event.smelting('stoneworks:cracked_' + input, override_input != undefined ? override_input : 'stoneworks:' + input, 0.1).id(override_recipe_id ? override_recipe_id : 'stoneworks:cracked_' + input + '_from_' + material + '_stonecutting')
@@ -189,6 +214,7 @@ ServerEvents.recipes(event => {
 	cracking('tuff', 'bricks', 'minecraft:tuff_bricks')
 	cracking('tuff', 'tiles')
 
+	// mossy
 	event.remove([
 		{ id: 'minecraft:mossy_cobblestone_from_vine' },
 		{ id: 'biomesoplenty:mossy_cobblestone_from_willow_vine' },
@@ -229,6 +255,7 @@ ServerEvents.recipes(event => {
 	mossy('twilightforest:mossy_underbrick', 'twilightforest:underbrick', 'twilightforest:mossy_underbrick')
 	mossy('twilightforest:mossy_towerwood', 'twilightforest:towerwood', 'twilightforest:wood/mossy_towerwood')
 	mossy('twilightforest:mossy_castle_brick', 'twilightforest:castle_brick', 'twilightforest:castleblock/mossy_castle_brick')
+	//TODO (stoneworks moss, mossy stone_types)
 
 	//stone
 	event.replaceInput({ type: 'minecraft:stonecutting' }, 'stone', '#create_d2d:stone_types/stone')
@@ -339,4 +366,20 @@ ServerEvents.recipes(event => {
 	//packed_mud
 	event.stonecutting('mud_bricks', '#create_d2d:stone_types/packed_mud').id('kubejs:stonecuting/mud_bricks_from_stone_types_mud_bricks')
 	event.replaceInput({ type: 'minecraft:stonecutting' }, 'mud_bricks', '#create_d2d:stone_types/packed_mud')
+
+
+	//prismarine
+	event.replaceInput({ type: 'minecraft:stonecutting' }, 'prismarine', '#kubejs:stone_types/prismarine')
+
+	// adjusting prices
+	event.shaped('4x prismarine_bricks', [
+		'ii',
+		'ii'
+	], {
+		i: 'prismarine'
+	}).id('minecraft:prismarine_bricks')
+
+
+	//dark_prismarine
+	event.replaceInput({ type: 'minecraft:stonecutting' }, 'dark_prismarine', '#kubejs:stone_types/dark_prismarine')
 })
