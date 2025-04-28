@@ -369,6 +369,7 @@ ServerEvents.recipes(event => {
 
 
 	//prismarine
+	event.stonecutting('prismarine', '#kubejs:stone_types/prismarine').id('kubejs:stonecutting/reset/prismarine')
 	event.replaceInput({ type: 'minecraft:stonecutting' }, 'prismarine', '#kubejs:stone_types/prismarine')
 
 	// adjusting prices
@@ -381,5 +382,6 @@ ServerEvents.recipes(event => {
 
 
 	//dark_prismarine
+	event.stonecutting('dark_prismarine', '#kubejs:stone_types/dark_prismarine').id('kubejs:stonecutting/reset/dark_prismarine')
 	event.replaceInput({ type: 'minecraft:stonecutting' }, 'dark_prismarine', '#kubejs:stone_types/dark_prismarine')
 })
