@@ -408,12 +408,12 @@ ServerEvents.recipes(event => {
 	event.replaceInput({ type: 'minecraft:stonecutting' }, 'dark_prismarine', '#kubejs:stone_types/dark_prismarine')
 
 	// adjusting prices
-	event.shaped('2x dark_prismarine', [
-		'ppp',
-		'pbp',
-		'ppp'
+	event.shaped('8x dark_prismarine', [
+		'PPP',
+		'PbP',
+		'PPP'
 	], {
-		p: 'prismarine_shard',
+		P: '#kubejs:stone_types/prismarine',
 		b: '#c:dyes/black'
 	}).id('minecraft:dark_prismarine')
 })
