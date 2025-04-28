@@ -370,7 +370,9 @@ ServerEvents.recipes(event => {
 
 	//prismarine
 	event.stonecutting('prismarine', '#kubejs:stone_types/prismarine').id('kubejs:stonecutting/reset/prismarine')
+	event.stonecutting('prismarine_bricks', '#kubejs:stone_types/prismarine').id('kubejs:stonecutting/prismarine_bricks_from_stone_types_prismarine')
 	event.replaceInput({ type: 'minecraft:stonecutting' }, 'prismarine', '#kubejs:stone_types/prismarine')
+	event.replaceInput({ type: 'minecraft:stonecutting' }, 'prismarine_bricks', '#kubejs:stone_types/prismarine')
 
 	// adjusting prices
 	event.shaped('4x prismarine_bricks', [
@@ -379,9 +381,39 @@ ServerEvents.recipes(event => {
 	], {
 		i: 'prismarine'
 	}).id('minecraft:prismarine_bricks')
+	event.custom({
+		type: 'farmersdelight:cutting',
+		ingredients: [
+			{
+				item: 'minecraft:prismarine'
+			}
+		],
+		result: [
+			{
+				item: {
+					count: 4,
+					id: 'minecraft:prismarine_shard'
+				}
+			}
+		],
+		tool: {
+			type: 'farmersdelight:item_ability',
+			action: 'pickaxe_dig'
+		}
+	}).id('kubejs:farmersdelight_cutting/prismarine_shard_from_block')
 
 
 	//dark_prismarine
 	event.stonecutting('dark_prismarine', '#kubejs:stone_types/dark_prismarine').id('kubejs:stonecutting/reset/dark_prismarine')
 	event.replaceInput({ type: 'minecraft:stonecutting' }, 'dark_prismarine', '#kubejs:stone_types/dark_prismarine')
+
+	// adjusting prices
+	event.shaped('2x dark_prismarine', [
+		'ppp',
+		'pbp',
+		'ppp'
+	], {
+		p: 'prismarine_shard',
+		b: '#c:dyes/black'
+	}).id('minecraft:dark_prismarine')
 })
