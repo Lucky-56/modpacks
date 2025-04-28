@@ -413,7 +413,7 @@ ServerEvents.recipes(event => {
 		'PbP',
 		'PPP'
 	], {
-		P: '#kubejs:stone_types/prismarine',
+		P: 'prismarine',
 		b: '#c:dyes/black'
 	}).id('minecraft:dark_prismarine')
 })
