@@ -1,6 +1,0 @@
-### oopsy two
-
-fixed:
-
-- FancyMenu
-- game starting
