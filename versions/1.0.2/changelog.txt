@@ -1,0 +1,5 @@
+### if there's an issue, report it please
+
+changed:
+
+- a few **MORE** configs
