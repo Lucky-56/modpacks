@@ -1,0 +1,16 @@
+### never a first time, ay?
+
+updated:
+
+- [Balm](https://modrinth.com/mod/balm) *21.0.58* > *21.0.59*
+- [LambDynamicLights - Dynamic Lights](https://modrinth.com/mod/lambdynamiclights) *4.8.8* > *4.8.9*
+- [Lithostitched](https://modrinth.com/mod/lithostitched) *1.7.10-beta3* > *1.7.10-beta4*
+- [Petrolpark's Library](https://modrinth.com/mod/petrolpark) *1.4.35* > *1.4.36*
+
+removed:
+
+- Fabric API *disable it, so it doesn't come back*
+
+changed:
+
+- a few configs
