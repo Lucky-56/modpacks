@@ -1,0 +1,21 @@
+{
+    "selector": "#kubejs:sliced",
+    "priority": 1002,
+    "properties": {
+        "sable:mass": 1.0
+    },
+    "overrides": {
+        "slices=0": {
+            "sable:mass": 1.0
+        },
+        "slices=1": {
+            "sable:mass": 0.75
+        },
+        "slices=2": {
+            "sable:mass": 0.5
+        },
+        "slices=3": {
+            "sable:mass": 0.25
+        }
+    }
+}

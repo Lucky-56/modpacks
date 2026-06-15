@@ -1,0 +1,17 @@
+{
+  "replace": true,
+  "values": [
+    "biomesoplenty:fir_wood",
+    "biomesoplenty:pine_wood",
+    "biomesoplenty:maple_wood",
+    "biomesoplenty:redwood_wood",
+    "biomesoplenty:mahogany_wood",
+    "biomesoplenty:jacaranda_wood",
+    "biomesoplenty:palm_wood",
+    "biomesoplenty:willow_wood",
+    "biomesoplenty:dead_wood",
+    "biomesoplenty:magic_wood",
+    "biomesoplenty:umbran_wood",
+    "biomesoplenty:empyreal_wood"
+  ]
+}

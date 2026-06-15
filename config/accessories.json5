@@ -12,11 +12,11 @@
 		"showUnusedSlots": false,
 		"allowSlotScrolling": true,
 		"inventoryButtonOffset": {
-			"x": 28,
-			"y": 9
+			"x": 66,
+			"y": 8
 		},
 		"creativeInventoryButtonOffset": {
-			"x": 74,
+			"x": 96,
 			"y": 6
 		},
 		"isDarkMode": false,

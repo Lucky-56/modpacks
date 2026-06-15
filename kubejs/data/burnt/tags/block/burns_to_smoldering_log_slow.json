@@ -1,0 +1,10 @@
+{
+  "replace": true,
+  "values": [
+    "biomesoplenty:umbran_log",
+    "regions_unexplored:redwood_log",
+    "regions_unexplored:baobab_log",
+    "regions_unexplored:blackwood_log",
+    "regions_unexplored:kapok_log"
+  ]
+}

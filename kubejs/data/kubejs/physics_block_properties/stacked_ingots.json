@@ -1,0 +1,45 @@
+{
+    "selector": "#kubejs:stacked_ingots",
+    "priority": 1002,
+    "properties": {
+        "sable:mass": 0.125
+    },
+    "overrides": {
+        "layers=0,top_ingot=left": {
+            "sable:mass": 0.125
+        },
+        "layers=0,top_ingot=right": {
+            "sable:mass": 0.125
+        },
+        "layers=0,top_ingot=both": {
+            "sable:mass": 0.25
+        },
+        "layers=1,top_ingot=left": {
+            "sable:mass": 0.375
+        },
+        "layers=1,top_ingot=right": {
+            "sable:mass": 0.375
+        },
+        "layers=1,top_ingot=both": {
+            "sable:mass": 0.5
+        },
+        "layers=2,top_ingot=left": {
+            "sable:mass": 0.625
+        },
+        "layers=2,top_ingot=right": {
+            "sable:mass": 0.625
+        },
+        "layers=2,top_ingot=both": {
+            "sable:mass": 0.75
+        },
+        "layers=3,top_ingot=left": {
+            "sable:mass": 0.875
+        },
+        "layers=3,top_ingot=right": {
+            "sable:mass": 0.875
+        },
+        "layers=3,top_ingot=both": {
+            "sable:mass": 1.0
+        }
+    }
+}

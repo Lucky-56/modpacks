@@ -1,0 +1,470 @@
+[general]
+	enabled = true
+
+[food_detection]
+	foodDetectionTags = ["c:foods", "c:food", "forge:foods", "forge:food", "c:foods/soup", "c:drinks"]
+	forcedFoodItems = []
+	manualFoodItemsCanBeEaten = true
+	foodNutritionOverrides = []
+
+[fractional_hunger]
+	enableFractionalHunger = true
+	plantableFoodUsesFractionalNutrition = true
+	# Default: 20.0
+	# Range: 0.0 ~ 20.0
+	plantableFoodFullStackHungerValue = 20.0
+	# Default: 64
+	# Range: 1 ~ 64
+	plantableFoodStackSizeBasis = 64
+	# Default: 0.0
+	# Range: 0.0 ~ 20.0
+	plantableFoodMinimumHungerRestore = 0.0
+	plantableFoodOverrides = ["minecraft:potato", "minecraft:carrot"]
+
+[food_detection_nbt]
+	nbtSensitiveFoodEnabled = true
+	nbtSensitiveFoodRules = ["minecraft:suspicious_stew=ignore_nbt"]
+
+[hunger]
+	# Default: 17.0
+	# Range: 0.0 ~ 20.0
+	passiveFoodLossPerDay = 17.0
+	# Default: 5
+	# Range: 0 ~ 1000
+	beginnerGraceDays = 5
+	# Default: 0.5
+	# Range: 0.0 ~ 10.0
+	beginnerPassiveHungerMultiplier = 0.5
+	#Allowed Values: time_based, exhaustion_based, time_and_exhaustion
+	hungerDrainMode = "time_and_exhaustion"
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	passiveExhaustionMultiplier = 1.0
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	actionExhaustionMultiplier = 1.0
+	# Default: 6.0
+	# Range: 0.0 ~ 40.0
+	naturalRegenExhaustionPerHeal = 6.0
+
+[damage_hunger]
+	enabled = true
+	# Default: 0.1
+	# Range: 0.0 ~ 20.0
+	exhaustionPerDamage = 0.1
+	# Default: 4.0
+	# Range: 0.0 ~ 80.0
+	maxExhaustionPerHit = 4.0
+	# Default: 0.1
+	# Range: 0.0 ~ 100.0
+	minDamage = 0.1
+	damageTypeMultipliers = ["minecraft:fall=1.0", "minecraft:in_fire=1.0", "minecraft:magic=1.0", "minecraft:out_of_world=0.0"]
+
+[elytra]
+	# Default: 2.0
+	# Range: 0.0 ~ 20.0
+	elytraMultiplier = 2.0
+	# Default: 2.5
+	# Range: 0.0 ~ 20.0
+	elytraFireworkMultiplier = 2.5
+	cravingsAffectElytra = false
+
+[regeneration]
+	# Default: 0.05
+	# Range: 0.0 ~ 1.0
+	minRegenMultiplierAtZeroHunger = 0.05
+	# Default: 1.0
+	# Range: 0.0 ~ 5.0
+	maxRegenMultiplierAtFullHunger = 1.0
+	disableNaturalRegenAtZeroHunger = true
+
+	[regeneration.post_eating_regeneration]
+		enabled = true
+		# Default: 0.1
+		# Range: 0.0 ~ 10.0
+		bonusNutrition1To2 = 0.1
+		# Default: 0.2
+		# Range: 0.0 ~ 10.0
+		bonusNutrition3To4 = 0.2
+		# Default: 0.3
+		# Range: 0.0 ~ 10.0
+		bonusNutrition5To6 = 0.3
+		# Default: 0.4
+		# Range: 0.0 ~ 10.0
+		bonusNutrition7To10 = 0.4
+		# Default: 0.5
+		# Range: 0.0 ~ 10.0
+		bonusNutrition11Plus = 0.5
+		# Default: 20
+		# Range: 0 ~ 3600
+		durationNutrition1To2Seconds = 20
+		# Default: 30
+		# Range: 0 ~ 3600
+		durationNutrition3To4Seconds = 30
+		# Default: 40
+		# Range: 0 ~ 3600
+		durationNutrition5To6Seconds = 40
+		# Default: 50
+		# Range: 0 ~ 3600
+		durationNutrition7To10Seconds = 50
+		# Default: 60
+		# Range: 0 ~ 3600
+		durationNutrition11PlusSeconds = 60
+		# Default: 1.0
+		# Range: 0.0 ~ 10.0
+		maxTotalBonus = 1.0
+		# Default: 2.0
+		# Range: 0.05 ~ 20.0
+		healingSpeedMultiplier = 1.0
+		# Default: 1.5
+		# Range: 0.0 ~ 20.0
+		healingAmountMultiplier = 1.0
+		instantHealing = false
+		recentDamagePenaltyEnabled = true
+		# Default: 4.0
+		# Range: 0.0 ~ 60.0
+		recentDamageWindowSeconds = 4.0
+		# Default: 0.75
+		# Range: 0.0 ~ 1.0
+		recentDamageHealingMultiplier = 0.75
+		# Default: 120
+		# Range: 1 ~ 1200
+		baseHealIntervalTicksNutrition1To2 = 120
+		# Default: 80
+		# Range: 1 ~ 1200
+		baseHealIntervalTicksNutrition3To4 = 80
+		# Default: 60
+		# Range: 1 ~ 1200
+		baseHealIntervalTicksNutrition5To6 = 60
+		# Default: 50
+		# Range: 1 ~ 1200
+		baseHealIntervalTicksNutrition7To10 = 50
+		# Default: 40
+		# Range: 1 ~ 1200
+		baseHealIntervalTicksNutrition11Plus = 40
+		# Default: 1.0
+		# Range: 0.0 ~ 20.0
+		healHeartsNutrition1To2 = 1.0
+		# Default: 1.5
+		# Range: 0.0 ~ 20.0
+		healHeartsNutrition3To4 = 1.5
+		# Default: 2.0
+		# Range: 0.0 ~ 20.0
+		healHeartsNutrition5To6 = 2.0
+		# Default: 3.0
+		# Range: 0.0 ~ 20.0
+		healHeartsNutrition7To10 = 3.0
+		# Default: 4.0
+		# Range: 0.0 ~ 20.0
+		healHeartsNutrition11Plus = 4.0
+
+[sleep]
+	# Default: 35.0
+	# Range: 0.0 ~ 100.0
+	baseSleepHungerLossPercent = 0.25
+	# Default: 15.0
+	# Range: 0.0 ~ 100.0
+	cravingSleepHungerLossPercent = 15.0
+	# Default: 25.0
+	# Range: 0.0 ~ 100.0
+	categorySleepHungerLossPercent = 25.0
+	# Default: 14
+	# Range: 0 ~ 20
+	minHungerAfterGoodSleep = 14
+	enableSleepDebt = true
+	# Default: 8.0
+	# Range: 0.0 ~ 100.0
+	sleepDebtPassiveHungerPercentPerPoint = 8.0
+	# Default: 1
+	# Range: 0 ~ 100
+	sleepDebtIncreasePerMissedNight = 1
+	# Default: 5
+	# Range: 0 ~ 100
+	sleepDebtMaxPoints = 5
+	sleepDebtResetOnSleep = true
+	# Default: 2
+	# Range: 0 ~ 100
+	sleepDebtReductionPerSleep = 2
+
+[death_hunger]
+	enabled = true
+	# Default: 10
+	# Range: 0 ~ 20
+	respawnFoodLevel = 10
+	resetCravingStreakOnDeath = false
+	cancelStreakBonusOnDeath = false
+
+[full_hunger_healing]
+	enabled = true
+	onlyDesiredFoodByDefault = true
+	allowAllFoodWhenFull = false
+	healIsInstant = false
+	recentDamagePenaltyEnabled = true
+	# Default: 0.5
+	# Range: 0.0 ~ 60.0
+	recentDamageWindowSeconds = 0.5
+	# Default: 0.5
+	# Range: 0.0 ~ 1.0
+	recentDamageHealingMultiplier = 0.5
+	# Default: 6
+	# Range: 1 ~ 120
+	healingDurationSeconds = 6
+	# Default: 0.5
+	# Range: 0.0 ~ 20.0
+	healHeartsNutrition1To2 = 0.5
+	# Default: 1.0
+	# Range: 0.0 ~ 20.0
+	healHeartsNutrition3To4 = 1.0
+	# Default: 1.5
+	# Range: 0.0 ~ 20.0
+	healHeartsNutrition5To6 = 1.5
+	# Default: 2.0
+	# Range: 0.0 ~ 20.0
+	healHeartsNutrition7To10 = 2.0
+	# Default: 2.5
+	# Range: 0.0 ~ 20.0
+	healHeartsNutrition11Plus = 2.5
+	# Default: 1.5
+	# Range: 0.05 ~ 20.0
+	fullEatingTimeNutrition1To2 = 1.5
+	# Default: 1.8
+	# Range: 0.05 ~ 20.0
+	fullEatingTimeNutrition3To4 = 1.8
+	# Default: 2.1
+	# Range: 0.05 ~ 20.0
+	fullEatingTimeNutrition5To6 = 2.1
+	# Default: 2.5
+	# Range: 0.05 ~ 20.0
+	fullEatingTimeNutrition7To10 = 2.5
+	# Default: 3.0
+	# Range: 0.05 ~ 20.0
+	fullEatingTimeNutrition11Plus = 3.0
+
+[cravings]
+	#Allowed Values: food_only, category_only, food_and_category
+	cravingMode = "food_only"
+	# Default: 2
+	# Range: 0 ~ 8
+	cravingFoodCount = 3
+	randomDailyCravingCountEnabled = false
+	# Default: 2
+	# Range: 0 ~ 8
+	randomDailyCravingCountMin = 3
+	# Default: 3
+	# Range: 0 ~ 8
+	randomDailyCravingCountMax = 3
+	# Default: 0.5
+	# Range: 0.0 ~ 1.0
+	cravingOneDoneMultiplierForTwo = 0.5
+	# Default: 0.75
+	# Range: 0.0 ~ 1.0
+	cravingOneDoneMultiplierForThree = 0.75
+	# Default: 0.5
+	# Range: 0.0 ~ 1.0
+	cravingTwoDoneMultiplierForThree = 0.5
+	# Default: 5
+	# Range: 0 ~ 100
+	recentCravingHistoryDays = 5
+	#Allowed Values: all_registered, vanilla_only, discovered, configured_list, category_only
+	foodPoolMode = "discovered"
+	# Default: 6
+	# Range: 1 ~ 256
+	minDiscoveredFoodsForCravings = 6
+	configuredFoodPool = ["minecraft:apple", "minecraft:bread", "minecraft:baked_potato"]
+	foodPoolWhitelist = []
+	foodPoolBlacklist = []
+	defaultCategoryId = ""
+	netherForceCategory = true
+	netherForcedCategoryId = "watery"
+	netherForceFoodFromCategory = true
+	# Default: 0.75
+	# Range: 0.0 ~ 1.0
+	categoryOnlyPassiveMultiplier = 0.75
+	# Default: 0.85
+	# Range: 0.0 ~ 1.0
+	categoryBonusMultiplierWithThreeFoodsLeft = 0.85
+	# Default: 0.75
+	# Range: 0.0 ~ 1.0
+	categoryBonusMultiplierWithTwoFoodsLeft = 0.75
+	# Default: 0.65
+	# Range: 0.0 ~ 1.0
+	categoryBonusMultiplierWithOneFoodLeft = 0.65
+	allowEatingCravingFoodWhenFull = true
+	allowEatingCravingCategoryWhenFull = false
+	# Default: 0.2
+	# Range: 0.0 ~ 10.0
+	cravingRegenBonusForOneFood = 0.2
+	# Default: 0.3
+	# Range: 0.0 ~ 10.0
+	cravingRegenBonusForTwoFoods = 0.3
+	# Default: 0.4
+	# Range: 0.0 ~ 10.0
+	cravingRegenBonusForThreeFoods = 0.4
+	# Default: 0.05
+	# Range: 0.0 ~ 10.0
+	categoryRegenBonus = 0.05
+	# Default: 0.1
+	# Range: 0.0 ~ 10.0
+	strongCategoryRegenBonus = 0.1
+
+[craving_streak]
+	enabled = true
+	# Default: 3
+	# Range: 1 ~ 30
+	requiredConsecutiveDays = 5
+	# Default: 3
+	# Range: 0 ~ 30
+	rewardFreezeDays = 3
+	categoryCountsForStreak = false
+	streakFreezeAffectsPassiveHunger = true
+	streakFreezeAffectsElytra = false
+
+[food_stack_limits]
+	enableFoodStackLimits = true
+	# Default: 16
+	# Range: 1 ~ 64
+	nutrition1To2MaxStackSize = 16
+	# Default: 12
+	# Range: 1 ~ 64
+	nutrition3To4MaxStackSize = 12
+	# Default: 8
+	# Range: 1 ~ 64
+	nutrition5To6MaxStackSize = 8
+	# Default: 4
+	# Range: 1 ~ 64
+	nutrition7To10MaxStackSize = 4
+	# Default: 2
+	# Range: 1 ~ 64
+	nutrition11To14MaxStackSize = 2
+	# Default: 1
+	# Range: 1 ~ 64
+	nutrition15PlusMaxStackSize = 1
+	multiCategoryStackRule = "lowest"
+	# Default: 8
+	# Range: 1 ~ 64
+	defaultUncategorizedFoodMaxStackSize = 8
+	foodStackSizeOverrides = ["minecraft:enchanted_golden_apple=1", "minecraft:golden_apple=4", "minecraft:mushroom_stew=4"]
+
+[food_eat_time]
+	enableFoodEatTimeMultipliers = true
+	# Default: 1.2
+	# Range: 0.05 ~ 20.0
+	defaultCategoryEatTimeMultiplier = 1.2
+	# Default: 1.2
+	# Range: 0.05 ~ 20.0
+	defaultUncategorizedEatTimeMultiplier = 1.2
+	multiCategoryEatTimeRule = "slowest"
+	foodEatTimeOverrides = []
+
+[hunger_effect_rework]
+	enabled = true
+	hungerPotionBrewingEnabled = true
+	hungerPotionWitchThrowsEnabled = true
+	nauseaPotionWitchThrowsEnabled = true
+	# Default: 2.0
+	# Range: 1.0 ~ 20.0
+	hungerLevel1PassiveMultiplier = 2.0
+	# Default: 3.0
+	# Range: 1.0 ~ 20.0
+	hungerLevel2PassiveMultiplier = 3.0
+	# Default: 0.75
+	# Range: 0.0 ~ 1.0
+	hungerLevel1FoodEffectiveness = 0.75
+	# Default: 0.6
+	# Range: 0.0 ~ 1.0
+	hungerLevel2FoodEffectiveness = 0.6
+	# Default: 0.35
+	# Range: 0.0 ~ 1.0
+	hungerLevel1FreezeDrainMultiplier = 0.35
+	# Default: 0.6
+	# Range: 0.0 ~ 1.0
+	hungerLevel2FreezeDrainMultiplier = 0.6
+
+[nausea_effect_rework]
+	enabled = false
+	blocksEating = true
+
+[starvation]
+	enableStarvation = true
+	# Default: 1.0
+	# Range: 0.0 ~ 30.0
+	daysAtZeroHungerBeforeStarvation = 1.0
+	# Default: 2.0
+	# Range: 0.0 ~ 30.0
+	level2DaysAtZeroHunger = 2.0
+	# Default: 3.0
+	# Range: 0.0 ~ 30.0
+	level3DaysAtZeroHunger = 3.0
+	# Default: 0.4
+	# Range: 0.0 ~ 1.0
+	foodRestoreReductionLevel1 = 0.4
+	# Default: 0.6
+	# Range: 0.0 ~ 1.0
+	foodRestoreReductionLevel2 = 0.6
+	# Default: 0.8
+	# Range: 0.0 ~ 1.0
+	foodRestoreReductionLevel3 = 0.8
+	# Default: 0.5
+	# Range: 0.0 ~ 5.0
+	maxEatingSpeedBonus = 0.5
+	useVanillaHungerForRecovery = true
+	hungerScalesWithLevel = true
+	# Default: 0
+	# Range: 0 ~ 10
+	hungerLevel1Amplifier = 0
+	# Default: 1
+	# Range: 0 ~ 10
+	hungerLevel2Amplifier = 1
+	# Default: 2
+	# Range: 0 ~ 10
+	hungerLevel3Amplifier = 2
+	# Default: 10.0
+	# Range: 0.0 ~ 20.0
+	halfHungerThreshold = 10.0
+	removeHungerAboveHalf = true
+	doNotReapplyHungerAfterHalf = true
+	removeStarvationAtFullHunger = true
+	cravingFoodWeakensHunger = true
+	fullCravingsQuotaClearsStarvation = true
+	cravingCategoryWeakensHunger = true
+	damageAtLevel3 = true
+	# Default: 5
+	# Range: 1 ~ 600
+	damageIntervalSeconds = 5
+	# Default: 1.0
+	# Range: 0.5 ~ 20.0
+	damageMinimumHP = 1.0
+	clearStarvationOnDeath = true
+	# Default: 1
+	# Range: 0 ~ 20
+	respawnFoodAfterStarvationDeath = 1
+
+[progression]
+	# Default: 0.45
+	# Range: 0.0 ~ 10.0
+	postDragonPassiveHungerMultiplier = 0.45
+	# Default: 1.5
+	# Range: 0.0 ~ 10.0
+	endBeforeProgressPassiveHungerMultiplier = 1.5
+	#Allowed Values: advancement, entity_kill, command, disabled
+	progressionUnlockMode = "entity_kill"
+	progressionAdvancementId = "minecraft:end/kill_dragon"
+	progressionEntityIds = ["minecraft:ender_dragon", "cataclysm:ender_guardian", "bosses_of_mass_destruction:void_blossom"]
+	announceProgressionUnlock = true
+	progressionUnlockMessage = ""
+
+[dimension_rules]
+	enabled = true
+	rules = ["minecraft:overworld|hunger=true|cravings=true|preferred=|required=|passive=1.0|sleep=1.0|elytra=1.0|regen=1.0", "minecraft:the_nether|hunger=true|cravings=true|required=watery|preferred=watery|passive=1.25|sleep=1.0|elytra=1.0|regen=1.0", "minecraft:the_end|hunger=true|cravings=true|preferred=|required=|passive=1.5|postDragonPassive=0.45|sleep=1.0|elytra=1.0|regen=1.0"]
+
+	[compat.farmersdelight]
+		removeNourishmentEffect = true
+
+[transport]
+	enableBoatRowingSlowdown = true
+	# Default: 0.7
+	# Range: 0.1 ~ 1.0
+	boatMinSpeedAtZeroHunger = 0.7
+	boatSlowdownAffectsAcceleration = true
+	boatSlowdownAffectsMaxSpeed = true
+	boatSlowdownOnIce = false

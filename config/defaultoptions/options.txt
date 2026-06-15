@@ -1,0 +1,17 @@
+biomeBlendRadius:7
+darkMojangStudiosBackground:true
+fov:0.5
+gamma:1.0
+guiScale:3
+narrator:0
+realmsNotifications:false
+soundCategory_ambient:0.75
+soundCategory_block:0.5
+soundCategory_hostile:0.3
+soundCategory_master:0.5
+soundCategory_music:0.1
+soundCategory_neutral:0.2
+soundCategory_player:0.5
+soundCategory_record:1.0
+soundCategory_voice:0.5
+soundCategory_weather:0.05

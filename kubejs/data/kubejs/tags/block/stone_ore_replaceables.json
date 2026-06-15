@@ -1,0 +1,11 @@
+{
+  "values": [
+    "#minecraft:stone_ore_replaceables"
+  ],
+  "remove": [
+    "minecraft:granite",
+    "minecraft:diorite",
+    "minecraft:andesite",
+    "caverns_and_chasms:schist"
+  ]
+}

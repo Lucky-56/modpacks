@@ -9,6 +9,15 @@
 		{
 			"id": "1.0",
 			"releasedAt": 987654321098765,
+			"promotions": {
+				"downloads": {
+					"generic": "https://github.com/Lucky-56/modpacks/releases/download/1.0/creeren3-1.0.mrpack"
+				}
+			}
+		},
+		{
+			"id": "1.1",
+			"releasedAt": 987654321098765,
 			"updateType": "incompatible"
 		}
 	]

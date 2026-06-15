@@ -1,0 +1,9 @@
+{
+  "values": [
+    "minecraft:barrier"
+  ],
+  "remove": [
+    "aether:holystone",
+    "minecraft:barrier"
+  ]
+}

@@ -11,8 +11,9 @@ qol:
   loadingOverlayNoFade: false
 debug:
   showTranslatedTagsByDefault: false
-  tagsTooltip: true
+  printDataComponentsWhenCopy: true
+  tagsTooltip: false
   debugTooltipMsg: false
-  tagsTooltipAppendKeybindHint: true
+  tagsTooltipAppendKeybindHint: false
   F3CopyInInventory: true
   tagsPerPage: 6

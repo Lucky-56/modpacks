@@ -1,0 +1,33 @@
+{
+    "selector": "#kubejs:snow_based_layered",
+    "priority": 1002,
+    "properties": {
+        "sable:mass": 0.0
+    },
+    "overrides": {
+        "layers=1": {
+            "sable:mass": 0.0
+        },
+        "layers=2": {
+            "sable:mass": 0.125
+        },
+        "layers=3": {
+            "sable:mass": 0.125
+        },
+        "layers=4": {
+            "sable:mass": 0.25
+        },
+        "layers=5": {
+            "sable:mass": 0.25
+        },
+        "layers=6": {
+            "sable:mass": 0.375
+        },
+        "layers=7": {
+            "sable:mass": 0.375
+        },
+        "layers=8": {
+            "sable:mass": 1.0
+        }
+    }
+}

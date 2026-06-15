@@ -1,0 +1,6 @@
+{
+  "selector": "kaleidoscope_tavern:barrel",
+  "properties": {
+    "sable:mass": 0.12
+  }
+}

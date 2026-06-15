@@ -1,0 +1,12 @@
+{
+    "selector": "#kubejs:aether",
+    "properties": {
+        "sable:floating_material": "kubejs:aether",
+        "sable:floating_scale": 1.0
+    },
+    "overrides": {
+        "type=double": {
+            "sable:floating_scale": 2.0
+        }
+    }
+}

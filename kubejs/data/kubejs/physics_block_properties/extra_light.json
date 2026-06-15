@@ -1,0 +1,13 @@
+{
+  "selector": "#kubejs:extra_light",
+    "priority": 1002,
+  "properties": {
+    "sable:mass": 0.125
+  },
+
+  "overrides": {
+    "type=double": {
+      "sable:mass": 0.25
+    }
+  }
+}

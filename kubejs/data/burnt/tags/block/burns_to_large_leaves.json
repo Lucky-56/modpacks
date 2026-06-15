@@ -1,0 +1,17 @@
+{
+  "replace": true,
+  "values": [
+    "biomesoplenty:palm_leaves",
+    "biomesoplenty:mahogany_leaves",
+    "biomesoplenty:empyreal_leaves",
+    "biomesoplenty:snowblossom_leaves",
+    "regions_unexplored:baobab_leaves",
+    "regions_unexplored:joshua_leaves",
+    "regions_unexplored:magnolia_leaves",
+    "regions_unexplored:blue_magnolia_leaves",
+    "regions_unexplored:pink_magnolia_leaves",
+    "regions_unexplored:white_magnolia_leaves",
+    "regions_unexplored:palm_leaves",
+    "regions_unexplored:socotra_leaves"
+  ]
+}

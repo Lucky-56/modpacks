@@ -1,0 +1,8 @@
+{
+  "replace": true,
+  "values": [
+    "regions_unexplored:duskmelon",
+    "regions_unexplored:salmonberry_bush",
+    "biomesoplenty:barley"
+  ]
+}

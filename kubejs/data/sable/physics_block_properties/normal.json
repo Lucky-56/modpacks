@@ -1,0 +1,12 @@
+{
+  "selector": "#sable:normal",
+    "priority": 1001,
+  "properties": {
+    "sable:mass": 1.0
+  },
+  "overrides": {
+    "type=double": {
+      "sable:mass": 2.0
+    }
+  }
+}

@@ -1,23 +1,24 @@
-The under promising sequel to creëren,
+The third installment of Creëren,
 
-a modpack all focused around the create mod.
+a modpack all focused around the Create mod. Now with a twist!
+This pack focuses heavily on automation and the addition of Aeronautics
+adds many more possibilities.
 
 ---
 
 Featuring other **big** mods such as:
 
 - The Aether
-- The Twilight Forest
-- Ars Nouveau
+- Alex's Caves & Mobs
 
 Using world generation mods like:
 
-- Terralith
 - Biomes O' Plenty
 - Continents
 - YUNG's mods
-- Repurposed Structures
+- Not enough Trials
 - Dungeons and Taverns + addons
 - Structury + addons
 - Incendium
 - Nullscape
+- Luki's Structures

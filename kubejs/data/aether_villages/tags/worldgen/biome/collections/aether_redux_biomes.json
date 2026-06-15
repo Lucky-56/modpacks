@@ -1,0 +1,25 @@
+{
+  "replace": true,
+  "values": [
+    {
+      "id": "aether_redux:skyfields",
+      "required": false
+    },
+    {
+      "id": "aether_redux:gilded_groves",
+      "required": false
+    },
+    {
+      "id": "aether_redux:cloudcaps",
+      "required": false
+    },
+    {
+      "id": "aether_redux:frosted_forests",
+      "required": false
+    },
+    {
+      "id": "aether_redux:glacial_tundra",
+      "required": false
+    }
+  ]
+}

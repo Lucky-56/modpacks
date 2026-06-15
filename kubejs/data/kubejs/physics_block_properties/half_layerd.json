@@ -1,0 +1,271 @@
+{
+    "selector": "#kubejs:half_layered",
+    "priority": 1002,
+    "properties": {
+        "sable:mass": 0.125
+    },
+    "overrides": {
+        "postive_layers=1,negative_layers=0": {
+            "sable:mass": 0.125
+        },
+        "postive_layers=0,negative_layers=1": {
+            "sable:mass": 0.125
+        },
+
+        "postive_layers=2,negative_layers=0": {
+            "sable:mass": 0.125
+        },
+        "postive_layers=1,negative_layers=1": {
+            "sable:mass": 0.125
+        },
+        "postive_layers=0,negative_layers=2": {
+            "sable:mass": 0.125
+        },
+
+
+        "positive_layers=3,negative_layers=0": {
+            "sable:mass": 0.25
+        },
+        "positive_layers=2,negative_layers=1": {
+            "sable:mass": 0.25
+        },
+        "positive_layers=1,negative_layers=2": {
+            "sable:mass": 0.25
+        },
+        "positive_layers=0,negative_layers=3": {
+            "sable:mass": 0.25
+        },
+
+        "positive_layers=4,negative_layers=0": {
+            "sable:mass": 0.25
+        },
+        "positive_layers=3,negative_layers=1": {
+            "sable:mass": 0.25
+        },
+        "positive_layers=2,negative_layers=2": {
+            "sable:mass": 0.25
+        },
+        "positive_layers=1,negative_layers=3": {
+            "sable:mass": 0.25
+        },
+        "positive_layers=0,negative_layers=4": {
+            "sable:mass": 0.25
+        },
+
+
+        "positive_layers=5,negative_layers=0": {
+            "sable:mass": 0.375
+        },
+        "positive_layers=4,negative_layers=1": {
+            "sable:mass": 0.375
+        },
+        "positive_layers=3,negative_layers=2": {
+            "sable:mass": 0.375
+        },
+        "positive_layers=2,negative_layers=3": {
+            "sable:mass": 0.375
+        },
+        "positive_layers=1,negative_layers=4": {
+            "sable:mass": 0.375
+        },
+        "positive_layers=0,negative_layers=5": {
+            "sable:mass": 0.375
+        },
+
+        "positive_layers=6,negative_layers=0": {
+            "sable:mass": 0.375
+        },
+        "positive_layers=5,negative_layers=1": {
+            "sable:mass": 0.375
+        },
+        "positive_layers=4,negative_layers=2": {
+            "sable:mass": 0.375
+        },
+        "positive_layers=3,negative_layers=3": {
+            "sable:mass": 0.375
+        },
+        "positive_layers=2,negative_layers=4": {
+            "sable:mass": 0.375
+        },
+        "positive_layers=1,negative_layers=5": {
+            "sable:mass": 0.375
+        },
+        "positive_layers=0,negative_layers=6": {
+            "sable:mass": 0.375
+        },
+
+
+        "positive_layers=7,negative_layers=0": {
+            "sable:mass": 0.5
+        },
+        "positive_layers=6,negative_layers=1": {
+            "sable:mass": 0.5
+        },
+        "positive_layers=5,negative_layers=2": {
+            "sable:mass": 0.5
+        },
+        "positive_layers=4,negative_layers=3": {
+            "sable:mass": 0.5
+        },
+        "positive_layers=3,negative_layers=4": {
+            "sable:mass": 0.5
+        },
+        "positive_layers=2,negative_layers=5": {
+            "sable:mass": 0.5
+        },
+        "positive_layers=1,negative_layers=6": {
+            "sable:mass": 0.5
+        },
+        "positive_layers=0,negative_layers=7": {
+            "sable:mass": 0.5
+        },
+
+        "positive_layers=8,negative_layers=0": {
+            "sable:mass": 0.5
+        },
+        "positive_layers=7,negative_layers=1": {
+            "sable:mass": 0.5
+        },
+        "positive_layers=6,negative_layers=2": {
+            "sable:mass": 0.5
+        },
+        "positive_layers=5,negative_layers=3": {
+            "sable:mass": 0.5
+        },
+        "positive_layers=4,negative_layers=4": {
+            "sable:mass": 0.5
+        },
+        "positive_layers=3,negative_layers=5": {
+            "sable:mass": 0.5
+        },
+        "positive_layers=2,negative_layers=6": {
+            "sable:mass": 0.5
+        },
+        "positive_layers=1,negative_layers=7": {
+            "sable:mass": 0.5
+        },
+        "positive_layers=0,negative_layers=8": {
+            "sable:mass": 0.5
+        },
+
+
+        "positive_layers=8,negative_layers=1": {
+            "sable:mass": 0.625
+        },
+        "positive_layers=7,negative_layers=2": {
+            "sable:mass": 0.625
+        },
+        "positive_layers=6,negative_layers=3": {
+            "sable:mass": 0.625
+        },
+        "positive_layers=5,negative_layers=4": {
+            "sable:mass": 0.625
+        },
+        "positive_layers=4,negative_layers=5": {
+            "sable:mass": 0.625
+        },
+        "positive_layers=3,negative_layers=6": {
+            "sable:mass": 0.625
+        },
+        "positive_layers=2,negative_layers=7": {
+            "sable:mass": 0.625
+        },
+        "positive_layers=1,negative_layers=8": {
+            "sable:mass": 0.625
+        },
+
+        "positive_layers=8,negative_layers=2": {
+            "sable:mass": 0.625
+        },
+        "positive_layers=7,negative_layers=3": {
+            "sable:mass": 0.625
+        },
+        "positive_layers=6,negative_layers=4": {
+            "sable:mass": 0.625
+        },
+        "positive_layers=5,negative_layers=5": {
+            "sable:mass": 0.625
+        },
+        "positive_layers=4,negative_layers=6": {
+            "sable:mass": 0.625
+        },
+        "positive_layers=3,negative_layers=7": {
+            "sable:mass": 0.625
+        },
+        "positive_layers=2,negative_layers=8": {
+            "sable:mass": 0.625
+        },
+
+
+        "positive_layers=8,negative_layers=3": {
+            "sable:mass": 0.75
+        },
+        "positive_layers=7,negative_layers=4": {
+            "sable:mass": 0.75
+        },
+        "positive_layers=6,negative_layers=5": {
+            "sable:mass": 0.75
+        },
+        "positive_layers=5,negative_layers=6": {
+            "sable:mass": 0.75
+        },
+        "positive_layers=4,negative_layers=7": {
+            "sable:mass": 0.75
+        },
+        "positive_layers=3,negative_layers=8": {
+            "sable:mass": 0.75
+        },
+
+        "positive_layers=8,negative_layers=4": {
+            "sable:mass": 0.75
+        },
+        "positive_layers=7,negative_layers=5": {
+            "sable:mass": 0.75
+        },
+        "positive_layers=6,negative_layers=6": {
+            "sable:mass": 0.75
+        },
+        "positive_layers=5,negative_layers=7": {
+            "sable:mass": 0.75
+        },
+        "positive_layers=4,negative_layers=8": {
+            "sable:mass": 0.75
+        },
+
+
+        "positive_layers=8,negative_layers=5": {
+            "sable:mass": 0.875
+        },
+        "positive_layers=7,negative_layers=6": {
+            "sable:mass": 0.875
+        },
+        "positive_layers=6,negative_layers=7": {
+            "sable:mass": 0.875
+        },
+        "positive_layers=5,negative_layers=8": {
+            "sable:mass": 0.875
+        },
+
+        "positive_layers=8,negative_layers=6": {
+            "sable:mass": 0.875
+        },
+        "positive_layers=7,negative_layers=7": {
+            "sable:mass": 0.875
+        },
+        "positive_layers=6,negative_layers=8": {
+            "sable:mass": 0.875
+        },
+
+
+        "positive_layers=8,negative_layers=7": {
+            "sable:mass": 1.0
+        },
+        "positive_layers=7,negative_layers=8": {
+            "sable:mass": 1.0
+        },
+
+        "positive_layers=8,negative_layers=8": {
+            "sable:mass": 1.0
+        }
+    }
+}

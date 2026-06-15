@@ -1,0 +1,22 @@
+{
+  "replace": true,
+  "values": [
+    "biomesoplenty:sprout",
+    "biomesoplenty:dead_grass",
+    "biomesoplenty:dune_grass",
+    "biomesoplenty:desert_grass",
+    "biomesoplenty:bush",
+    "biomesoplenty:tundra_shrub",
+    "regions_unexplored:bladed_grass",
+    "regions_unexplored:frozen_grass",
+    "regions_unexplored:ashen_grass",
+    "regions_unexplored:steppe_grass",
+    "regions_unexplored:sandy_grass",
+    "regions_unexplored:medium_grass",
+    "regions_unexplored:mycotoxic_grass",
+    "regions_unexplored:grass_sprouts",
+    "regions_unexplored:glistering_sprout",
+    "regions_unexplored:prismoss_sprout",
+    "regions_unexplored:glistering_fern"
+  ]
+}

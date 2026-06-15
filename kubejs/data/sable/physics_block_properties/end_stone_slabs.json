@@ -1,0 +1,12 @@
+{
+    "selector": "#kubejs:end_stone_slabs",
+    "properties": {
+        "sable:floating_material": "sable:end_stone",
+        "sable:floating_scale": 0.5
+    },
+    "overrides": {
+        "type=double": {
+            "sable:floating_scale": 1.0
+        }
+    }
+}

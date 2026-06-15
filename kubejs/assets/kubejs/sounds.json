@@ -1,0 +1,8 @@
+{
+    "complete": {
+        "category": "master",
+        "sounds": [
+            "kubejs:complete"
+        ]
+    }
+}

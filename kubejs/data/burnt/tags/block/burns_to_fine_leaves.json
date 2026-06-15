@@ -1,0 +1,14 @@
+{
+  "replace": true,
+  "values": [
+    "biomesoplenty:willow_leaves",
+    "biomesoplenty:cypress_leaves",
+    "regions_unexplored:pine_leaves",
+    "regions_unexplored:dead_pine_leaves",
+    "regions_unexplored:larch_leaves",
+    "regions_unexplored:golden_larch_leaves",
+    "regions_unexplored:willow_leaves",
+    "regions_unexplored:cypress_leaves",
+    "regions_unexplored:redwood_leaves"
+  ]
+}

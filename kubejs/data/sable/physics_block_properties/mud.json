@@ -1,0 +1,7 @@
+{
+  "selector": "#kubejs:mud",
+
+  "properties": {
+    "sable:friction": 0.25
+  }
+}

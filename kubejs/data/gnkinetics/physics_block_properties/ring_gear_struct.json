@@ -1,0 +1,7 @@
+{
+    "selector": "gnkinetics:ring_gear_struct",
+    "priority": 1000,
+    "properties": {
+        "sable:mass": 0.125
+    }
+}

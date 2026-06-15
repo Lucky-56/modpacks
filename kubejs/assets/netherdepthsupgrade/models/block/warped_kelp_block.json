@@ -1,0 +1,25 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"textures": {
+		"down": "netherdepthsupgrade:block/warped_kelp_bottom",
+		"up": "netherdepthsupgrade:block/warped_kelp_top",
+		"particle": "netherdepthsupgrade:block/warped_kelp_side",
+		"north": "netherdepthsupgrade:block/warped_kelp_side"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#north", "cullface": "north"},
+				"east": {"uv": [16, 0, 0, 16], "texture": "#north", "cullface": "east"},
+				"south": {"uv": [16, 0, 0, 16], "texture": "#north", "cullface": "south"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#north", "cullface": "west"},
+				"up": {"uv": [0, 0, 16, 16], "rotation": 90, "texture": "#up", "cullface": "up"},
+				"down": {"uv": [0, 0, 16, 16], "rotation": 90, "texture": "#down", "cullface": "down"}
+			}
+		}
+	]
+}

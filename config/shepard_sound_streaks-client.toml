@@ -1,0 +1,44 @@
+[pitch_up]
+	#Enables the client-side pitch-up effect.
+	enable_mod = false
+	#RISING increases repeated sounds. RANDOM gives every allowed sound a random pitch in the configured range.
+	#Allowed Values: RISING, RANDOM
+	pitch_mode = "RISING"
+	#Maximum gap for one streak. If a repeated sound misses this window, pitch resets immediately.
+	# Default: 800
+	# Range: 100 ~ 5000
+	repeat_window_ms = 800
+	#Repeated sounds needed before pitch starts rising. Used only in Rising mode.
+	# Default: 2
+	# Range: 1 ~ 10
+	min_repeats_for_pitch = 2
+	#Pitch gain per repeated sound. 0.10 means +10% per repeat. Used only in Rising mode.
+	# Default: 0.1
+	# Range: 0.005 ~ 1.0
+	pitch_step_per_repeat = 0.1
+	#When enabled, Rising mode goes up to the maximum pitch, then back down to normal, then repeats.
+	cycle_after_max_pitch = false
+	#Maximum pitch multiplier for Rising mode. Default is 2x; config allows up to 10x.
+	# Default: 2.0
+	# Range: 1.0 ~ 10.0
+	max_pitch_multiplier = 10.0
+	#Lowest random pitch multiplier used in Random mode.
+	# Default: 0.75
+	# Range: 0.05 ~ 10.0
+	random_min_pitch_multiplier = 0.75
+	#Highest random pitch multiplier used in Random mode.
+	# Default: 1.75
+	# Range: 0.05 ~ 10.0
+	random_max_pitch_multiplier = 1.75
+	#Shows recently processed sounds and pitch multipliers.
+	debug_sound_overlay = false
+
+	[pitch_up.sound_categories]
+		#Sound categories ignored by pitch-up. Default disables ambient while keeping block, entity, item, UI and other short feedback sounds enabled.
+		disabled_categories = ["ambient"]
+
+	[pitch_up.sound_lists]
+		#Sounds allowed for pitch-up. Use * for all sounds. Wildcards are supported, for example minecraft:block.*
+		included_sounds = ["*"]
+		#Sounds ignored by pitch-up. Ambient sounds are excluded by default, including block ambience. Wildcards are supported.
+		excluded_sounds = ["*:ambient.*", "*:block.*.ambient", "*:block.*.ambient.*", "*:*.ambient", "*:*_ambient"]

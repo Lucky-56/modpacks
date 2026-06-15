@@ -1,0 +1,16 @@
+{
+    "probejs.complete": true,
+    "probejs.hintsForLLM": false,
+    "probejs.fullScanMods": [
+        "minecraft",
+        "kubejs",
+        "kubejs_create",
+        "kubejsdelight",
+        "dg_js",
+        "neoforge"
+    ],
+    "probejs.classScanning": false,
+    "probejs.modHash": -6964076825260353512,
+    "probejs.generateBeans": true,
+    "probejs.newGame": false
+}

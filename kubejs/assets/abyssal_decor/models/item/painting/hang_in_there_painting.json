@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "abyssal_decor:item/painting/hang_in_there_painting"
+  }
+}

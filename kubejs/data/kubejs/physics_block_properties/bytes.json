@@ -1,0 +1,781 @@
+{
+    "selector": "#kubejs:bytes",
+    "priority": 1000,
+    "properties": {
+        "sable:mass": 0.125
+    },
+    "overrides": {
+        "bottom_northeast=false,bottom_northwest=false,bottom_southeast=false,bottom_southwest=false,top_northeast=false,top_northwest=false,top_southeast=false,top_southwest=true": {
+            "sable:mass": 0.125
+        },
+        "bottom_northeast=false,bottom_northwest=false,bottom_southeast=false,bottom_southwest=false,top_northeast=false,top_northwest=false,top_southeast=true,top_southwest=false": {
+            "sable:mass": 0.125
+        },
+        "bottom_northeast=false,bottom_northwest=false,bottom_southeast=false,bottom_southwest=false,top_northeast=false,top_northwest=true,top_southeast=false,top_southwest=false": {
+            "sable:mass": 0.125
+        },
+        "bottom_northeast=false,bottom_northwest=false,bottom_southeast=false,bottom_southwest=false,top_northeast=true,top_northwest=false,top_southeast=false,top_southwest=false": {
+            "sable:mass": 0.125
+        },
+        "bottom_northeast=false,bottom_northwest=false,bottom_southeast=false,bottom_southwest=true,top_northeast=false,top_northwest=false,top_southeast=false,top_southwest=false": {
+            "sable:mass": 0.125
+        },
+        "bottom_northeast=false,bottom_northwest=false,bottom_southeast=true,bottom_southwest=false,top_northeast=false,top_northwest=false,top_southeast=false,top_southwest=false": {
+            "sable:mass": 0.125
+        },
+        "bottom_northeast=false,bottom_northwest=true,bottom_southeast=false,bottom_southwest=false,top_northeast=false,top_northwest=false,top_southeast=false,top_southwest=false": {
+            "sable:mass": 0.125
+        },
+        "bottom_northeast=true,bottom_northwest=false,bottom_southeast=false,bottom_southwest=false,top_northeast=false,top_northwest=false,top_southeast=false,top_southwest=false": {
+            "sable:mass": 0.125
+        },
+
+        "bottom_northeast=false,bottom_northwest=false,bottom_southeast=false,bottom_southwest=false,top_northeast=false,top_northwest=false,top_southeast=true,top_southwest=true": {
+            "sable:mass": 0.25
+        },
+        "bottom_northeast=false,bottom_northwest=false,bottom_southeast=false,bottom_southwest=false,top_northeast=false,top_northwest=true,top_southeast=false,top_southwest=true": {
+            "sable:mass": 0.25
+        },
+        "bottom_northeast=false,bottom_northwest=false,bottom_southeast=false,bottom_southwest=false,top_northeast=false,top_northwest=true,top_southeast=true,top_southwest=false": {
+            "sable:mass": 0.25
+        },
+        "bottom_northeast=false,bottom_northwest=false,bottom_southeast=false,bottom_southwest=false,top_northeast=true,top_northwest=false,top_southeast=false,top_southwest=true": {
+            "sable:mass": 0.25
+        },
+        "bottom_northeast=false,bottom_northwest=false,bottom_southeast=false,bottom_southwest=false,top_northeast=true,top_northwest=false,top_southeast=true,top_southwest=false": {
+            "sable:mass": 0.25
+        },
+        "bottom_northeast=false,bottom_northwest=false,bottom_southeast=false,bottom_southwest=false,top_northeast=true,top_northwest=true,top_southeast=false,top_southwest=false": {
+            "sable:mass": 0.25
+        },
+        "bottom_northeast=false,bottom_northwest=false,bottom_southeast=false,bottom_southwest=true,top_northeast=false,top_northwest=false,top_southeast=false,top_southwest=true": {
+            "sable:mass": 0.25
+        },
+        "bottom_northeast=false,bottom_northwest=false,bottom_southeast=false,bottom_southwest=true,top_northeast=false,top_northwest=false,top_southeast=true,top_southwest=false": {
+            "sable:mass": 0.25
+        },
+        "bottom_northeast=false,bottom_northwest=false,bottom_southeast=false,bottom_southwest=true,top_northeast=false,top_northwest=true,top_southeast=false,top_southwest=false": {
+            "sable:mass": 0.25
+        },
+        "bottom_northeast=false,bottom_northwest=false,bottom_southeast=false,bottom_southwest=true,top_northeast=true,top_northwest=false,top_southeast=false,top_southwest=false": {
+            "sable:mass": 0.25
+        },
+        "bottom_northeast=false,bottom_northwest=false,bottom_southeast=true,bottom_southwest=false,top_northeast=false,top_northwest=false,top_southeast=false,top_southwest=true": {
+            "sable:mass": 0.25
+        },
+        "bottom_northeast=false,bottom_northwest=false,bottom_southeast=true,bottom_southwest=false,top_northeast=false,top_northwest=false,top_southeast=true,top_southwest=false": {
+            "sable:mass": 0.25
+        },
+        "bottom_northeast=false,bottom_northwest=false,bottom_southeast=true,bottom_southwest=false,top_northeast=false,top_northwest=true,top_southeast=false,top_southwest=false": {
+            "sable:mass": 0.25
+        },
+        "bottom_northeast=false,bottom_northwest=false,bottom_southeast=true,bottom_southwest=false,top_northeast=true,top_northwest=false,top_southeast=false,top_southwest=false": {
+            "sable:mass": 0.25
+        },
+        "bottom_northeast=false,bottom_northwest=false,bottom_southeast=true,bottom_southwest=true,top_northeast=false,top_northwest=false,top_southeast=false,top_southwest=false": {
+            "sable:mass": 0.25
+        },
+        "bottom_northeast=false,bottom_northwest=true,bottom_southeast=false,bottom_southwest=false,top_northeast=false,top_northwest=false,top_southeast=false,top_southwest=true": {
+            "sable:mass": 0.25
+        },
+        "bottom_northeast=false,bottom_northwest=true,bottom_southeast=false,bottom_southwest=false,top_northeast=false,top_northwest=false,top_southeast=true,top_southwest=false": {
+            "sable:mass": 0.25
+        },
+        "bottom_northeast=false,bottom_northwest=true,bottom_southeast=false,bottom_southwest=false,top_northeast=false,top_northwest=true,top_southeast=false,top_southwest=false": {
+            "sable:mass": 0.25
+        },
+        "bottom_northeast=false,bottom_northwest=true,bottom_southeast=false,bottom_southwest=false,top_northeast=true,top_northwest=false,top_southeast=false,top_southwest=false": {
+            "sable:mass": 0.25
+        },
+        "bottom_northeast=false,bottom_northwest=true,bottom_southeast=false,bottom_southwest=true,top_northeast=false,top_northwest=false,top_southeast=false,top_southwest=false": {
+            "sable:mass": 0.25
+        },
+        "bottom_northeast=false,bottom_northwest=true,bottom_southeast=true,bottom_southwest=false,top_northeast=false,top_northwest=false,top_southeast=false,top_southwest=false": {
+            "sable:mass": 0.25
+        },
+        "bottom_northeast=true,bottom_northwest=false,bottom_southeast=false,bottom_southwest=false,top_northeast=false,top_northwest=false,top_southeast=false,top_southwest=true": {
+            "sable:mass": 0.25
+        },
+        "bottom_northeast=true,bottom_northwest=false,bottom_southeast=false,bottom_southwest=false,top_northeast=false,top_northwest=false,top_southeast=true,top_southwest=false": {
+            "sable:mass": 0.25
+        },
+        "bottom_northeast=true,bottom_northwest=false,bottom_southeast=false,bottom_southwest=false,top_northeast=false,top_northwest=true,top_southeast=false,top_southwest=false": {
+            "sable:mass": 0.25
+        },
+        "bottom_northeast=true,bottom_northwest=false,bottom_southeast=false,bottom_southwest=false,top_northeast=true,top_northwest=false,top_southeast=false,top_southwest=false": {
+            "sable:mass": 0.25
+        },
+        "bottom_northeast=true,bottom_northwest=false,bottom_southeast=false,bottom_southwest=true,top_northeast=false,top_northwest=false,top_southeast=false,top_southwest=false": {
+            "sable:mass": 0.25
+        },
+        "bottom_northeast=true,bottom_northwest=false,bottom_southeast=true,bottom_southwest=false,top_northeast=false,top_northwest=false,top_southeast=false,top_southwest=false": {
+            "sable:mass": 0.25
+        },
+        "bottom_northeast=true,bottom_northwest=true,bottom_southeast=false,bottom_southwest=false,top_northeast=false,top_northwest=false,top_southeast=false,top_southwest=false": {
+            "sable:mass": 0.25
+        },
+
+        "bottom_northeast=false,bottom_northwest=false,bottom_southeast=false,bottom_southwest=false,top_northeast=false,top_northwest=true,top_southeast=true,top_southwest=true": {
+            "sable:mass": 0.375
+        },
+        "bottom_northeast=false,bottom_northwest=false,bottom_southeast=false,bottom_southwest=false,top_northeast=true,top_northwest=false,top_southeast=true,top_southwest=true": {
+            "sable:mass": 0.375
+        },
+        "bottom_northeast=false,bottom_northwest=false,bottom_southeast=false,bottom_southwest=false,top_northeast=true,top_northwest=true,top_southeast=false,top_southwest=true": {
+            "sable:mass": 0.375
+        },
+        "bottom_northeast=false,bottom_northwest=false,bottom_southeast=false,bottom_southwest=false,top_northeast=true,top_northwest=true,top_southeast=true,top_southwest=false": {
+            "sable:mass": 0.375
+        },
+        "bottom_northeast=false,bottom_northwest=false,bottom_southeast=false,bottom_southwest=true,top_northeast=false,top_northwest=false,top_southeast=true,top_southwest=true": {
+            "sable:mass": 0.375
+        },
+        "bottom_northeast=false,bottom_northwest=false,bottom_southeast=false,bottom_southwest=true,top_northeast=false,top_northwest=true,top_southeast=false,top_southwest=true": {
+            "sable:mass": 0.375
+        },
+        "bottom_northeast=false,bottom_northwest=false,bottom_southeast=false,bottom_southwest=true,top_northeast=false,top_northwest=true,top_southeast=true,top_southwest=false": {
+            "sable:mass": 0.375
+        },
+        "bottom_northeast=false,bottom_northwest=false,bottom_southeast=false,bottom_southwest=true,top_northeast=true,top_northwest=false,top_southeast=false,top_southwest=true": {
+            "sable:mass": 0.375
+        },
+        "bottom_northeast=false,bottom_northwest=false,bottom_southeast=false,bottom_southwest=true,top_northeast=true,top_northwest=false,top_southeast=true,top_southwest=false": {
+            "sable:mass": 0.375
+        },
+        "bottom_northeast=false,bottom_northwest=false,bottom_southeast=false,bottom_southwest=true,top_northeast=true,top_northwest=true,top_southeast=false,top_southwest=false": {
+            "sable:mass": 0.375
+        },
+        "bottom_northeast=false,bottom_northwest=false,bottom_southeast=true,bottom_southwest=false,top_northeast=false,top_northwest=false,top_southeast=true,top_southwest=true": {
+            "sable:mass": 0.375
+        },
+        "bottom_northeast=false,bottom_northwest=false,bottom_southeast=true,bottom_southwest=false,top_northeast=false,top_northwest=true,top_southeast=false,top_southwest=true": {
+            "sable:mass": 0.375
+        },
+        "bottom_northeast=false,bottom_northwest=false,bottom_southeast=true,bottom_southwest=false,top_northeast=false,top_northwest=true,top_southeast=true,top_southwest=false": {
+            "sable:mass": 0.375
+        },
+        "bottom_northeast=false,bottom_northwest=false,bottom_southeast=true,bottom_southwest=false,top_northeast=true,top_northwest=false,top_southeast=false,top_southwest=true": {
+            "sable:mass": 0.375
+        },
+        "bottom_northeast=false,bottom_northwest=false,bottom_southeast=true,bottom_southwest=false,top_northeast=true,top_northwest=false,top_southeast=true,top_southwest=false": {
+            "sable:mass": 0.375
+        },
+        "bottom_northeast=false,bottom_northwest=false,bottom_southeast=true,bottom_southwest=false,top_northeast=true,top_northwest=true,top_southeast=false,top_southwest=false": {
+            "sable:mass": 0.375
+        },
+        "bottom_northeast=false,bottom_northwest=false,bottom_southeast=true,bottom_southwest=true,top_northeast=false,top_northwest=false,top_southeast=false,top_southwest=true": {
+            "sable:mass": 0.375
+        },
+        "bottom_northeast=false,bottom_northwest=false,bottom_southeast=true,bottom_southwest=true,top_northeast=false,top_northwest=false,top_southeast=true,top_southwest=false": {
+            "sable:mass": 0.375
+        },
+        "bottom_northeast=false,bottom_northwest=false,bottom_southeast=true,bottom_southwest=true,top_northeast=false,top_northwest=true,top_southeast=false,top_southwest=false": {
+            "sable:mass": 0.375
+        },
+        "bottom_northeast=false,bottom_northwest=false,bottom_southeast=true,bottom_southwest=true,top_northeast=true,top_northwest=false,top_southeast=false,top_southwest=false": {
+            "sable:mass": 0.375
+        },
+        "bottom_northeast=false,bottom_northwest=true,bottom_southeast=false,bottom_southwest=false,top_northeast=false,top_northwest=false,top_southeast=true,top_southwest=true": {
+            "sable:mass": 0.375
+        },
+        "bottom_northeast=false,bottom_northwest=true,bottom_southeast=false,bottom_southwest=false,top_northeast=false,top_northwest=true,top_southeast=false,top_southwest=true": {
+            "sable:mass": 0.375
+        },
+        "bottom_northeast=false,bottom_northwest=true,bottom_southeast=false,bottom_southwest=false,top_northeast=false,top_northwest=true,top_southeast=true,top_southwest=false": {
+            "sable:mass": 0.375
+        },
+        "bottom_northeast=false,bottom_northwest=true,bottom_southeast=false,bottom_southwest=false,top_northeast=true,top_northwest=false,top_southeast=false,top_southwest=true": {
+            "sable:mass": 0.375
+        },
+        "bottom_northeast=false,bottom_northwest=true,bottom_southeast=false,bottom_southwest=false,top_northeast=true,top_northwest=false,top_southeast=true,top_southwest=false": {
+            "sable:mass": 0.375
+        },
+        "bottom_northeast=false,bottom_northwest=true,bottom_southeast=false,bottom_southwest=false,top_northeast=true,top_northwest=true,top_southeast=false,top_southwest=false": {
+            "sable:mass": 0.375
+        },
+        "bottom_northeast=false,bottom_northwest=true,bottom_southeast=false,bottom_southwest=true,top_northeast=false,top_northwest=false,top_southeast=false,top_southwest=true": {
+            "sable:mass": 0.375
+        },
+        "bottom_northeast=false,bottom_northwest=true,bottom_southeast=false,bottom_southwest=true,top_northeast=false,top_northwest=false,top_southeast=true,top_southwest=false": {
+            "sable:mass": 0.375
+        },
+        "bottom_northeast=false,bottom_northwest=true,bottom_southeast=false,bottom_southwest=true,top_northeast=false,top_northwest=true,top_southeast=false,top_southwest=false": {
+            "sable:mass": 0.375
+        },
+        "bottom_northeast=false,bottom_northwest=true,bottom_southeast=false,bottom_southwest=true,top_northeast=true,top_northwest=false,top_southeast=false,top_southwest=false": {
+            "sable:mass": 0.375
+        },
+        "bottom_northeast=false,bottom_northwest=true,bottom_southeast=true,bottom_southwest=false,top_northeast=false,top_northwest=false,top_southeast=false,top_southwest=true": {
+            "sable:mass": 0.375
+        },
+        "bottom_northeast=false,bottom_northwest=true,bottom_southeast=true,bottom_southwest=false,top_northeast=false,top_northwest=false,top_southeast=true,top_southwest=false": {
+            "sable:mass": 0.375
+        },
+        "bottom_northeast=false,bottom_northwest=true,bottom_southeast=true,bottom_southwest=false,top_northeast=false,top_northwest=true,top_southeast=false,top_southwest=false": {
+            "sable:mass": 0.375
+        },
+        "bottom_northeast=false,bottom_northwest=true,bottom_southeast=true,bottom_southwest=false,top_northeast=true,top_northwest=false,top_southeast=false,top_southwest=false": {
+            "sable:mass": 0.375
+        },
+        "bottom_northeast=false,bottom_northwest=true,bottom_southeast=true,bottom_southwest=true,top_northeast=false,top_northwest=false,top_southeast=false,top_southwest=false": {
+            "sable:mass": 0.375
+        },
+        "bottom_northeast=true,bottom_northwest=false,bottom_southeast=false,bottom_southwest=false,top_northeast=false,top_northwest=false,top_southeast=true,top_southwest=true": {
+            "sable:mass": 0.375
+        },
+        "bottom_northeast=true,bottom_northwest=false,bottom_southeast=false,bottom_southwest=false,top_northeast=false,top_northwest=true,top_southeast=false,top_southwest=true": {
+            "sable:mass": 0.375
+        },
+        "bottom_northeast=true,bottom_northwest=false,bottom_southeast=false,bottom_southwest=false,top_northeast=false,top_northwest=true,top_southeast=true,top_southwest=false": {
+            "sable:mass": 0.375
+        },
+        "bottom_northeast=true,bottom_northwest=false,bottom_southeast=false,bottom_southwest=false,top_northeast=true,top_northwest=false,top_southeast=false,top_southwest=true": {
+            "sable:mass": 0.375
+        },
+        "bottom_northeast=true,bottom_northwest=false,bottom_southeast=false,bottom_southwest=false,top_northeast=true,top_northwest=false,top_southeast=true,top_southwest=false": {
+            "sable:mass": 0.375
+        },
+        "bottom_northeast=true,bottom_northwest=false,bottom_southeast=false,bottom_southwest=false,top_northeast=true,top_northwest=true,top_southeast=false,top_southwest=false": {
+            "sable:mass": 0.375
+        },
+        "bottom_northeast=true,bottom_northwest=false,bottom_southeast=false,bottom_southwest=true,top_northeast=false,top_northwest=false,top_southeast=false,top_southwest=true": {
+            "sable:mass": 0.375
+        },
+        "bottom_northeast=true,bottom_northwest=false,bottom_southeast=false,bottom_southwest=true,top_northeast=false,top_northwest=false,top_southeast=true,top_southwest=false": {
+            "sable:mass": 0.375
+        },
+        "bottom_northeast=true,bottom_northwest=false,bottom_southeast=false,bottom_southwest=true,top_northeast=false,top_northwest=true,top_southeast=false,top_southwest=false": {
+            "sable:mass": 0.375
+        },
+        "bottom_northeast=true,bottom_northwest=false,bottom_southeast=false,bottom_southwest=true,top_northeast=true,top_northwest=false,top_southeast=false,top_southwest=false": {
+            "sable:mass": 0.375
+        },
+        "bottom_northeast=true,bottom_northwest=false,bottom_southeast=true,bottom_southwest=false,top_northeast=false,top_northwest=false,top_southeast=false,top_southwest=true": {
+            "sable:mass": 0.375
+        },
+        "bottom_northeast=true,bottom_northwest=false,bottom_southeast=true,bottom_southwest=false,top_northeast=false,top_northwest=false,top_southeast=true,top_southwest=false": {
+            "sable:mass": 0.375
+        },
+        "bottom_northeast=true,bottom_northwest=false,bottom_southeast=true,bottom_southwest=false,top_northeast=false,top_northwest=true,top_southeast=false,top_southwest=false": {
+            "sable:mass": 0.375
+        },
+        "bottom_northeast=true,bottom_northwest=false,bottom_southeast=true,bottom_southwest=false,top_northeast=true,top_northwest=false,top_southeast=false,top_southwest=false": {
+            "sable:mass": 0.375
+        },
+        "bottom_northeast=true,bottom_northwest=false,bottom_southeast=true,bottom_southwest=true,top_northeast=false,top_northwest=false,top_southeast=false,top_southwest=false": {
+            "sable:mass": 0.375
+        },
+        "bottom_northeast=true,bottom_northwest=true,bottom_southeast=false,bottom_southwest=false,top_northeast=false,top_northwest=false,top_southeast=false,top_southwest=true": {
+            "sable:mass": 0.375
+        },
+        "bottom_northeast=true,bottom_northwest=true,bottom_southeast=false,bottom_southwest=false,top_northeast=false,top_northwest=false,top_southeast=true,top_southwest=false": {
+            "sable:mass": 0.375
+        },
+        "bottom_northeast=true,bottom_northwest=true,bottom_southeast=false,bottom_southwest=false,top_northeast=false,top_northwest=true,top_southeast=false,top_southwest=false": {
+            "sable:mass": 0.375
+        },
+        "bottom_northeast=true,bottom_northwest=true,bottom_southeast=false,bottom_southwest=false,top_northeast=true,top_northwest=false,top_southeast=false,top_southwest=false": {
+            "sable:mass": 0.375
+        },
+        "bottom_northeast=true,bottom_northwest=true,bottom_southeast=false,bottom_southwest=true,top_northeast=false,top_northwest=false,top_southeast=false,top_southwest=false": {
+            "sable:mass": 0.375
+        },
+        "bottom_northeast=true,bottom_northwest=true,bottom_southeast=true,bottom_southwest=false,top_northeast=false,top_northwest=false,top_southeast=false,top_southwest=false": {
+            "sable:mass": 0.375
+        },
+
+        "bottom_northeast=false,bottom_northwest=false,bottom_southeast=false,bottom_southwest=false,top_northeast=true,top_northwest=true,top_southeast=true,top_southwest=true": {
+            "sable:mass": 0.5
+        },
+        "bottom_northeast=false,bottom_northwest=false,bottom_southeast=false,bottom_southwest=true,top_northeast=false,top_northwest=true,top_southeast=true,top_southwest=true": {
+            "sable:mass": 0.5
+        },
+        "bottom_northeast=false,bottom_northwest=false,bottom_southeast=false,bottom_southwest=true,top_northeast=true,top_northwest=false,top_southeast=true,top_southwest=true": {
+            "sable:mass": 0.5
+        },
+        "bottom_northeast=false,bottom_northwest=false,bottom_southeast=false,bottom_southwest=true,top_northeast=true,top_northwest=true,top_southeast=false,top_southwest=true": {
+            "sable:mass": 0.5
+        },
+        "bottom_northeast=false,bottom_northwest=false,bottom_southeast=false,bottom_southwest=true,top_northeast=true,top_northwest=true,top_southeast=true,top_southwest=false": {
+            "sable:mass": 0.5
+        },
+        "bottom_northeast=false,bottom_northwest=false,bottom_southeast=true,bottom_southwest=false,top_northeast=false,top_northwest=true,top_southeast=true,top_southwest=true": {
+            "sable:mass": 0.5
+        },
+        "bottom_northeast=false,bottom_northwest=false,bottom_southeast=true,bottom_southwest=false,top_northeast=true,top_northwest=false,top_southeast=true,top_southwest=true": {
+            "sable:mass": 0.5
+        },
+        "bottom_northeast=false,bottom_northwest=false,bottom_southeast=true,bottom_southwest=false,top_northeast=true,top_northwest=true,top_southeast=false,top_southwest=true": {
+            "sable:mass": 0.5
+        },
+        "bottom_northeast=false,bottom_northwest=false,bottom_southeast=true,bottom_southwest=false,top_northeast=true,top_northwest=true,top_southeast=true,top_southwest=false": {
+            "sable:mass": 0.5
+        },
+        "bottom_northeast=false,bottom_northwest=false,bottom_southeast=true,bottom_southwest=true,top_northeast=false,top_northwest=false,top_southeast=true,top_southwest=true": {
+            "sable:mass": 0.5
+        },
+        "bottom_northeast=false,bottom_northwest=false,bottom_southeast=true,bottom_southwest=true,top_northeast=false,top_northwest=true,top_southeast=false,top_southwest=true": {
+            "sable:mass": 0.5
+        },
+        "bottom_northeast=false,bottom_northwest=false,bottom_southeast=true,bottom_southwest=true,top_northeast=false,top_northwest=true,top_southeast=true,top_southwest=false": {
+            "sable:mass": 0.5
+        },
+        "bottom_northeast=false,bottom_northwest=false,bottom_southeast=true,bottom_southwest=true,top_northeast=true,top_northwest=false,top_southeast=false,top_southwest=true": {
+            "sable:mass": 0.5
+        },
+        "bottom_northeast=false,bottom_northwest=false,bottom_southeast=true,bottom_southwest=true,top_northeast=true,top_northwest=false,top_southeast=true,top_southwest=false": {
+            "sable:mass": 0.5
+        },
+        "bottom_northeast=false,bottom_northwest=false,bottom_southeast=true,bottom_southwest=true,top_northeast=true,top_northwest=true,top_southeast=false,top_southwest=false": {
+            "sable:mass": 0.5
+        },
+        "bottom_northeast=false,bottom_northwest=true,bottom_southeast=false,bottom_southwest=false,top_northeast=false,top_northwest=true,top_southeast=true,top_southwest=true": {
+            "sable:mass": 0.5
+        },
+        "bottom_northeast=false,bottom_northwest=true,bottom_southeast=false,bottom_southwest=false,top_northeast=true,top_northwest=false,top_southeast=true,top_southwest=true": {
+            "sable:mass": 0.5
+        },
+        "bottom_northeast=false,bottom_northwest=true,bottom_southeast=false,bottom_southwest=false,top_northeast=true,top_northwest=true,top_southeast=false,top_southwest=true": {
+            "sable:mass": 0.5
+        },
+        "bottom_northeast=false,bottom_northwest=true,bottom_southeast=false,bottom_southwest=false,top_northeast=true,top_northwest=true,top_southeast=true,top_southwest=false": {
+            "sable:mass": 0.5
+        },
+        "bottom_northeast=false,bottom_northwest=true,bottom_southeast=false,bottom_southwest=true,top_northeast=false,top_northwest=false,top_southeast=true,top_southwest=true": {
+            "sable:mass": 0.5
+        },
+        "bottom_northeast=false,bottom_northwest=true,bottom_southeast=false,bottom_southwest=true,top_northeast=false,top_northwest=true,top_southeast=false,top_southwest=true": {
+            "sable:mass": 0.5
+        },
+        "bottom_northeast=false,bottom_northwest=true,bottom_southeast=false,bottom_southwest=true,top_northeast=false,top_northwest=true,top_southeast=true,top_southwest=false": {
+            "sable:mass": 0.5
+        },
+        "bottom_northeast=false,bottom_northwest=true,bottom_southeast=false,bottom_southwest=true,top_northeast=true,top_northwest=false,top_southeast=false,top_southwest=true": {
+            "sable:mass": 0.5
+        },
+        "bottom_northeast=false,bottom_northwest=true,bottom_southeast=false,bottom_southwest=true,top_northeast=true,top_northwest=false,top_southeast=true,top_southwest=false": {
+            "sable:mass": 0.5
+        },
+        "bottom_northeast=false,bottom_northwest=true,bottom_southeast=false,bottom_southwest=true,top_northeast=true,top_northwest=true,top_southeast=false,top_southwest=false": {
+            "sable:mass": 0.5
+        },
+        "bottom_northeast=false,bottom_northwest=true,bottom_southeast=true,bottom_southwest=false,top_northeast=false,top_northwest=false,top_southeast=true,top_southwest=true": {
+            "sable:mass": 0.5
+        },
+        "bottom_northeast=false,bottom_northwest=true,bottom_southeast=true,bottom_southwest=false,top_northeast=false,top_northwest=true,top_southeast=false,top_southwest=true": {
+            "sable:mass": 0.5
+        },
+        "bottom_northeast=false,bottom_northwest=true,bottom_southeast=true,bottom_southwest=false,top_northeast=false,top_northwest=true,top_southeast=true,top_southwest=false": {
+            "sable:mass": 0.5
+        },
+        "bottom_northeast=false,bottom_northwest=true,bottom_southeast=true,bottom_southwest=false,top_northeast=true,top_northwest=false,top_southeast=false,top_southwest=true": {
+            "sable:mass": 0.5
+        },
+        "bottom_northeast=false,bottom_northwest=true,bottom_southeast=true,bottom_southwest=false,top_northeast=true,top_northwest=false,top_southeast=true,top_southwest=false": {
+            "sable:mass": 0.5
+        },
+        "bottom_northeast=false,bottom_northwest=true,bottom_southeast=true,bottom_southwest=false,top_northeast=true,top_northwest=true,top_southeast=false,top_southwest=false": {
+            "sable:mass": 0.5
+        },
+        "bottom_northeast=false,bottom_northwest=true,bottom_southeast=true,bottom_southwest=true,top_northeast=false,top_northwest=false,top_southeast=false,top_southwest=true": {
+            "sable:mass": 0.5
+        },
+        "bottom_northeast=false,bottom_northwest=true,bottom_southeast=true,bottom_southwest=true,top_northeast=false,top_northwest=false,top_southeast=true,top_southwest=false": {
+            "sable:mass": 0.5
+        },
+        "bottom_northeast=false,bottom_northwest=true,bottom_southeast=true,bottom_southwest=true,top_northeast=false,top_northwest=true,top_southeast=false,top_southwest=false": {
+            "sable:mass": 0.5
+        },
+        "bottom_northeast=false,bottom_northwest=true,bottom_southeast=true,bottom_southwest=true,top_northeast=true,top_northwest=false,top_southeast=false,top_southwest=false": {
+            "sable:mass": 0.5
+        },
+        "bottom_northeast=true,bottom_northwest=false,bottom_southeast=false,bottom_southwest=false,top_northeast=false,top_northwest=true,top_southeast=true,top_southwest=true": {
+            "sable:mass": 0.5
+        },
+        "bottom_northeast=true,bottom_northwest=false,bottom_southeast=false,bottom_southwest=false,top_northeast=true,top_northwest=false,top_southeast=true,top_southwest=true": {
+            "sable:mass": 0.5
+        },
+        "bottom_northeast=true,bottom_northwest=false,bottom_southeast=false,bottom_southwest=false,top_northeast=true,top_northwest=true,top_southeast=false,top_southwest=true": {
+            "sable:mass": 0.5
+        },
+        "bottom_northeast=true,bottom_northwest=false,bottom_southeast=false,bottom_southwest=false,top_northeast=true,top_northwest=true,top_southeast=true,top_southwest=false": {
+            "sable:mass": 0.5
+        },
+        "bottom_northeast=true,bottom_northwest=false,bottom_southeast=false,bottom_southwest=true,top_northeast=false,top_northwest=false,top_southeast=true,top_southwest=true": {
+            "sable:mass": 0.5
+        },
+        "bottom_northeast=true,bottom_northwest=false,bottom_southeast=false,bottom_southwest=true,top_northeast=false,top_northwest=true,top_southeast=false,top_southwest=true": {
+            "sable:mass": 0.5
+        },
+        "bottom_northeast=true,bottom_northwest=false,bottom_southeast=false,bottom_southwest=true,top_northeast=false,top_northwest=true,top_southeast=true,top_southwest=false": {
+            "sable:mass": 0.5
+        },
+        "bottom_northeast=true,bottom_northwest=false,bottom_southeast=false,bottom_southwest=true,top_northeast=true,top_northwest=false,top_southeast=false,top_southwest=true": {
+            "sable:mass": 0.5
+        },
+        "bottom_northeast=true,bottom_northwest=false,bottom_southeast=false,bottom_southwest=true,top_northeast=true,top_northwest=false,top_southeast=true,top_southwest=false": {
+            "sable:mass": 0.5
+        },
+        "bottom_northeast=true,bottom_northwest=false,bottom_southeast=false,bottom_southwest=true,top_northeast=true,top_northwest=true,top_southeast=false,top_southwest=false": {
+            "sable:mass": 0.5
+        },
+        "bottom_northeast=true,bottom_northwest=false,bottom_southeast=true,bottom_southwest=false,top_northeast=false,top_northwest=false,top_southeast=true,top_southwest=true": {
+            "sable:mass": 0.5
+        },
+        "bottom_northeast=true,bottom_northwest=false,bottom_southeast=true,bottom_southwest=false,top_northeast=false,top_northwest=true,top_southeast=false,top_southwest=true": {
+            "sable:mass": 0.5
+        },
+        "bottom_northeast=true,bottom_northwest=false,bottom_southeast=true,bottom_southwest=false,top_northeast=false,top_northwest=true,top_southeast=true,top_southwest=false": {
+            "sable:mass": 0.5
+        },
+        "bottom_northeast=true,bottom_northwest=false,bottom_southeast=true,bottom_southwest=false,top_northeast=true,top_northwest=false,top_southeast=false,top_southwest=true": {
+            "sable:mass": 0.5
+        },
+        "bottom_northeast=true,bottom_northwest=false,bottom_southeast=true,bottom_southwest=false,top_northeast=true,top_northwest=false,top_southeast=true,top_southwest=false": {
+            "sable:mass": 0.5
+        },
+        "bottom_northeast=true,bottom_northwest=false,bottom_southeast=true,bottom_southwest=false,top_northeast=true,top_northwest=true,top_southeast=false,top_southwest=false": {
+            "sable:mass": 0.5
+        },
+        "bottom_northeast=true,bottom_northwest=false,bottom_southeast=true,bottom_southwest=true,top_northeast=false,top_northwest=false,top_southeast=false,top_southwest=true": {
+            "sable:mass": 0.5
+        },
+        "bottom_northeast=true,bottom_northwest=false,bottom_southeast=true,bottom_southwest=true,top_northeast=false,top_northwest=false,top_southeast=true,top_southwest=false": {
+            "sable:mass": 0.5
+        },
+        "bottom_northeast=true,bottom_northwest=false,bottom_southeast=true,bottom_southwest=true,top_northeast=false,top_northwest=true,top_southeast=false,top_southwest=false": {
+            "sable:mass": 0.5
+        },
+        "bottom_northeast=true,bottom_northwest=false,bottom_southeast=true,bottom_southwest=true,top_northeast=true,top_northwest=false,top_southeast=false,top_southwest=false": {
+            "sable:mass": 0.5
+        },
+        "bottom_northeast=true,bottom_northwest=true,bottom_southeast=false,bottom_southwest=false,top_northeast=false,top_northwest=false,top_southeast=true,top_southwest=true": {
+            "sable:mass": 0.5
+        },
+        "bottom_northeast=true,bottom_northwest=true,bottom_southeast=false,bottom_southwest=false,top_northeast=false,top_northwest=true,top_southeast=false,top_southwest=true": {
+            "sable:mass": 0.5
+        },
+        "bottom_northeast=true,bottom_northwest=true,bottom_southeast=false,bottom_southwest=false,top_northeast=false,top_northwest=true,top_southeast=true,top_southwest=false": {
+            "sable:mass": 0.5
+        },
+        "bottom_northeast=true,bottom_northwest=true,bottom_southeast=false,bottom_southwest=false,top_northeast=true,top_northwest=false,top_southeast=false,top_southwest=true": {
+            "sable:mass": 0.5
+        },
+        "bottom_northeast=true,bottom_northwest=true,bottom_southeast=false,bottom_southwest=false,top_northeast=true,top_northwest=false,top_southeast=true,top_southwest=false": {
+            "sable:mass": 0.5
+        },
+        "bottom_northeast=true,bottom_northwest=true,bottom_southeast=false,bottom_southwest=false,top_northeast=true,top_northwest=true,top_southeast=false,top_southwest=false": {
+            "sable:mass": 0.5
+        },
+        "bottom_northeast=true,bottom_northwest=true,bottom_southeast=false,bottom_southwest=true,top_northeast=false,top_northwest=false,top_southeast=false,top_southwest=true": {
+            "sable:mass": 0.5
+        },
+        "bottom_northeast=true,bottom_northwest=true,bottom_southeast=false,bottom_southwest=true,top_northeast=false,top_northwest=false,top_southeast=true,top_southwest=false": {
+            "sable:mass": 0.5
+        },
+        "bottom_northeast=true,bottom_northwest=true,bottom_southeast=false,bottom_southwest=true,top_northeast=false,top_northwest=true,top_southeast=false,top_southwest=false": {
+            "sable:mass": 0.5
+        },
+        "bottom_northeast=true,bottom_northwest=true,bottom_southeast=false,bottom_southwest=true,top_northeast=true,top_northwest=false,top_southeast=false,top_southwest=false": {
+            "sable:mass": 0.5
+        },
+        "bottom_northeast=true,bottom_northwest=true,bottom_southeast=true,bottom_southwest=false,top_northeast=false,top_northwest=false,top_southeast=false,top_southwest=true": {
+            "sable:mass": 0.5
+        },
+        "bottom_northeast=true,bottom_northwest=true,bottom_southeast=true,bottom_southwest=false,top_northeast=false,top_northwest=false,top_southeast=true,top_southwest=false": {
+            "sable:mass": 0.5
+        },
+        "bottom_northeast=true,bottom_northwest=true,bottom_southeast=true,bottom_southwest=false,top_northeast=false,top_northwest=true,top_southeast=false,top_southwest=false": {
+            "sable:mass": 0.5
+        },
+        "bottom_northeast=true,bottom_northwest=true,bottom_southeast=true,bottom_southwest=false,top_northeast=true,top_northwest=false,top_southeast=false,top_southwest=false": {
+            "sable:mass": 0.5
+        },
+        "bottom_northeast=true,bottom_northwest=true,bottom_southeast=true,bottom_southwest=true,top_northeast=false,top_northwest=false,top_southeast=false,top_southwest=false": {
+            "sable:mass": 0.5
+        },
+
+        "bottom_northeast=true,bottom_northwest=true,bottom_southeast=true,bottom_southwest=true,top_northeast=true,top_northwest=false,top_southeast=false,top_southwest=false": {
+            "sable:mass": 0.625
+        },
+        "bottom_northeast=true,bottom_northwest=true,bottom_southeast=true,bottom_southwest=true,top_northeast=false,top_northwest=true,top_southeast=false,top_southwest=false": {
+            "sable:mass": 0.625
+        },
+        "bottom_northeast=true,bottom_northwest=true,bottom_southeast=true,bottom_southwest=true,top_northeast=false,top_northwest=false,top_southeast=true,top_southwest=false": {
+            "sable:mass": 0.625
+        },
+        "bottom_northeast=true,bottom_northwest=true,bottom_southeast=true,bottom_southwest=true,top_northeast=false,top_northwest=false,top_southeast=false,top_southwest=true": {
+            "sable:mass": 0.625
+        },
+        "bottom_northeast=true,bottom_northwest=true,bottom_southeast=true,bottom_southwest=false,top_northeast=true,top_northwest=true,top_southeast=false,top_southwest=false": {
+            "sable:mass": 0.625
+        },
+        "bottom_northeast=true,bottom_northwest=true,bottom_southeast=true,bottom_southwest=false,top_northeast=true,top_northwest=false,top_southeast=true,top_southwest=false": {
+            "sable:mass": 0.625
+        },
+        "bottom_northeast=true,bottom_northwest=true,bottom_southeast=true,bottom_southwest=false,top_northeast=true,top_northwest=false,top_southeast=false,top_southwest=true": {
+            "sable:mass": 0.625
+        },
+        "bottom_northeast=true,bottom_northwest=true,bottom_southeast=true,bottom_southwest=false,top_northeast=false,top_northwest=true,top_southeast=true,top_southwest=false": {
+            "sable:mass": 0.625
+        },
+        "bottom_northeast=true,bottom_northwest=true,bottom_southeast=true,bottom_southwest=false,top_northeast=false,top_northwest=true,top_southeast=false,top_southwest=true": {
+            "sable:mass": 0.625
+        },
+        "bottom_northeast=true,bottom_northwest=true,bottom_southeast=true,bottom_southwest=false,top_northeast=false,top_northwest=false,top_southeast=true,top_southwest=true": {
+            "sable:mass": 0.625
+        },
+        "bottom_northeast=true,bottom_northwest=true,bottom_southeast=false,bottom_southwest=true,top_northeast=true,top_northwest=true,top_southeast=false,top_southwest=false": {
+            "sable:mass": 0.625
+        },
+        "bottom_northeast=true,bottom_northwest=true,bottom_southeast=false,bottom_southwest=true,top_northeast=true,top_northwest=false,top_southeast=true,top_southwest=false": {
+            "sable:mass": 0.625
+        },
+        "bottom_northeast=true,bottom_northwest=true,bottom_southeast=false,bottom_southwest=true,top_northeast=true,top_northwest=false,top_southeast=false,top_southwest=true": {
+            "sable:mass": 0.625
+        },
+        "bottom_northeast=true,bottom_northwest=true,bottom_southeast=false,bottom_southwest=true,top_northeast=false,top_northwest=true,top_southeast=true,top_southwest=false": {
+            "sable:mass": 0.625
+        },
+        "bottom_northeast=true,bottom_northwest=true,bottom_southeast=false,bottom_southwest=true,top_northeast=false,top_northwest=true,top_southeast=false,top_southwest=true": {
+            "sable:mass": 0.625
+        },
+        "bottom_northeast=true,bottom_northwest=true,bottom_southeast=false,bottom_southwest=true,top_northeast=false,top_northwest=false,top_southeast=true,top_southwest=true": {
+            "sable:mass": 0.625
+        },
+        "bottom_northeast=true,bottom_northwest=true,bottom_southeast=false,bottom_southwest=false,top_northeast=true,top_northwest=true,top_southeast=true,top_southwest=false": {
+            "sable:mass": 0.625
+        },
+        "bottom_northeast=true,bottom_northwest=true,bottom_southeast=false,bottom_southwest=false,top_northeast=true,top_northwest=true,top_southeast=false,top_southwest=true": {
+            "sable:mass": 0.625
+        },
+        "bottom_northeast=true,bottom_northwest=true,bottom_southeast=false,bottom_southwest=false,top_northeast=true,top_northwest=false,top_southeast=true,top_southwest=true": {
+            "sable:mass": 0.625
+        },
+        "bottom_northeast=true,bottom_northwest=true,bottom_southeast=false,bottom_southwest=false,top_northeast=false,top_northwest=true,top_southeast=true,top_southwest=true": {
+            "sable:mass": 0.625
+        },
+        "bottom_northeast=true,bottom_northwest=false,bottom_southeast=true,bottom_southwest=true,top_northeast=true,top_northwest=true,top_southeast=false,top_southwest=false": {
+            "sable:mass": 0.625
+        },
+        "bottom_northeast=true,bottom_northwest=false,bottom_southeast=true,bottom_southwest=true,top_northeast=true,top_northwest=false,top_southeast=true,top_southwest=false": {
+            "sable:mass": 0.625
+        },
+        "bottom_northeast=true,bottom_northwest=false,bottom_southeast=true,bottom_southwest=true,top_northeast=true,top_northwest=false,top_southeast=false,top_southwest=true": {
+            "sable:mass": 0.625
+        },
+        "bottom_northeast=true,bottom_northwest=false,bottom_southeast=true,bottom_southwest=true,top_northeast=false,top_northwest=true,top_southeast=true,top_southwest=false": {
+            "sable:mass": 0.625
+        },
+        "bottom_northeast=true,bottom_northwest=false,bottom_southeast=true,bottom_southwest=true,top_northeast=false,top_northwest=true,top_southeast=false,top_southwest=true": {
+            "sable:mass": 0.625
+        },
+        "bottom_northeast=true,bottom_northwest=false,bottom_southeast=true,bottom_southwest=true,top_northeast=false,top_northwest=false,top_southeast=true,top_southwest=true": {
+            "sable:mass": 0.625
+        },
+        "bottom_northeast=true,bottom_northwest=false,bottom_southeast=true,bottom_southwest=false,top_northeast=true,top_northwest=true,top_southeast=true,top_southwest=false": {
+            "sable:mass": 0.625
+        },
+        "bottom_northeast=true,bottom_northwest=false,bottom_southeast=true,bottom_southwest=false,top_northeast=true,top_northwest=true,top_southeast=false,top_southwest=true": {
+            "sable:mass": 0.625
+        },
+        "bottom_northeast=true,bottom_northwest=false,bottom_southeast=true,bottom_southwest=false,top_northeast=true,top_northwest=false,top_southeast=true,top_southwest=true": {
+            "sable:mass": 0.625
+        },
+        "bottom_northeast=true,bottom_northwest=false,bottom_southeast=true,bottom_southwest=false,top_northeast=false,top_northwest=true,top_southeast=true,top_southwest=true": {
+            "sable:mass": 0.625
+        },
+        "bottom_northeast=true,bottom_northwest=false,bottom_southeast=false,bottom_southwest=true,top_northeast=true,top_northwest=true,top_southeast=true,top_southwest=false": {
+            "sable:mass": 0.625
+        },
+        "bottom_northeast=true,bottom_northwest=false,bottom_southeast=false,bottom_southwest=true,top_northeast=true,top_northwest=true,top_southeast=false,top_southwest=true": {
+            "sable:mass": 0.625
+        },
+        "bottom_northeast=true,bottom_northwest=false,bottom_southeast=false,bottom_southwest=true,top_northeast=true,top_northwest=false,top_southeast=true,top_southwest=true": {
+            "sable:mass": 0.625
+        },
+        "bottom_northeast=true,bottom_northwest=false,bottom_southeast=false,bottom_southwest=true,top_northeast=false,top_northwest=true,top_southeast=true,top_southwest=true": {
+            "sable:mass": 0.625
+        },
+        "bottom_northeast=true,bottom_northwest=false,bottom_southeast=false,bottom_southwest=false,top_northeast=true,top_northwest=true,top_southeast=true,top_southwest=true": {
+            "sable:mass": 0.625
+        },
+        "bottom_northeast=false,bottom_northwest=true,bottom_southeast=true,bottom_southwest=true,top_northeast=true,top_northwest=true,top_southeast=false,top_southwest=false": {
+            "sable:mass": 0.625
+        },
+        "bottom_northeast=false,bottom_northwest=true,bottom_southeast=true,bottom_southwest=true,top_northeast=true,top_northwest=false,top_southeast=true,top_southwest=false": {
+            "sable:mass": 0.625
+        },
+        "bottom_northeast=false,bottom_northwest=true,bottom_southeast=true,bottom_southwest=true,top_northeast=true,top_northwest=false,top_southeast=false,top_southwest=true": {
+            "sable:mass": 0.625
+        },
+        "bottom_northeast=false,bottom_northwest=true,bottom_southeast=true,bottom_southwest=true,top_northeast=false,top_northwest=true,top_southeast=true,top_southwest=false": {
+            "sable:mass": 0.625
+        },
+        "bottom_northeast=false,bottom_northwest=true,bottom_southeast=true,bottom_southwest=true,top_northeast=false,top_northwest=true,top_southeast=false,top_southwest=true": {
+            "sable:mass": 0.625
+        },
+        "bottom_northeast=false,bottom_northwest=true,bottom_southeast=true,bottom_southwest=true,top_northeast=false,top_northwest=false,top_southeast=true,top_southwest=true": {
+            "sable:mass": 0.625
+        },
+        "bottom_northeast=false,bottom_northwest=true,bottom_southeast=true,bottom_southwest=false,top_northeast=true,top_northwest=true,top_southeast=true,top_southwest=false": {
+            "sable:mass": 0.625
+        },
+        "bottom_northeast=false,bottom_northwest=true,bottom_southeast=true,bottom_southwest=false,top_northeast=true,top_northwest=true,top_southeast=false,top_southwest=true": {
+            "sable:mass": 0.625
+        },
+        "bottom_northeast=false,bottom_northwest=true,bottom_southeast=true,bottom_southwest=false,top_northeast=true,top_northwest=false,top_southeast=true,top_southwest=true": {
+            "sable:mass": 0.625
+        },
+        "bottom_northeast=false,bottom_northwest=true,bottom_southeast=true,bottom_southwest=false,top_northeast=false,top_northwest=true,top_southeast=true,top_southwest=true": {
+            "sable:mass": 0.625
+        },
+        "bottom_northeast=false,bottom_northwest=true,bottom_southeast=false,bottom_southwest=true,top_northeast=true,top_northwest=true,top_southeast=true,top_southwest=false": {
+            "sable:mass": 0.625
+        },
+        "bottom_northeast=false,bottom_northwest=true,bottom_southeast=false,bottom_southwest=true,top_northeast=true,top_northwest=true,top_southeast=false,top_southwest=true": {
+            "sable:mass": 0.625
+        },
+        "bottom_northeast=false,bottom_northwest=true,bottom_southeast=false,bottom_southwest=true,top_northeast=true,top_northwest=false,top_southeast=true,top_southwest=true": {
+            "sable:mass": 0.625
+        },
+        "bottom_northeast=false,bottom_northwest=true,bottom_southeast=false,bottom_southwest=true,top_northeast=false,top_northwest=true,top_southeast=true,top_southwest=true": {
+            "sable:mass": 0.625
+        },
+        "bottom_northeast=false,bottom_northwest=true,bottom_southeast=false,bottom_southwest=false,top_northeast=true,top_northwest=true,top_southeast=true,top_southwest=true": {
+            "sable:mass": 0.625
+        },
+        "bottom_northeast=false,bottom_northwest=false,bottom_southeast=true,bottom_southwest=true,top_northeast=true,top_northwest=true,top_southeast=true,top_southwest=false": {
+            "sable:mass": 0.625
+        },
+        "bottom_northeast=false,bottom_northwest=false,bottom_southeast=true,bottom_southwest=true,top_northeast=true,top_northwest=true,top_southeast=false,top_southwest=true": {
+            "sable:mass": 0.625
+        },
+        "bottom_northeast=false,bottom_northwest=false,bottom_southeast=true,bottom_southwest=true,top_northeast=true,top_northwest=false,top_southeast=true,top_southwest=true": {
+            "sable:mass": 0.625
+        },
+        "bottom_northeast=false,bottom_northwest=false,bottom_southeast=true,bottom_southwest=true,top_northeast=false,top_northwest=true,top_southeast=true,top_southwest=true": {
+            "sable:mass": 0.625
+        },
+        "bottom_northeast=false,bottom_northwest=false,bottom_southeast=true,bottom_southwest=false,top_northeast=true,top_northwest=true,top_southeast=true,top_southwest=true": {
+            "sable:mass": 0.625
+        },
+        "bottom_northeast=false,bottom_northwest=false,bottom_southeast=false,bottom_southwest=true,top_northeast=true,top_northwest=true,top_southeast=true,top_southwest=true": {
+            "sable:mass": 0.625
+        },
+
+        "bottom_northeast=true,bottom_northwest=true,bottom_southeast=true,bottom_southwest=true,top_northeast=true,top_northwest=true,top_southeast=false,top_southwest=false": {
+            "sable:mass": 0.75
+        },
+        "bottom_northeast=true,bottom_northwest=true,bottom_southeast=true,bottom_southwest=true,top_northeast=true,top_northwest=false,top_southeast=true,top_southwest=false": {
+            "sable:mass": 0.75
+        },
+        "bottom_northeast=true,bottom_northwest=true,bottom_southeast=true,bottom_southwest=true,top_northeast=true,top_northwest=false,top_southeast=false,top_southwest=true": {
+            "sable:mass": 0.75
+        },
+        "bottom_northeast=true,bottom_northwest=true,bottom_southeast=true,bottom_southwest=true,top_northeast=false,top_northwest=true,top_southeast=true,top_southwest=false": {
+            "sable:mass": 0.75
+        },
+        "bottom_northeast=true,bottom_northwest=true,bottom_southeast=true,bottom_southwest=true,top_northeast=false,top_northwest=true,top_southeast=false,top_southwest=true": {
+            "sable:mass": 0.75
+        },
+        "bottom_northeast=true,bottom_northwest=true,bottom_southeast=true,bottom_southwest=true,top_northeast=false,top_northwest=false,top_southeast=true,top_southwest=true": {
+            "sable:mass": 0.75
+        },
+        "bottom_northeast=true,bottom_northwest=true,bottom_southeast=true,bottom_southwest=false,top_northeast=true,top_northwest=true,top_southeast=true,top_southwest=false": {
+            "sable:mass": 0.75
+        },
+        "bottom_northeast=true,bottom_northwest=true,bottom_southeast=true,bottom_southwest=false,top_northeast=true,top_northwest=true,top_southeast=false,top_southwest=true": {
+            "sable:mass": 0.75
+        },
+        "bottom_northeast=true,bottom_northwest=true,bottom_southeast=true,bottom_southwest=false,top_northeast=true,top_northwest=false,top_southeast=true,top_southwest=true": {
+            "sable:mass": 0.75
+        },
+        "bottom_northeast=true,bottom_northwest=true,bottom_southeast=true,bottom_southwest=false,top_northeast=false,top_northwest=true,top_southeast=true,top_southwest=true": {
+            "sable:mass": 0.75
+        },
+        "bottom_northeast=true,bottom_northwest=true,bottom_southeast=false,bottom_southwest=true,top_northeast=true,top_northwest=true,top_southeast=true,top_southwest=false": {
+            "sable:mass": 0.75
+        },
+        "bottom_northeast=true,bottom_northwest=true,bottom_southeast=false,bottom_southwest=true,top_northeast=true,top_northwest=true,top_southeast=false,top_southwest=true": {
+            "sable:mass": 0.75
+        },
+        "bottom_northeast=true,bottom_northwest=true,bottom_southeast=false,bottom_southwest=true,top_northeast=true,top_northwest=false,top_southeast=true,top_southwest=true": {
+            "sable:mass": 0.75
+        },
+        "bottom_northeast=true,bottom_northwest=true,bottom_southeast=false,bottom_southwest=true,top_northeast=false,top_northwest=true,top_southeast=true,top_southwest=true": {
+            "sable:mass": 0.75
+        },
+        "bottom_northeast=true,bottom_northwest=true,bottom_southeast=false,bottom_southwest=false,top_northeast=true,top_northwest=true,top_southeast=true,top_southwest=true": {
+            "sable:mass": 0.75
+        },
+        "bottom_northeast=true,bottom_northwest=false,bottom_southeast=true,bottom_southwest=true,top_northeast=true,top_northwest=true,top_southeast=true,top_southwest=false": {
+            "sable:mass": 0.75
+        },
+        "bottom_northeast=true,bottom_northwest=false,bottom_southeast=true,bottom_southwest=true,top_northeast=true,top_northwest=true,top_southeast=false,top_southwest=true": {
+            "sable:mass": 0.75
+        },
+        "bottom_northeast=true,bottom_northwest=false,bottom_southeast=true,bottom_southwest=true,top_northeast=true,top_northwest=false,top_southeast=true,top_southwest=true": {
+            "sable:mass": 0.75
+        },
+        "bottom_northeast=true,bottom_northwest=false,bottom_southeast=true,bottom_southwest=true,top_northeast=false,top_northwest=true,top_southeast=true,top_southwest=true": {
+            "sable:mass": 0.75
+        },
+        "bottom_northeast=true,bottom_northwest=false,bottom_southeast=true,bottom_southwest=false,top_northeast=true,top_northwest=true,top_southeast=true,top_southwest=true": {
+            "sable:mass": 0.75
+        },
+        "bottom_northeast=true,bottom_northwest=false,bottom_southeast=false,bottom_southwest=true,top_northeast=true,top_northwest=true,top_southeast=true,top_southwest=true": {
+            "sable:mass": 0.75
+        },
+        "bottom_northeast=false,bottom_northwest=true,bottom_southeast=true,bottom_southwest=true,top_northeast=true,top_northwest=true,top_southeast=true,top_southwest=false": {
+            "sable:mass": 0.75
+        },
+        "bottom_northeast=false,bottom_northwest=true,bottom_southeast=true,bottom_southwest=true,top_northeast=true,top_northwest=true,top_southeast=false,top_southwest=true": {
+            "sable:mass": 0.75
+        },
+        "bottom_northeast=false,bottom_northwest=true,bottom_southeast=true,bottom_southwest=true,top_northeast=true,top_northwest=false,top_southeast=true,top_southwest=true": {
+            "sable:mass": 0.75
+        },
+        "bottom_northeast=false,bottom_northwest=true,bottom_southeast=true,bottom_southwest=true,top_northeast=false,top_northwest=true,top_southeast=true,top_southwest=true": {
+            "sable:mass": 0.75
+        },
+        "bottom_northeast=false,bottom_northwest=true,bottom_southeast=true,bottom_southwest=false,top_northeast=true,top_northwest=true,top_southeast=true,top_southwest=true": {
+            "sable:mass": 0.75
+        },
+        "bottom_northeast=false,bottom_northwest=true,bottom_southeast=false,bottom_southwest=true,top_northeast=true,top_northwest=true,top_southeast=true,top_southwest=true": {
+            "sable:mass": 0.75
+        },
+        "bottom_northeast=false,bottom_northwest=false,bottom_southeast=true,bottom_southwest=true,top_northeast=true,top_northwest=true,top_southeast=true,top_southwest=true": {
+            "sable:mass": 0.75
+        },
+
+        "bottom_northeast=false,bottom_northwest=true,bottom_southeast=true,bottom_southwest=true,top_northeast=true,top_northwest=true,top_southeast=true,top_southwest=true": {
+            "sable:mass": 0.875
+        },
+        "bottom_northeast=true,bottom_northwest=false,bottom_southeast=true,bottom_southwest=true,top_northeast=true,top_northwest=true,top_southeast=true,top_southwest=true": {
+            "sable:mass": 0.875
+        },
+        "bottom_northeast=true,bottom_northwest=true,bottom_southeast=false,bottom_southwest=true,top_northeast=true,top_northwest=true,top_southeast=true,top_southwest=true": {
+            "sable:mass": 0.875
+        },
+        "bottom_northeast=true,bottom_northwest=true,bottom_southeast=true,bottom_southwest=false,top_northeast=true,top_northwest=true,top_southeast=true,top_southwest=true": {
+            "sable:mass": 0.875
+        },
+        "bottom_northeast=true,bottom_northwest=true,bottom_southeast=true,bottom_southwest=true,top_northeast=false,top_northwest=true,top_southeast=true,top_southwest=true": {
+            "sable:mass": 0.875
+        },
+        "bottom_northeast=true,bottom_northwest=true,bottom_southeast=true,bottom_southwest=true,top_northeast=true,top_northwest=false,top_southeast=true,top_southwest=true": {
+            "sable:mass": 0.875
+        },
+        "bottom_northeast=true,bottom_northwest=true,bottom_southeast=true,bottom_southwest=true,top_northeast=true,top_northwest=true,top_southeast=false,top_southwest=true": {
+            "sable:mass": 0.875
+        },
+        "bottom_northeast=true,bottom_northwest=true,bottom_southeast=true,bottom_southwest=true,top_northeast=true,top_northwest=true,top_southeast=true,top_southwest=false": {
+            "sable:mass": 0.875
+        },
+
+        "bottom_northeast=true,bottom_northwest=true,bottom_southeast=true,bottom_southwest=true,top_northeast=true,top_northwest=true,top_southeast=true,top_southwest=true": {
+            "sable:mass": 1.0
+        }
+    }
+}

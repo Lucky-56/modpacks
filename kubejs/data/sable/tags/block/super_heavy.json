@@ -1,0 +1,9 @@
+{
+  "values": [
+    "minecraft:barrier"
+  ],
+  "remove": [
+    "autumnity:snail_goo_block",
+    "minecraft:barrier"
+  ]
+}

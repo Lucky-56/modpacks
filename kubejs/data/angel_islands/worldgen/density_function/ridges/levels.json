@@ -1,0 +1,152 @@
+{
+  "type": "minecraft:spline",
+  "spline": {
+    "coordinate": "angel_islands:y",
+    "points": [
+      {
+        "location": 328,
+        "derivative": 0,
+        "value": 0
+      },
+      {
+        "location": 328,
+        "derivative": 0,
+        "value": {
+          "coordinate": "angel_islands:islands/layer1/noise",
+          "points": [
+            {
+              "location": 0.075,
+              "derivative": 0,
+              "value": 0
+            },
+            {
+              "location": 0.075,
+              "derivative": 0,
+              "value": 1
+            }
+          ]
+        }
+      },
+      {
+        "location": 344,
+        "derivative": 0,
+        "value": {
+          "coordinate": "angel_islands:islands/layer1/noise",
+          "points": [
+            {
+              "location": 0.075,
+              "derivative": 0,
+              "value": 0
+            },
+            {
+              "location": 0.075,
+              "derivative": 0,
+              "value": 1
+            }
+          ]
+        }
+      },
+      {
+        "location": 344,
+        "derivative": 0,
+        "value": 0
+      },
+      {
+        "location": 376,
+        "derivative": 0,
+        "value": 0
+      },
+      {
+        "location": 376,
+        "derivative": 0,
+        "value": {
+          "coordinate": "angel_islands:islands/layer2/noise",
+          "points": [
+            {
+              "location": 0.075,
+              "derivative": 0,
+              "value": 0
+            },
+            {
+              "location": 0.075,
+              "derivative": 0,
+              "value": 1
+            }
+          ]
+        }
+      },
+      {
+        "location": 392,
+        "derivative": 0,
+        "value": {
+          "coordinate": "angel_islands:islands/layer2/noise",
+          "points": [
+            {
+              "location": 0.075,
+              "derivative": 0,
+              "value": 0
+            },
+            {
+              "location": 0.075,
+              "derivative": 0,
+              "value": 1
+            }
+          ]
+        }
+      },
+      {
+        "location": 392,
+        "derivative": 0,
+        "value": 0
+      },
+      {
+        "location": 424,
+        "derivative": 0,
+        "value": 0
+      },
+      {
+        "location": 424,
+        "derivative": 0,
+        "value": {
+          "coordinate": "angel_islands:islands/layer3/noise",
+          "points": [
+            {
+              "location": 0.075,
+              "derivative": 0,
+              "value": 0
+            },
+            {
+              "location": 0.075,
+              "derivative": 0,
+              "value": 1
+            }
+          ]
+        }
+      },
+      {
+        "location": 440,
+        "derivative": 0,
+        "value": {
+          "coordinate": "angel_islands:islands/layer3/noise",
+          "points": [
+            {
+              "location": 0.075,
+              "derivative": 0,
+              "value": 0
+            },
+            {
+              "location": 0.075,
+              "derivative": 0,
+              "value": 1
+            }
+          ]
+        }
+      },
+      {
+        "location": 440,
+        "derivative": 0,
+        "value": 0
+      }
+    ]
+  }
+}

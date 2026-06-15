@@ -1,0 +1,7 @@
+{
+  "replace": true,
+  "values": [
+    "#c:crops/potato",
+    "minecraft:baked_potato"
+  ]
+}

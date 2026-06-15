@@ -1,0 +1,7 @@
+{
+  "selector": "#kubejs:grindstones",
+
+  "properties": {
+    "sable:friction": 0.05
+  }
+}

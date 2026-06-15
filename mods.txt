@@ -1,311 +1,490 @@
-[1.3] //TODO
+[1.0] {} (client) Aeronautics Camera Sync
+[1.0] {} (client) Barebones McQoy
+[1.0] {} (client) Beautified Chat Client
+[1.0] {} (client) Better Ping Display
+[1.0] {} (client) Chat Heads
+[1.0] {} (client) Chat Patches
+[1.0] {} (client) ChatAnimation
+[1.0] {} (client) Default Options
+[1.0] {} (client) Particle Core
+[1.0] {} (client) Particle Effects
+[1.0] {} (client) Particle Interactions
+[1.0] {} (client) Particle Rain
+[1.0] {} (client) Presence Footsteps [FORGE]
+[1.0] {} (client) Presence Footsteps x Sable
+[1.0] {} (client) QuarkPonders
+[1.0] {} (client) Raise Sound Limit Simplified
+[1.0] {} (client) Raised
+[1.0] {} (client) Shut Up GL Error
+[1.0] {} (client) Status Effect Bars
+[1.0] {} (client) VTDownloader
+[1.0] {} (client) Wakes
+[1.0] {} (client) WaterMedia
+[1.0] {} (client) WaterMedia YT Plugin
+[1.0] {} (common) [Furniture] Create/Sable Compat
+[1.0] {} (common) 3d-Skin-Layers
+[1.0] {} (common) Abyssal Decor
+[1.0] {} (common) Additional Placements
+[1.0] {} (common) Advancement Plaques
+[1.0] {} (common) AeronauticsCompat
+[1.0] {} (common) Angel Islands
+[1.0] {} (common) Antique Atlas
+[1.0] {} (common) Antique Transport
+[1.0] {} (common) AppleSkin
+[1.0] {} (common) Backpacked
+[1.0] {} (common) Backported Spears
+[1.0] {} (common) Better Compatibility Checker
+[1.0] {} (common) Better Mods Button
+[1.0] {} (common) Biolith
+[1.0] {} (common) Brick and Mortar
+[1.0] {} (common) Carbasa
+[1.0] {} (common) Caverns & Chasms
+[1.0] {} (common) Cinch's Missing Blocks
+[1.0] {} (common) Clickable Advancements mod
+[1.0] {} (common) Climbable Ropes for Create Aeronautics
+[1.0] {} (common) Clumps
+[1.0] {} (common) Cobweb
+[1.0] {} (common) Collective
+[1.0] {} (common) Colorwheel
+[1.0] {} (common) Copper Age Backport
+[1.0] {} (common) CoroUtil
+[1.0] {} (common) Cosy Critters & Creepy Crawlies
+[1.0] {} (common) Create X Not Enough Trials
+[1.0] {} (common) Create: Integrated Farming
+[1.0] {} (common) Create: More Girder
+[1.0] {} (common) Create: Power Grid
+[1.0] {} (common) Create: Rail Grinding
+[1.0] {} (common) Create: Upsizing
+[1.0] {} (common) Create:Lazy Tick
+[1.0] {} (common) CreativeCore
+[1.0] {} (common) Creature Feature
+[1.0] {} (common) DarkPaintings
+[1.0] {} (common) Data Anchor
+[1.0] {} (common) Deployer
+[1.0] {} (common) Dimensional Tears
+[1.0] {} (common) Doom & Gloom
+[1.0] {} (common) Dye Depot
+[1.0] {} (common) Dye The World!
+[1.0] {} (common) Elytra Trims Extensions
+[1.0] {} (common) Fragmentum
+[1.0] {} (common) FTB Backups 3
+[1.0] {} (common) Fzzy Config
+[1.0] {} (common) Geophilic
+[1.0] {} (common) Geophilic Backport
+[1.0] {} (common) Gnetum
+[1.0] {} (common) Handcrafted
+[1.0] {} (common) Hardcore Revival
+[1.0] {} (common) Heartstone
+[1.0] {} (common) Held Item Tooltips
+[1.0] {} (common) Iceberg
+[1.0] {} (common) Illager Invasion
+[1.0] {} (common) Immersive Hotbar
+[1.0] {} (common) Immersive Melodies
+[1.0] {} (common) Immersive Paintings
+[1.0] {} (common) ImmersiveUI
+[1.0] {} (common) Incendium
+[1.0] {} (common) Iris
+[1.0] {} (common) Item Obliterator
+[1.0] {} (common) Item Zoomer
+[1.0] {} (common) Jade
+[1.0] {} (common) Jade Addon: TFMG Compat
+[1.0] {} (common) Jade Addons
+[1.0] {} (common) Jade Sable Compat
+[1.0] {} (common) JamLib
+[1.0] {} (common) Journeymap
+[1.0] {} (common) Just Enough Breeding
+[1.0] {} (common) Just Enough Effects Descriptions
+[1.0] {} (common) Kaleidoscope Cookery
+[1.0] {} (common) Kaleidoscope End
+[1.0] {} (common) Kaleidoscope Nether
+[1.0] {} (common) Kaleidoscope Tavern
+[1.0] {} (common) Kiwi Library
+[1.0] {} (common) Krypton FNP
+[1.0] {} (common) KubeJS Diesel Generators
+[1.0] {} (common) KubeJSDelight
+[1.0] {} (common) lever drugster
+[1.0] {} (common) Liberty's Villagers
+[1.0] {} (common) Life-Size Bdubs
+[1.0] {} (common) Lootintegrations mod
+[1.0] {} (common) lootintegrations_betterarcheology mod
+[1.0] {} (common) lootintegrations_dnt mod
+[1.0] {} (common) lootintegrations_structory mod
+[1.0] {} (common) lootintegrations_vanilla mod
+[1.0] {} (common) lootintegrations_yungs mod
+[1.0] {} (common) Marbled's Chevon
+[1.0] {} (common) Measurements
+[1.0] {} (common) MidnightLib
+[1.0] {} (common) Minopp
+[1.0] {} (common) MmmMmmMmmMmm
+[1.0] {} (common) Model Gap Fix
+[1.0] {} (common) Modpack Update Checker
+[1.0] {} (common) More Armor Trims
+[1.0] {} (common) More Sniffer Flowers
+[1.0] {} (common) MoreDensityFunctions
+[1.0] {} (common) Moyai
+[1.0] {} (common) My Nether's Delight
+[1.0] {} (common) NBT Autocomplete
+[1.0] {} (common) Necronomicon
+[1.0] {} (common) Nether Depths Upgrade
+[1.0] {} (common) Nirvana
+[1.0] {} (common) Not Enough Trials
+[1.0] {} (common) NoWeatherSkip
+[1.0] {} (common) Nullscape
+[1.0] {} (common) Nyf's Spiders
+[1.0] {} (common) Obscure Tooltips
+[1.0] {} (common) Observable
+[1.0] {} (common) Oreganized
+[1.0] {} (common) Oreganized Carcinogenius
+[1.0] {} (common) Packed Packs
+[1.0] {} (common) PatPat
+[1.0] {} (common) Pehkui
+[1.0] {} (common) Perception
+[1.0] {} (common) Pillager Caravans
+[1.0] {} (common) Platform
+[1.0] {} (common) Polymorph
+[1.0] {} (common) Portfolio
+[1.0] {} (common) Pretty In Pink
+[1.0] {} (common) Prometheus
+[1.0] {} (common) Quark X Not Enough Trials
+[1.0] {} (common) Quick Menu
+[1.0] {} (common) Ragdoll Reactions
+[1.0] {} (common) Ratatouille
+[1.0] {} (common) ReadyPlayerFun
+[1.0] {} (common) Resourcify
+[1.0] {} (common) Respawning Animals
+[1.0] {} (common) Sable Player Ragdoll
+[1.0] {} (common) ServerCore
+[1.0] {} (common) Shepard Tone (Pitch Up)
+[1.0] {} (common) Shifting Wares
+[1.0] {} (common) Simple Voice Chat
+[1.0] {} (common) Smarter Farmers
+[1.0] {} (common) Snow! Real Magic!
+[1.0] {} (common) Snuffles
+[1.0] {} (common) Soul Candles
+[1.0] {} (common) Soul Fire'd
+[1.0] {} (common) Sound Physics Perfected
+[1.0] {} (common) Sounds
+[1.0] {} (common) Spelunkery
+[1.0] {} (common) Spice of Life Berry
+[1.0] {} (common) Stalker Creepers
+[1.0] {} (common) Starcatcher
+[1.0] {} (common) Starcatcher's Delight
+[1.0] {} (common) Storage Labels
+[1.0] {} (common) Stylish Effects
+[1.0] {} (common) Suggestion Tweaker
+[1.0] {} (common) Supplementaries X Not Enough Trials
+[1.0] {} (common) Surveyor Map Framework
+[1.0] {} (common) The Roads More Travelled
+[1.0] {} (common) Thick Air
+[1.0] {} (common) Tide
+[1.0] {} (common) Tide Extra Compatibility
+[1.0] {} (common) Tree Physics
+[1.0] {} (common) Universal Bone Meal
+[1.0] {} (common) Universal Sawmill
+[1.0] {} (common) Vanilla Backport Compat (on-hold)
+[1.0] {} (common) Vanilla Backport X Not Enough Trials
+[1.0] {} (common) VanillaBackport
+[1.0] {} (common) VanillaBackport: Mob Variants Compat
+[1.0] {} (common) Vercte's Satchels
+[1.0] {} (common) Via Romana
+[1.0] {} (common) Vista
+[1.0] {} (common) Vista: All The Tapes
+[1.0] {} (common) Voice Chat Interaction
+[1.0] {} (common) WaterFrames
+[1.0] {} (common) WaterMedia: Binaries
+[1.0] {} (common) WaterVision
+[1.0] {} (common) Waves
+[1.0] {} (common) What Are They Up To
+[1.0] {} (common) World Preview
+[1.0] {bugfix} (common) Brainier Bees
+[1.0] {bugfix} (server) I'm Fast
+[1.0] {chunkgen} (common) Chunky
+[1.0] {compatibility} (client) AnimaticaFoxified
+[1.0] {compatibility} (client) Continuity
+[1.0] {compatibility} (client) Entity Model Features
+[1.0] {compatibility} (client) Entity Sound Features
+[1.0] {compatibility} (client) Entity Texture Features
+[1.0] {compatibility} (client) Polytone
+[1.0] {compatibility} (client) Transparent
+[1.0] {content:abnormals} (common) Abnormals Delight
+[1.0] {content:abnormals} (common) Allurement
+[1.0] {content:abnormals} (common) Atmospheric
+[1.0] {content:abnormals} (common) Autumnity
+[1.0] {content:abnormals} (common) Berry Good
+[1.0] {content:abnormals} (common) Buzzier Bees
+[1.0] {content:abnormals} (common) Clayworks
+[1.0] {content:abnormals} (common) Environmental
+[1.0] {content:abnormals} (common) Gallery
+[1.0] {content:abnormals} (common) Incubation
+[1.0] {content:abnormals} (common) Neapolitan
+[1.0] {content:abnormals} (common) Personality
+[1.0] {content:abnormals} (common) Pet Cemetery
+[1.0] {content:abnormals} (common) Upgrade Aquatic
+[1.0] {content:abnormals} (common) Woodworks
+[1.0] {content:aether} (common) Aether Villages
+[1.0] {content:aether} (common) Aethers Delight
+[1.0] {content:aether} (common) Beyond Parity
+[1.0] {content:aether} (common) Deep Aether
+[1.0] {content:aether} (common) Enhanced Extinguishing
+[1.0] {content:aether} (common) Protect Your Moa
+[1.0] {content:aether} (common) The Aether
+[1.0] {content:aether} (common) Treasure Reforging
+[1.0] {content:biome} (common) Biomes O' Plenty
+[1.0] {content:biome} (common) Regions Unexplored
+[1.0] {content:biome} (common) YUNG's Cave Biomes
+[1.0] {content:create} (client) CreateBetterFps
+[1.0] {content:create} (common) Create
+[1.0] {content:create} (common) Create Aeronautics
+[1.0] {content:create} (common) Create Big Cannons
+[1.0] {content:create} (common) Create Bits 'n' Bobs
+[1.0] {content:create} (common) Create Deco
+[1.0] {content:create} (common) Create Diesel Generators
+[1.0] {content:create} (common) Create Hypertube
+[1.0] {content:create} (common) Create More Conveyor
+[1.0] {content:create} (common) Create More: Package Couriers
+[1.0] {content:create} (common) Create Nuclear
+[1.0] {content:create} (common) Create Railways Navigator
+[1.0] {content:create} (common) Create Slice & Dice
+[1.0] {content:create} (common) Create: Bells & Whistles
+[1.0] {content:create} (common) Create: Bitterballen
+[1.0] {content:create} (common) Create: Blocks & Bogies
+[1.0] {content:create} (common) Create: Cardboarded Conveynience
+[1.0] {content:create} (common) Create: Central Kitchen
+[1.0] {content:create} (common) Create: Compatible Storage
+[1.0] {content:create} (common) Create: Connected
+[1.0] {content:create} (common) Create: Copycats+
+[1.0] {content:create} (common) Create: Dreams n' Desires
+[1.0] {content:create} (common) Create: Enchantment Industry
+[1.0] {content:create} (common) Create: Escalated
+[1.0] {content:create} (common) Create: Extra Gauges
+[1.0] {content:create} (common) Create: Pattern Schematics
+[1.0] {content:create} (common) Create: Sound of Steam
+[1.0] {content:create} (common) Create: Steam 'n' Rails 1.21.1
+[1.0] {content:create} (common) Create: The Factory Must Grow
+[1.0] {content:create} (common) Create: Vibrant Vaults
+[1.0] {content:create} (common) Design n' Decor
+[1.0] {content:create} (common) Gears n' Kinetics
+[1.0] {content:create} (common) Petrol's Parts
+[1.0] {content:create} (common) Some Assembly Required
+[1.0] {content:food} (common) Brewin' And Chewin'
+[1.0] {content:food} (common) Cooking for Blockheads
+[1.0] {content:food} (common) End's Delight
+[1.0] {content:relics} (common) Artifacts
+[1.0] {content:relics} (common) Relics
+[1.0] {content:relics} (common) reliquified_artifacts
+[1.0] {content:sleep} (common) Better Safe Bed
+[1.0] {content:sleep} (common) Midnight Thoughts
+[1.0] {content:structure} (common) Dungeons and Taverns
+[1.0] {content:structure} (common) Dungeons and Taverns Desert Temple Replacement
+[1.0] {content:structure} (common) Dungeons and Taverns Nether Fortress Overhaul
+[1.0] {content:structure} (common) Dungeons and Taverns Ocean Monument Replacement
+[1.0] {content:structure} (common) Dungeons and Taverns Pillager Outpost Overhaul
+[1.0] {content:structure} (common) Dungeons and Taverns Swamp Hut Overhaul
+[1.0] {content:structure} (common) Luki's Ancient Cities
+[1.0] {content:structure} (common) Luki's Grand Capitals
+[1.0] {content:structure} (common) Luki's Strongholds
+[1.0] {content:structure} (common) Luki's Woodland Mansions
+[1.0] {content:structure} (common) Structory
+[1.0] {content:structure} (common) Structory: Towers
+[1.0] {content:structure} (common) YUNG's Better Desert Temples
+[1.0] {content:structure} (common) YUNG's Better Dungeons
+[1.0] {content:structure} (common) YUNG's Better Jungle Temples
+[1.0] {content:structure} (common) YUNG's Better Mineshafts
+[1.0] {content:structure} (common) YUNG's Better Witch Huts
+[1.0] {content:structure} (common) YUNG's Bridges
+[1.0] {content:structure} (common) YUNG's Extras
+[1.0] {content:worldgen} (common) YUNG's Better Caves
+[1.0] {content:worldgen} (common) YUNG's Better End Island
+[1.0] {content:worldgen} (server) Continents
+[1.0] {content} (common) Alex's Caves
+[1.0] {content} (common) Alex's Mobs
+[1.0] {content} (common) Amendments
+[1.0] {content} (common) Better Archeology
+[1.0] {content} (common) Better Combat
+[1.0] {content} (common) Bountiful Fares
+[1.0] {content} (common) Burnt Basic
+[1.0] {content} (common) Chalk
+[1.0] {content} (common) Chipped
+[1.0] {content} (common) Clavis
+[1.0] {content} (common) Coop Moves
+[1.0] {content} (common) Creeper Overhaul
+[1.0] {content} (common) Critters and Companions
+[1.0] {content} (common) Darker Depths
+[1.0] {content} (common) Dramatic Doors
+[1.0] {content} (common) Dyenamics
+[1.0] {content} (common) Dyenamics and Friends
+[1.0] {content} (common) Elytra Drag
+[1.0] {content} (common) Elytra Trims
+[1.0] {content} (common) End Remastered
+[1.0] {content} (common) Enderman Overhaul
+[1.0] {content} (common) Enderscape
+[1.0] {content} (common) Exposure
+[1.0] {content} (common) Exposure Polaroid
+[1.0] {content} (common) Exposure: Detective
+[1.0] {content} (common) Exposure: Expanded
+[1.0] {content} (common) Farmer's Delight
+[1.0] {content} (common) Field Guide
+[1.0] {content} (common) Friends&Foes
+[1.0] {content} (common) Friends&Foes - Beekeeper Hut
+[1.0] {content} (common) Gardens of the Dead
+[1.0] {content} (common) Lootr
+[1.0] {content} (common) Mowzie's Mobs
+[1.0] {content} (common) Quark
+[1.0] {content} (common) Quark Oddities
+[1.0] {content} (common) Ribbits
+[1.0] {content} (common) Scholar
+[1.0] {content} (common) Sooty Chimneys
+[1.0] {content} (common) Spyglass Improvements
+[1.0] {content} (common) Supplementaries
+[1.0] {content} (common) Supplementaries Squared
+[1.0] {content} (server) Fixed Villager Trades
+[1.0] {failsafe} (client) Crash Assistant
+[1.0] {failsafe} (common) Neruina
+[1.0] {failsafe} (common) Not Enough Crashes
+[1.0] {failsafe} (server) Load My F***ing Tags
+[1.0] {farming} (common) ActuallyHarvest
+[1.0] {help} (common) Distant Friends
+[1.0] {intel} (client) Completionist's Index
+[1.0] {intel} (client) Immersive Overlays
+[1.0] {intel} (client) Item Descriptions
+[1.0] {intel} (common) Better Statistics Screen
+[1.0] {kubejs} (common) AlmostUnified
+[1.0] {kubejs} (common) KubeJS
+[1.0] {kubejs} (common) KubeJS Create
+[1.0] {kubejs} (common) ProbeJS
+[1.0] {kubejs} (common) Quad
+[1.0] {lib:accessories} (common) Accessories
+[1.0] {lib:accessories} (common) Curios API
+[1.0] {lib:create} (common) Create: Dragons Plus
+[1.0] {lib:create} (common) DragonLib
+[1.0] {lib:create} (common) Sable
+[1.0] {lib} (client) Athena
+[1.0] {lib} (client) Melody
+[1.0] {lib} (common) Architectury
+[1.0] {lib} (common) Ash API
+[1.0] {lib} (common) Balm
+[1.0] {lib} (common) Blueprint
+[1.0] {lib} (common) Bookshelf
+[1.0] {lib} (common) Citadel
+[1.0] {lib} (common) Cloth Config v15 API
+[1.0] {lib} (common) Configurable
+[1.0] {lib} (common) connector
+[1.0] {lib} (common) Cupboard mod
+[1.0] {lib} (common) Forgified Fabric API
+[1.0] {lib} (common) Framework
+[1.0] {lib} (common) FTB Library
+[1.0] {lib} (common) GeckoLib 4
+[1.0] {lib} (common) GlitchCore
+[1.0] {lib} (common) Konkrete
+[1.0] {lib} (common) kotlinforforge
+[1.0] {lib} (common) Lithostitched
+[1.0] {lib} (common) M.R.U
+[1.0] {lib} (common) Moonlight Lib
+[1.0] {lib} (common) MrCrayfish's Furniture Mod: Refurbished
+[1.0] {lib} (common) NexusLib
+[1.0] {lib} (common) OctoLib
+[1.0] {lib} (common) OELib
+[1.0] {lib} (common) owo
+[1.0] {lib} (common) Petrolpark's Library
+[1.0] {lib} (common) Placebo
+[1.0] {lib} (common) Player Animation Library
+[1.0] {lib} (common) Player Animator
+[1.0] {lib} (common) PrickleMC
+[1.0] {lib} (common) Puzzles Lib
+[1.0] {lib} (common) Resourceful Lib
+[1.0] {lib} (common) Resourcefulconfig
+[1.0] {lib} (common) Rhino
+[1.0] {lib} (common) Ritchie's Projectile Library
+[1.0] {lib} (common) SuperMartijn642's Config Library
+[1.0] {lib} (common) TCD Commons API
+[1.0] {lib} (common) TerraBlender
+[1.0] {lib} (common) Trimmed
+[1.0] {lib} (common) YetAnotherConfigLib
+[1.0] {lib} (common) YUNG's API
+[1.0] {lib} (common) Zeta
+[1.0] {maintenance:yung} (client) YUNG's Menu Tweaks
+[1.0] {maintenance} (client) Better Advancements
+[1.0] {maintenance} (client) Catalogue
+[1.0] {maintenance} (client) Configured
+[1.0] {maintenance} (client) Controlling
+[1.0] {maintenance} (client) Durability Tooltip
+[1.0] {maintenance} (client) Dynamic Crosshair
+[1.0] {maintenance} (client) Enchantment Sort
+[1.0] {maintenance} (client) EnchantmentDescriptions
+[1.0] {maintenance} (client) FancyMenu
+[1.0] {maintenance} (client) MoreMouseTweaks
+[1.0] {maintenance} (client) Mouse Tweaks
+[1.0] {maintenance} (client) No Telemetry
+[1.0] {maintenance} (client) Overflowing Bars
+[1.0] {maintenance} (client) Searchables
+[1.0] {maintenance} (client) ViewBoard
+[1.0] {maintenance} (common) BetterDays
+[1.0] {maintenance} (common) Crafting Tweaks
+[1.0] {maintenance} (common) Cut Through
+[1.0] {maintenance} (common) Emojiful
+[1.0] {maintenance} (common) Enhanced Player List
+[1.0] {maintenance} (common) FTB Essentials
+[1.0] {maintenance} (common) spark
+[1.0] {maintenance} (common) Structurify
+[1.0] {maintenance} (server) Separated Leaves
+[1.0] {optimization} (client) BadOptimizations
+[1.0] {optimization} (client) Better Biome Blend
+[1.0] {optimization} (client) clientcrafting mod
+[1.0] {optimization} (client) Dynamic FPS
+[1.0] {optimization} (client) Flerovium
+[1.0] {optimization} (client) Gpu memory leak fix
+[1.0] {optimization} (client) ImmediatelyFast
+[1.0] {optimization} (client) More Culling
+[1.0] {optimization} (client) Reese's Sodium Options
+[1.0] {optimization} (client) Remove Reloading Screen
+[1.0] {optimization} (client) Sodium
+[1.0] {optimization} (client) Sodium Extra
+[1.0] {optimization} (client) Sodium Extras
+[1.0] {optimization} (common) Concurrent Chunk Management Engine
+[1.0] {optimization} (common) Connectivity Mod
+[1.0] {optimization} (common) Distant Horizons
+[1.0] {optimization} (common) Fast Item Frames
+[1.0] {optimization} (common) Fast Paintings
+[1.0] {optimization} (common) Fast Suite
+[1.0] {optimization} (common) Fast Workbench
+[1.0] {optimization} (common) FastFurnace
+[1.0] {optimization} (common) Ferrite Core
+[1.0] {optimization} (common) Lithium
+[1.0] {optimization} (common) ModernFix
+[1.0] {optimization} (common) Not Enough Recipe Book
+[1.0] {optimization} (common) Saturn
+[1.0] {optimization} (common) Smooth Boot
+[1.0] {optimization} (common) Structure Layout Optimizer
+[1.0] {optimization} (server) AI-Improvements
+[1.0] {optimization} (server) Alternate Current
+[1.0] {optimization} (server) chunksending mod
+[1.0] {optimization} (server) fastasyncworldsave mod
+[1.0] {optimization} (server) Immersive Optimization
+[1.0] {optimization} (server) leaky mod
+[1.0] {optimization} (server) limitedchunks mod
+[1.0] {optimization} (server) Noisium
+[1.0] {optimization} (server) Smoothchunk mod
+[1.0] {recipeviewer} (client) Create: EMI Schematics
+[1.0] {recipeviewer} (client) EMI Enchanting
+[1.0] {recipeviewer} (client) EMI Ores
+[1.0] {recipeviewer} (client) EMI++
+[1.0] {recipeviewer} (client) TooManyRecipeViewers
+[1.0] {recipeviewer} (common) AdvancedLootInfo
+[1.0] {recipeviewer} (common) EMI
+[1.0] {recipeviewer} (common) Moderately Enough Effect Descriptions
+[1.0] {sounds} (client) Cool Rain
+[1.0] {sounds} (client) Immersive Thunder
+[1.0] {visuals:aether} (client) Emissivity
+[1.0] {visuals} (client) Explosive Enhancement
+[1.0] {visuals} (client) Fog
+[1.0] {visuals} (client) LambDynamicLights
+[1.0] {visuals} (client) Minecraft Cursor
+[1.0] {worldgen} (common) RoadWeaver
 
-[1.2] (client) {animation} notenoughanimations-neoforge-1.9.3-mc1.21.jar
-[1.2] (client) {content} watermedia-2.1.23.jar
-[1.2] (client) {emi?} enchdesc-neoforge-1.21.1-21.1.7.jar
-[1.2] (client) {emi} emi-1.1.21+1.21.1+neoforge.jar
-[1.2] (client) {lib} Iceberg-1.21.1-neoforge-1.2.9.2.jar
-[1.2] (client) {optifine-parity} polytone-1.21-3.3.4.jar
-[1.2] (client) {performance} dynamic-fps-3.9.2+minecraft-1.21.0-neoforge.jar
-[1.2] (client) {performance} ImmediatelyFast-NeoForge-1.6.4+1.21.1.jar
-[1.2] (client) {performance} Ponder-NeoForge-1.21.1-1.0.0.jar
-[1.2] (client) {QoL} Controlling-neoforge-1.21.1-19.0.5.jar
-[1.2] (client) {QoL} moremousetweaks-neoforge-1.0.0+1.21.jar
-[1.2] (client) {sodium} entityculling-neoforge-1.7.4-mc1.21.jar
-[1.2] (client) {sodium} flerovium-neoforge-1.21.1-1.0.4-all.jar
-[1.2] (client) {sound} sound-physics-remastered-neoforge-1.21.1-1.4.10.jar
-[1.2] (client) {visual} AdvancementPlaques-1.21.1-neoforge-1.6.8.jar
-[1.2] (client) {visual} betterbiomereblend-1.5.2.jar
-[1.2] (client) {visual} skinlayers3d-neoforge-1.7.5-mc1.21.jar
-[1.2] (common) {accessories} accessories-neoforge-1.1.0-beta.35+1.21.1.jar
-[1.2] (common) {aether} aether-1.21.1-1.5.7-neoforge.jar
-[1.2] (common) {ars_nouveau} ars_technica-1.21.1-2.0.1.jar
-[1.2] (common) {create} Create Encased-1.21.1-1.7.1-fix1.jar
-[1.2] (common) {create} create_pattern_schematics-2.0.6.jar
-[1.2] (common) {create} creategarnished-0.1.2.1+1.21.1-neoforged.jar
-[1.2] (common) {create} pipeorgans-0.6.2+1.21.1.jar
-[1.2] (common) {fish} fish_of_thieves-mc1.21.1-v4.0.3-neoforge.jar
-[1.2] (common) {fish} Fishingreal-1.21-1.9.0.jar
-[1.2] (common) {fish} netherdepthsupgrade-3.1.7-1.21.jar
-[1.2] (common) {fish} tide-neoforge-1.21-1.5.0.jar
-[1.2] (common) {grave} gravestone-neoforge-1.21.1-1.0.24.jar
-[1.2] (common) {journeymap} journeymap-neoforge-1.21.1-6.0.0-beta.43.jar
-[1.2] (common) {lib} balm-neoforge-1.21.1-21.0.38.jar
-[1.2] (common) {lib} collective-1.21.1-8.1.jar
-[1.2] (common) {lib} fzzy_config-0.6.8+1.21+neoforge.jar
-[1.2] (common) {lib} Kiwi-1.21.1-NeoForge-15.5.0.jar
-[1.2] (common) {lib} moonlight-1.21-2.18.0-neoforge.jar
-[1.2] (common) {lib} Placebo-1.21.1-9.7.1.jar
-[1.2] (common) {lib} Quad-1.2.9+1.21.1-Neo.jar
-[1.2] (common) {lib} resourcefullib-neoforge-1.21-3.0.12.jar
-[1.2] (common) {loot} lootr-neoforge-1.21-1.10.35.91.jar
-[1.2] (common) {performance} FastItemFrames-v21.1.2-1.21.1-NeoForge.jar
-[1.2] (common) {QoL} actuallyharvest-1.21.1-1.1.3.1-NEOFORGE.jar
-[1.2] (common) {relics} artifacts-neoforge-12.1.1.jar
-[1.2] (common) {relics} reliquified_ars_nouveau-1.21.1-0.4.jar
-[1.2] (common) {relics} reliquified_twilight_forest-1.21.1-0.3.2.jar
-[1.2] (common) {snow,parity?} SnowRealMagic-1.21.1-NeoForge-12.0.2.jar
-[1.2] (common) {sophisticated} sophisticatedcore-1.21.1-1.3.8.911.jar
-[1.2] (common) {supplementaries} supplementaries-1.21-3.1.0-neoforge.jar
-[1.2] (common) {temp} cookingforblockheads-neoforge-1.21.1-21.1.12.jar
-[1.2] (common) {temp} friendsandfoes-neoforge-mc1.21.1-3.0.9.jar
-[1.2] (common) {twilightforest} twilightforest-1.21.1-4.7.3040-universal.jar
-[1.2] (common) {unify} sawmill-1.21-1.5.17-neoforge.jar
-[1.2] (common) {variants} MoreChestVariants-1.5.9+1.21.1-Neo.jar
-[1.2] (common) {variants} MoreCraftingTables-1.2.9+1.21-Neo.jar
-[1.2] (server) {parity} readyplayerfun-1.21.1-3.0.0.0-NEOFORGE.jar
-[1.2] (server) {performance,life} Neruina-2.2.8-neoforge+1.21.jar
-[1.2] (server) {someaddon} logprot-1.21-3.5.jar
-[1.2] (server) {someaddon} lootintegrations-1.21-4.3.jar
-
-[1.1] (client) {fancy} Particle Effects-1.0.2+1.21.jar
-[1.1] (client) {QoL} chat_heads-0.13.13-neoforge-1.21.jar
-[1.1] (client) {QoL} rrls-5.0.9+mc1.21.1-forge.jar
-[1.1] (common) {create} createsandpapers-1.21.1-1.2.0-1.21.1.jar
-[1.1] (common) {decoration} DiagonalFences-v21.1.1-1.21.1-NeoForge.jar
-[1.1] (common) {decoration} DiagonalWalls-v21.1.2-1.21.1-NeoForge.jar
-[1.1] (common) {decoration} DiagonalWindows-v21.1.1-1.21.1-NeoForge.jar
-[1.1] (common) {lib} yet_another_config_lib_v3-3.6.6+1.21.1-neoforge.jar
-[1.1] (common) {social} Emojiful-Neoforge-1.21-5.1.5-all.jar
-[1.1] (common) {supplementaries} amendments-1.21-1.2.24-neoforge.jar
-
-[1.0.3] (common) {performance} saturn-mc1.21.1-0.1.5.jar
-[1.0.3] (server) {chunkgen} Chunky-1.4.16.jar
-[1.0.3] (server) {performance} AI-Improvements-1.21-0.5.3.jar
-[1.0.3] (server) {performance} imfast-NEOFORGE-1.21.4-1.0.3.jar
-[1.0.3] (server) {performance} immersive_optimization-neoforge-1.21-0.0.4.jar
-[1.0.3] (server) {performance} Sepals-neoforge-1.0.15.jar
-[1.0.3] (server) {performance} servercore-neoforge-1.5.5+1.21.1.jar
-[1.0.3] (server) {performance} structure_layout_optimizer-neoforge-1.0.10.jar
-
-[1.0] (client) {aether} aether_emissivity-1.21.1-1.0.0-neoforge.jar
-[1.0] (client) {jei} toomanyrecipeviewers-0.3.3+jei.19.21.0.247.jar
-[1.0] (client) {visual} wakes-0.2.2-1.21.jar
-[1.0] (client) {yung} YungsMenuTweaks-1.21.1-NeoForge-2.1.2.jar
-[1.0] (common) {accessories} accessories_cclayer-9.3.1-beta.26+1.21.1-neoforge.jar
-[1.0] (common) {aether} aeroblender-1.21.1-1.0.0-neoforge.jar
-[1.0] (common) {aether} aether_enhanced_extinguishing-1.21.1-1.0.0-neoforge.jar
-[1.0] (common) {aether} aether_protect_your_moa-1.21.1-1.0.0-neoforge.jar
-[1.0] (common) {aether} aether_treasure_reforging-1.21.1-1.0.1-neoforge.jar
-[1.0] (common) {aether} aethersdelight-0.1.3-1.21.1.jar
-[1.0] (common) {aether} deep_aether-1.21.1-1.1.2.jar
-[1.0] (common) {ars_nouveau,farmersdelight} arsdelight-2.1.5.jar
-[1.0] (common) {ars_nouveau} ars_additions-1.21.1-21.2.0.jar
-[1.0] (common) {ars_nouveau} ars_elemental-1.21.1-0.7.2.7.jar
-[1.0] (common) {ars_nouveau} ars_nouveau-1.21.1-5.7.2-all.jar
-[1.0] (common) {DnT} dungeons-and-taverns-nether-fortress-overhaul-v2.4.jar
-[1.0] (common) {DnT} dungeons-and-taverns-stronghold-overhaul-v2.1.f.jar
-[1.0] (common) {DnT} dungeons-and-taverns-v4.4.4.jar
-[1.0] (common) {emi} emi_enchanting-0.1.2+1.21+neoforge.jar
-[1.0] (common) {emi} emi_loot-0.7.5+1.21+neoforge.jar
-[1.0] (common) {emi} emi_ores-1.2+1.21.1+neoforge.jar
-[1.0] (common) {emi} EMIProfessions-neoforge-1.21.1-1.0.3.jar
-[1.0] (common) {media} waterframes-NEOFORGE-mc1.21.1-v2.1.12.jar
-[1.0] (common) {performance} alternate_current-mc1.21-1.9.0.jar
-[1.0] (common) {relics} rarcompat-1.21-0.9.5.jar
-[1.0] (common) {relics} relics-1.21.1-0.10.7.2.jar
-[1.0] (common) {supplementaries} suppsquared-1.21-1.2.5-neoforge.jar
-[1.0] (common) {temp} AdditionalPlacements-NeoForge-1.21-2.2.2.jar
-[1.0] (common) {temp} almostunified-neoforge-1.21.1-1.2.3.jar
-[1.0] (common) {temp} AnimaticaFoxified-0.1.1+1.21.1.jar
-[1.0] (common) {temp} ApothicAttributes-1.21.1-2.7.0.jar
-[1.0] (common) {temp} ApothicEnchanting-1.21.1-1.3.2.jar
-[1.0] (common) {temp} ApothicSpawners-1.21.1-1.2.1.jar
-[1.0] (common) {temp} appleskin-neoforge-mc1.21-3.0.5.jar
-[1.0] (common) {temp} architectury-13.0.8-neoforge.jar
-[1.0] (common) {temp} armourersworkshop-forge-1.21.1-3.2.0-beta.jar
-[1.0] (common) {temp} athena-neoforge-1.21-4.0.1.jar
-[1.0] (common) {temp} BadOptimizations-2.2.1-1.21.1.jar
-[1.0] (common) {temp} bcc-21.1.3+mc1.21.1.jar
-[1.0] (common) {temp} beekeeperhut-neoforge-mc1.21-2.0.1.jar
-[1.0] (common) {temp} bellsandwhistles-0.4.7-1.21.1.jar
-[1.0] (common) {temp} BetterAdvancements-NeoForge-1.21.1-0.4.3.21.jar
-[1.0] (common) {temp} betterarcheology-neoforge-1.3.1-1.21.jar
-[1.0] (common) {temp} betterdays-1.21.1-3.1.1.1-NEOFORGE.jar
-[1.0] (common) {temp} BetterModsButton-v21.1.0-1.21.1-NeoForge.jar
-[1.0] (common) {temp} betterstats-3.13.8+fabric-1.21.jar
-[1.0] (common) {temp} BiomesOPlenty-neoforge-1.21.1-21.1.0.7.jar
-[1.0] (common) {temp} bookshelf-neoforge-1.21.1-21.1.50.jar
-[1.0] (common) {temp} BridgingMod-2.6.2+1.21.1.neoforge-release.jar
-[1.0] (common) {temp} c2me-neoforge-mc1.21.1-0.3.0+alpha.0.60.jar
-[1.0] (common) {temp} catalogue-neoforge-1.21.1-1.11.0.jar
-[1.0] (common) {temp} chalk-1.6.9.jar
-[1.0] (common) {temp} chipped-neoforge-1.21.1-4.0.2.jar
-[1.0] (common) {temp} clientcrafting-1.21-1.8.jar
-[1.0] (common) {temp} clientsort-neoforge-1.3.0+1.21.jar
-[1.0] (common) {temp} cloth-config-15.0.140-neoforge.jar
-[1.0] (common) {temp} cobweb-neoforge-1.21-1.3.3.jar
-[1.0] (common) {temp} comforts-neoforge-9.0.3+1.21.1.jar
-[1.0] (common) {temp} CompletionistsIndex-v21.1.0-1.21.1-NeoForge.jar
-[1.0] (common) {temp} configured-neoforge-1.21.1-2.6.0.jar
-[1.0] (common) {temp} connectivity-1.21.1-7.1.jar
-[1.0] (common) {temp} connector-2.0.0-beta.7+1.21.1-full.jar
-[1.0] (common) {temp} ConnectorExtras-1.12.1+1.21.1.jar
-[1.0] (common) {temp} Continents_1.21.x_v1.1.7.jar
-[1.0] (common) {temp} coroutil-neoforge-1.21.0-1.3.8.jar
-[1.0] (common) {temp} CosmeticArmours - 1.5.1.0 - 1.21.1 - NeoForge.jar
-[1.0] (common) {temp} CosmeticWeapons - 1.0.0.1 - 1.21.1 - NeoForge.jar
-[1.0] (common) {temp} cpm-svc-compat-1.2.1.jar
-[1.0] (common) {temp} craftingtweaks-neoforge-1.21.1-21.1.5.jar
-[1.0] (common) {temp} cratedelight-24.11.22-1.21-neoforge.jar
-[1.0] (common) {temp} create_compressed-2.2.0-neoforge-1.21.1.jar
-[1.0] (common) {temp} Create_Desires-2-Dreams-1.21.1-2.0.0.jar
-[1.0] (common) {temp} create_extra_casing-4.0.2-NeoForge-1.21.1.jar
-[1.0] (common) {temp} create_ironworks-3.7.0-neoforge-1.21.1.jar
-[1.0] (common) {temp} create_vibrant_vaults-0.3.1.jar
-[1.0] (common) {temp} create-1.21.1-6.0.4.jar
-[1.0] (common) {temp} createframed-1.21.1-1.6.2.jar
-[1.0] (common) {temp} CreativeCore_NEOFORGE_v2.12.32_mc1.21.1.jar
-[1.0] (common) {temp} cupboard-1.21-2.9.jar
-[1.0] (common) {temp} CustomPlayerModels-1.21-0.6.21a.jar
-[1.0] (common) {temp} CutThrough-v21.1.0-1.21.1-NeoForge.jar
-[1.0] (common) {temp} deco_storage-3.1603-neoforge-1.21.1.jar
-[1.0] (common) {temp} DistantHorizons-fabric-neoforge-2.3.0-b-1.21.1.jar
-[1.0] (common) {temp} diversity-neoforge-1.21.1-2.3.4.jar
-[1.0] (common) {temp} dummmmmmy-1.21-2.0.7-neoforge.jar
-[1.0] (common) {temp} durabilitytooltip-1.1.5-neoforge-mc1.21.jar
-[1.0] (common) {temp} dyenamics-1.21.1-3.3.0.jar
-[1.0] (common) {temp} eccentrictome-1.21.1-1.1.0.jar
-[1.0] (common) {temp} eg_particle_interactions-0.4.1-neoforge-mc1.21.1.jar
-[1.0] (common) {temp} elytratrims_extensions-neoforge-2.2.1.jar
-[1.0] (common) {temp} elytratrims-neoforge-3.5.8+1.21.jar
-[1.0] (common) {temp} endrem-neoforge-1.21.X-6.0.2.jar
-[1.0] (common) {temp} ends_delight-2.5.1+neoforge.1.21.1.jar
-[1.0] (common) {temp} enhancedplayerlist-1.0.2.jar
-[1.0] (common) {temp} entity_model_features_neoforge_1.21.1-2.4.1.jar
-[1.0] (common) {temp} entity_sound_features_neoforge_1.21-0.4.jar
-[1.0] (common) {temp} entity_texture_features_neoforge_1.21.1-6.2.9.jar
-[1.0] (common) {temp} everycomp-1.21-2.9.6-neoforge.jar
-[1.0] (common) {temp} exposure_catalog-neoforge-1.1.0.jar
-[1.0] (common) {temp} exposure_polaroid-neoforge-1.21.1-1.0.4.jar
-[1.0] (common) {temp} exposure-neoforge-1.21.1-1.8.11.jar
-[1.0] (common) {temp} FabulousFletching(NEOFORGE)V2.4.jar
-[1.0] (common) {temp} faewulf_lib-neoforge-1.21.1-1.2.3.jar
-[1.0] (common) {temp} fancymenu_neoforge_3.4.6_MC_1.21.1.jar
-[1.0] (common) {temp} farmers-cutting-the-aether-1.21.1-1.0-neoforge.jar
-[1.0] (common) {temp} FarmersDelight-1.21.1-1.2.7.jar
-[1.0] (common) {temp} FastFurnace-1.21.1-9.0.0.jar
-[1.0] (common) {temp} fastpaintings-1.21-1.2.15-neoforge.jar
-[1.0] (common) {temp} FastSuite-1.21.1-6.0.2.jar
-[1.0] (common) {temp} FastWorkbench-1.21-9.1.2.jar
-[1.0] (common) {temp} ferritecore-7.0.2-neoforge.jar
-[1.0] (common) {temp} flowerymooblooms-neoforge-mc1.21-2.0.2.jar
-[1.0] (common) {temp} ForgeConfigAPIPort-v21.1.3-1.21.1-NeoForge.jar
-[1.0] (common) {temp} forgified-fabric-api-0.107.0+2.0.25+1.21.1.jar
-[1.0] (common) {temp} ftb-essentials-neoforge-2101.1.6.jar
-[1.0] (common) {temp} ftb-library-neoforge-2101.1.12.jar
-[1.0] (common) {temp} ftbbackups2-neoforge-1.21-1.0.28.jar
-[1.0] (common) {temp} gardens-of-the-dead-neoforge-5.0.1.jar
-[1.0] (common) {temp} geckolib-neoforge-1.21.1-4.7.5.1.jar
-[1.0] (common) {temp} GlitchCore-neoforge-1.21.1-2.1.0.0.jar
-[1.0] (common) {temp} gpumemleakfix-1.21-1.8.jar
-[1.0] (common) {temp} handcrafted-neoforge-1.21.1-4.0.3.jar
-[1.0] (common) {temp} heartstone-1.21-1.3.0-neoforge.jar
-[1.0] (common) {temp} HeldItemTooltips-v21.1.0-1.21.1-NeoForge.jar
-[1.0] (common) {temp} HMI 4.2.5 1.21.1.jar
-[1.0] (common) {temp} ImmersiveUI-NEOFORGE-0.3.0.jar
-[1.0] (common) {temp} Incendium_1.21.x_v5.4.4.jar
-[1.0] (common) {temp} iris-neoforge-1.8.8+mc1.21.1.jar
-[1.0] (common) {temp} itemzoom-1.21-3.0.0.jar
-[1.0] (common) {temp} Jade-1.21.1-NeoForge-15.10.0.jar
-[1.0] (common) {temp} JadeAddons-1.21.1-NeoForge-6.1.0.jar
-[1.0] (common) {temp} jeed-1.21-2.2.18.jar
-[1.0] (common) {temp} justenoughbreeding-neoforge-1.21-1.21.1-1.5.0.jar
-[1.0] (common) {temp} konkrete_neoforge_1.9.9_MC_1.21.jar
-[1.0] (common) {temp} kotlinforforge-5.7.0-all.jar
-[1.0] (common) {temp} KryptonFoxified-0.1.0+mc1.21.jar
-[1.0] (common) {temp} kubejs-neoforge-2101.7.2-local.1741858212.jar
-[1.0] (common) {temp} labels-1.21-2.0.1-neoforge.jar
-[1.0] (common) {temp} lithium-neoforge-0.15.0+mc1.21.1.jar
-[1.0] (common) {temp} lmft-1.0.4+1.21-neoforge.jar
-[1.0] (common) {temp} lootintegrations_betterarcheology-1.2.jar
-[1.0] (common) {temp} MapFrontiers-1.21.1-2.7.0-beta.5-neoforge.jar
-[1.0] (common) {temp} melody_neoforge_1.0.10_MC_1.21.jar
-[1.0] (common) {temp} modelfix-1.21-1.10.jar
-[1.0] (common) {temp} modernfix-neoforge-5.20.2+mc1.21.1.jar
-[1.0] (common) {temp} modpack-update-checker-1.21.1-neoforge-0.15.4.jar
-[1.0] (common) {temp} moreculling-neoforge-1.21.1-1.0.6.jar
-[1.0] (common) {temp} MouseTweaks-neoforge-mc1.21-2.26.1.jar
-[1.0] (common) {temp} moyai-1.21-2.1.5-neoforge.jar
-[1.0] (common) {temp} MRU-1.0.8+1.21+neoforge.jar
-[1.0] (common) {temp} NBTac-NEOFORGE-1.21.1-1.3.10.jar
-[1.0] (common) {temp} noisium-neoforge-2.3.0+mc1.21-1.21.1.jar
-[1.0] (common) {temp} Not Enough Recipe Book-NEOFORGE-0.4.1.jar
-[1.0] (common) {temp} notenoughcrashes-neoforge-4.4.8+1.21.1.jar
-[1.0] (common) {temp} Nullscape_1.21.x_v1.2.10.jar
-[1.0] (common) {temp} nyfsspiders-neoforge-1.21.1-2.3.2.jar
-[1.0] (common) {temp} observable-5.4.3.jar
-[1.0] (common) {temp} OctoLib-NEOFORGE-0.5.0.1.jar
-[1.0] (common) {temp} ok_zoomer-neo-10.0.0-beta.8.jar
-[1.0] (common) {temp} OverflowingBars-v21.1.1-1.21.1-NeoForge.jar
-[1.0] (common) {temp} owo-lib-neoforge-0.12.15.1-beta.2+1.21.jar
-[1.0] (common) {temp} particle_core-0.2.5+1.21+neoforge.jar
-[1.0] (common) {temp} Patchouli-1.21-87-NEOFORGE.jar
-[1.0] (common) {temp} Perception-NEOFORGE-0.1.2.1+1.21.1.jar
-[1.0] (common) {temp} polylib-2100.0.3-build.159-neoforge.jar
-[1.0] (common) {temp} polymorph-neoforge-1.0.7+1.21.1.jar
-[1.0] (common) {temp} prickle-neoforge-1.21.1-21.1.6.jar
-[1.0] (common) {temp} Prism-1.21-neoforge-1.0.9.jar
-[1.0] (common) {temp} ProbeJS-7.7.2.jar
-[1.0] (common) {temp} PuzzlesLib-v21.1.33-1.21.1-NeoForge.jar
-[1.0] (common) {temp} raised-neoforge-1.21.1-4.0.1.jar
-[1.0] (common) {temp} recipeessentials-1.21-4.0.jar
-[1.0] (common) {temp} reeses-sodium-options-neoforge-1.8.3+mc1.21.4.jar
-[1.0] (common) {temp} repurposed_structures_farmers_delight_compat_v7.jar
-[1.0] (common) {temp} repurposed_structures_friends_and_foes_compat_v8.jar
-[1.0] (common) {temp} repurposed_structures-7.5.13+1.21.1-neoforge.jar
-[1.0] (common) {temp} resourcefulconfig-neoforge-1.21-3.0.10.jar
-[1.0] (common) {temp} Resourcify (1.21.1-neoforge)-1.7.1.jar
-[1.0] (common) {temp} rhino-2101.2.7-build.74.jar
-[1.0] (common) {temp} rsls-neoforge-1.1.8.jar
-[1.0] (common) {temp} Searchables-neoforge-1.21.1-1.0.2.jar
-[1.0] (common) {temp} separatedleaves-2.6.1-neoforge-1.21.1.jar
-[1.0] (common) {temp} smarterfarmers-1.21-2.2.2-neoforge.jar
-[1.0] (common) {temp} smoothboot-1.0.jar
-[1.0] (common) {temp} snowyspirit-1.21.1-3.0.16-neoforge.jar
-[1.0] (common) {temp} sodium-extra-neoforge-0.6.0+mc1.21.1.jar
-[1.0] (common) {temp} sodium-neoforge-0.6.9+mc1.21.1.jar
-[1.0] (common) {temp} sodiumdynamiclights-neoforge-1.0.10-1.21.1.jar
-[1.0] (common) {temp} sodiumextras-neoforge-1.0.7-1.21.1.jar
-[1.0] (common) {temp} sodiumoptionsapi-neoforge-1.0.10-1.21.1.jar
-[1.0] (common) {temp} sootychimneys-neoforge-1.3.3.jar
-[1.0] (common) {temp} sophisticatedbackpacks-1.21.1-3.24.1.1212.jar
-[1.0] (common) {temp} soul-fire-d-neoforge-1.21-5.1.6.jar
-[1.0] (common) {temp} sounds-2.4.8+1.21.1+neoforge.jar
-[1.0] (common) {temp} spark-1.10.124-neoforge.jar
-[1.0] (common) {temp} stalkercreepers-1.21.1.1NF.jar
-[1.0] (common) {temp} storagedelight-25.03.09-1.21-neoforge.jar
-[1.0] (common) {temp} Structory_1.21.x_v1.3.9.jar
-[1.0] (common) {temp} Structory_Towers_1.21.x_v1.0.10.jar
-[1.0] (common) {temp} suggestion-tweaker-1.20.6-1.5.2-neoforge.jar
-[1.0] (common) {temp} supermartijn642configlib-1.1.8-neoforge-mc1.21.jar
-[1.0] (common) {temp} tcdcommons-3.12.5+fabric-1.21.jar
-[1.0] (common) {temp} watut-neoforge-1.21.0-1.2.3.jar
-[1.0] (common) {treechop} TreeChop-1.21.1-neoforge-0.19.3.jar
-[1.0] (common) {voicechat} voicechat-neoforge-1.21.1-2.5.28.jar
-[1.0] (common) {yung,lib} YungsApi-1.21.1-NeoForge-5.1.4.jar
-[1.0] (server) {someaddon} lootintegrations_dnt-2.3.jar
-[1.0] (server) {someaddon} lootintegrations_structory-1.2.jar
-[1.0] (server) {someaddon} lootintegrations_vanilla-1.3.jar
-[1.0] (server) {someaddon} lootintegrations_yungs-1.3.jar
-[1.0] (server) {worldgen} TerraBlender-neoforge-1.21.1-4.1.0.8.jar
-[1.0] (server) {worldgen} Terralith_1.21.x_v2.5.8.jar
-[1.0] (server) {yung} YungsBetterDesertTemples-1.21.1-NeoForge-4.1.5.jar
-[1.0] (server) {yung} YungsBetterDungeons-1.21.1-NeoForge-5.1.4.jar
-[1.0] (server) {yung} YungsBetterEndIsland-1.21.1-NeoForge-3.1.2.jar
-[1.0] (server) {yung} YungsBetterJungleTemples-1.21.1-NeoForge-3.1.2.jar
-[1.0] (server) {yung} YungsBetterMineshafts-1.21.1-NeoForge-5.1.1.jar
-[1.0] (server) {yung} YungsBetterNetherFortresses-1.21.1-NeoForge-3.1.4.jar
-[1.0] (server) {yung} YungsBetterOceanMonuments-1.21.1-NeoForge-4.1.2.jar
-[1.0] (server) {yung} YungsBetterStrongholds-1.21.1-NeoForge-5.1.3.jar
-[1.0] (server) {yung} YungsBetterWitchHuts-1.21.1-NeoForge-4.1.1.jar
-[1.0] (server) {yung} YungsBridges-1.21.1-NeoForge-5.1.1.jar
-[1.0] (server) {yung} YungsExtras-1.21.1-NeoForge-5.1.1.jar
-
-[1.0 - 1.0.1] (common) {debug} wits-1.3.0+1.21-neoforge.jar
-[1.0 - 1.0.2] (client) {optimization} languagereload-neoforge-1.21.1-1.0.2.jar
-[1.0 - 1.0.2] (common) {decoration} connectiblechains-2.4.2.jar
-[1.0 - 1.2] (common) {mob} mythicalcritters-0.1.1.jar
-[1.0 - 1.2] (server) {world} biomespawnpoint-1.21.1-2.4.jar
-[1.0.3 - 1.2] (server) {performance} terrablenderfix-neoforge-1.21.1-0.0.1.jar
-[1.1 - 1.2] (server) {permissions} LuckPerms-NeoForge-5.4.140.jar
+[TBD] {visuals} (client) Chunks Fade In
+[TBD] {maintenance} (common) Advancements Reloaded
+[TBD] {content:everycomp} (common) Every Compat
+[TBD] {content:everycomp} (common) Gems Realm
+[TBD] {content:everycomp} (common) Stone Zone
+[TBD] {lib:accessories} (common) Accessories Compatibility Layer
+[TBD] {optimization} (common) smoothmovement mod
