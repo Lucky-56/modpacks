@@ -316,23 +316,23 @@ ServerEvents.recipes(event => {
         'minecraft:apple', '250x #c:honey'
     ]).id('buzzier_bees:honey_apple')
 
-    event.shapeless('bountifulfares:candied_lemon', [
+    event.shapeless('4x bountifulfares:candied_lemon', [
         '#c:foods/lemons', ['minecraft:sugar', 'minecraft:honey_bottle']
     ]).id('bountifulfares:candied_lemon_manual_only')
-    event.recipes.create.mixing('bountifulfares:candied_lemon', [
+    event.recipes.create.mixing('4x bountifulfares:candied_lemon', [
         Ingredient.of('#c:foods/lemons'), 'minecraft:sugar'
     ]).id('bountifulfares:candied_lemon')
-    event.recipes.create.mixing('bountifulfares:candied_lemon', [
+    event.recipes.create.mixing('4x bountifulfares:candied_lemon', [
         Ingredient.of('#c:foods/lemons'), '250x #c:honey'
     ]).id('kubejs:mixing/candied_lemon')
 
-    event.shapeless('bountifulfares:candied_orange', [
+    event.shapeless('4x bountifulfares:candied_orange', [
         '#c:foods/oranges', ['minecraft:sugar', 'minecraft:honey_bottle']
     ]).id('bountifulfares:candied_orange_manual_only')
-    event.recipes.create.mixing('bountifulfares:candied_orange', [
+    event.recipes.create.mixing('4x bountifulfares:candied_orange', [
         Ingredient.of('#c:foods/oranges'), 'minecraft:sugar'
     ]).id('bountifulfares:candied_orange')
-    event.recipes.create.mixing('bountifulfares:candied_orange', [
+    event.recipes.create.mixing('4x bountifulfares:candied_orange', [
         Ingredient.of('#c:foods/oranges'), '250x #c:honey'
     ]).id('kubejs:mixing/candied_orange')
 

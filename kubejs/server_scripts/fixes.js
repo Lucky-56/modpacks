@@ -25,6 +25,8 @@ ServerEvents.tags('item', event => {
     event.add('c:foods/raw_meat', 'marbledschevon:raw_chevon')
     event.add('c:foods/cooked_meat', 'marbledschevon:cooked_chevon')
 
+    event.add('c:foods/cooked_fishes', '#c:foods/cooked_fish')
+
     event.add('c:foods/banana', 'alexsmobs:banana')
 
     event.add('c:foods/milk', ['farmersdelight:milk_bottle', 'caverns_and_chasms:golden_milk_bucket'])
@@ -82,6 +84,8 @@ ServerEvents.tags('item', event => {
     event.add('c:nuggets/coal', 'spelunkery:coal_lump')
     event.add('c:nuggets/charcoal', 'spelunkery:charcoal_lump')
     event.add('c:nuggets', ['#c:nuggets/coal', '#c:nuggets/charcoal'])
+
+    event.add('c:seeds', 'bountifulfares:grass_seeds')
 
     event.add('c:copper_torches', ['minecraft:copper_torch', 'caverns_and_chasms:cupric_torch'])
 

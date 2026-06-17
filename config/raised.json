@@ -933,7 +933,7 @@
         "x": "NONE",
         "y": "UP"
       },
-      "sync": "satchels:satchel_hotbar"
+      "sync": "minecraft:hotbar"
     },
     "shepard_sound_streaks:debug_sound_overlay": {
       "displacement": {

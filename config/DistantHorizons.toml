@@ -138,7 +138,7 @@ _version = 4
 				expandDistantBeacons = true
 				#
 				# If true LOD clouds will be rendered.
-				enableCloudRendering = false
+				enableCloudRendering = true
 				#
 				# A comma separated separated list of dimension resource locations where DH clouds will render.
 				# 

@@ -330,6 +330,9 @@ ServerEvents.recipes(event => {
 	// 	'#c:buckets/water', '#c:flours/wheat', '#c:flours/wheat', '#c:flours/wheat'
 	// ]).id('kubejs:crafting/dough_from_water_bucket_manual_only')
 	event.shapeless('3x farmersdelight:wheat_dough', [
+		'#c:buckets/water', '#c:flours/wheat', '#c:flours/wheat', '#c:flours/wheat'
+	]).id('kubejs:wheat_dough')
+	event.shapeless('3x farmersdelight:wheat_dough', [
 		'#c:eggs', '#c:flours/wheat', '#c:flours/wheat', '#c:flours/wheat'
 	]).id('farmersdelight:wheat_dough_from_egg')
 	event.recipes.create.splashing('farmersdelight:wheat_dough',

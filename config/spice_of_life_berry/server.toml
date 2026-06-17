@@ -2,7 +2,7 @@
 	enabled = true
 
 [food_detection]
-	foodDetectionTags = ["c:foods", "c:food", "forge:foods", "forge:food", "c:foods/soup", "c:drinks"]
+	foodDetectionTags = ["c:foods", "c:foods/soup", "c:drinks"]
 	forcedFoodItems = []
 	manualFoodItemsCanBeEaten = true
 	foodNutritionOverrides = []
@@ -19,11 +19,11 @@
 	# Default: 0.0
 	# Range: 0.0 ~ 20.0
 	plantableFoodMinimumHungerRestore = 0.0
-	plantableFoodOverrides = ["minecraft:potato", "minecraft:carrot"]
+	plantableFoodOverrides = ["minecraft:potato", "minecraft:carrot", "farmersdelight:onion"]
 
 [food_detection_nbt]
 	nbtSensitiveFoodEnabled = true
-	nbtSensitiveFoodRules = ["minecraft:suspicious_stew=ignore_nbt"]
+	nbtSensitiveFoodRules = ["minecraft:suspicious_stew=ignore_nbt", "someassemblyrequired:sandwich=ignore_nbt"]
 
 [hunger]
 	# Default: 17.0
@@ -272,7 +272,7 @@
 	minDiscoveredFoodsForCravings = 6
 	configuredFoodPool = ["minecraft:apple", "minecraft:bread", "minecraft:baked_potato"]
 	foodPoolWhitelist = []
-	foodPoolBlacklist = []
+	foodPoolBlacklist = ["dimensional_tears:dimensional_tears_bottle"]
 	defaultCategoryId = ""
 	netherForceCategory = true
 	netherForcedCategoryId = "watery"
@@ -458,7 +458,7 @@
 	rules = ["minecraft:overworld|hunger=true|cravings=true|preferred=|required=|passive=1.0|sleep=1.0|elytra=1.0|regen=1.0", "minecraft:the_nether|hunger=true|cravings=true|required=watery|preferred=watery|passive=1.25|sleep=1.0|elytra=1.0|regen=1.0", "minecraft:the_end|hunger=true|cravings=true|preferred=|required=|passive=1.5|postDragonPassive=0.45|sleep=1.0|elytra=1.0|regen=1.0"]
 
 	[compat.farmersdelight]
-		removeNourishmentEffect = true
+		removeNourishmentEffect = false
 
 [transport]
 	enableBoatRowingSlowdown = true

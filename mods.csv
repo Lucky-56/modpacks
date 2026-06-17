@@ -2,9 +2,11 @@ Name,Developer,Version,Loader,Enabled,FileName,Path
 Abnormals Delight,Team Abnormals,6.0.2,NeoForge,true,abnormals_delight-1.21.1-6.0.2.jar,C:\Users\Lucky56\github\modpacks\mods\abnormals_delight-1.21.1-6.0.2.jar
 Abyssal Decor,"Morgan, MCreator",1.0.0,NeoForge,true,abyssal_decor_1.21.1_0.10.0_Neoforge.jar,C:\Users\Lucky56\github\modpacks\mods\abyssal_decor_1.21.1_0.10.0_Neoforge.jar
 Accessories,"Blodhgarm, chyzman, Dr.Zeal",1.1.0-beta.53+1.21.1,NeoForge,true,accessories-neoforge-1.1.0-beta.53+1.21.1.jar,C:\Users\Lucky56\github\modpacks\mods\accessories-neoforge-1.1.0-beta.53+1.21.1.jar
+Accessories Compatibility Layer,"blodhgarm, ",0.1.12,NeoForge,false,accessories_compat_layer-neoforge-0.1.12+1.21.1.jar.disabled,C:\Users\Lucky56\github\modpacks\mods\accessories_compat_layer-neoforge-0.1.12+1.21.1.jar.disabled
 ActuallyHarvest,wendall911,1.1.7.6,NeoForge,true,actuallyharvest-1.21.1-neoforge-1.1.7.6-NEOFORGE.jar,C:\Users\Lucky56\github\modpacks\mods\actuallyharvest-1.21.1-neoforge-1.1.7.6-NEOFORGE.jar
 AdvancedLootInfo,Yanny,1.12.0,NeoForge,true,AdvancedLootInfo-neoforge-1.21.1-1.12.0.jar,C:\Users\Lucky56\github\modpacks\mods\AdvancedLootInfo-neoforge-1.21.1-1.12.0.jar
 Advancement Plaques,Grend,1.6.8,NeoForge,true,AdvancementPlaques-1.21.1-neoforge-1.6.8.jar,C:\Users\Lucky56\github\modpacks\mods\AdvancementPlaques-1.21.1-neoforge-1.6.8.jar
+Advancements Reloaded,@42atomys,0.6.1,NeoForge,false,advancements_reloaded-0.6.1-neoforge-1.21.1.jar.disabled,C:\Users\Lucky56\github\modpacks\mods\advancements_reloaded-0.6.1-neoforge-1.21.1.jar.disabled
 AeronauticsCompat,rohan,1.1.2,NeoForge,true,aeronauticscompat-1.1.2.jar,C:\Users\Lucky56\github\modpacks\mods\aeronauticscompat-1.1.2.jar
 Aeronautics Camera Sync,-,1.3.1,NeoForge,true,aero_cam_sync-1.3.1.jar,C:\Users\Lucky56\github\modpacks\mods\aero_cam_sync-1.3.1.jar
 The Aether,"AlphaMode, baguchi, bconlon, Blodhgarm, Burning Cactus, Drullkus, Hugo Payn, Jaryt, Katie 'Oz' Payn, quek, Raptor, reetam, RENREN, sunsette",1.5.10,NeoForge,true,aether-1.21.1-1.5.10-neoforge.jar,C:\Users\Lucky56\github\modpacks\mods\aether-1.21.1-1.5.10-neoforge.jar
@@ -50,7 +52,7 @@ Better Mods Button,Fuzs,21.1.0,NeoForge,true,BetterModsButton-v21.1.0-1.21.1-Neo
 Better Ping Display,Quintinity,1.1,NeoForge,true,BetterPingDisplay-1.21.1-1.1.jar,C:\Users\Lucky56\github\modpacks\mods\BetterPingDisplay-1.21.1-1.1.jar
 Better Safe Bed,frankV,1.21-16,NeoForge,true,bettersafebed-neoforge-1.21-16.jar,C:\Users\Lucky56\github\modpacks\mods\bettersafebed-neoforge-1.21-16.jar
 Better Statistics Screen,TheCSDev,3.13.9+fabric-1.21,Fabric,true,betterstats-3.13.9+fabric-1.21.jar,C:\Users\Lucky56\github\modpacks\mods\betterstats-3.13.9+fabric-1.21.jar
-Biolith,"TerraformersMC, gniftygnome",3.0.11,NeoForge,true,biolith-neoforge-3.0.11.jar,C:\Users\Lucky56\github\modpacks\mods\biolith-neoforge-3.0.11.jar
+Biolith,"TerraformersMC, gniftygnome",3.0.12,NeoForge,true,biolith-neoforge-3.0.12.jar,C:\Users\Lucky56\github\modpacks\mods\biolith-neoforge-3.0.12.jar
 Biomes O' Plenty,"Adubbz, Forstride",21.1.0.13,NeoForge,true,BiomesOPlenty-neoforge-1.21.1-21.1.0.13.jar,C:\Users\Lucky56\github\modpacks\mods\BiomesOPlenty-neoforge-1.21.1-21.1.0.13.jar
 Create Bits 'n' Bobs,"Cake, Kipti, NormalGuy, Astral, Spydnel",0.0.44,NeoForge,true,bits_n_bobs-0.0.44.jar,C:\Users\Lucky56\github\modpacks\mods\bits_n_bobs-0.0.44.jar
 Blueprint,Team Abnormals,8.1.0,NeoForge,true,blueprint-1.21.1-8.1.0.jar,C:\Users\Lucky56\github\modpacks\mods\blueprint-1.21.1-8.1.0.jar
@@ -72,6 +74,7 @@ Chat Patches,OBro1961,211.6.9-secure,Fabric,true,chatpatches-211.6.9-secure.jar,
 Chat Heads,"dzwdz, Fourmisain",0.15.2,NeoForge,true,chat_heads-0.15.2-neoforge-1.21.jar,C:\Users\Lucky56\github\modpacks\mods\chat_heads-0.15.2-neoforge-1.21.jar
 Chipped,"Alex Nijjar, Grimbop, Kekie6, ThatGravyBoat",4.0.2,NeoForge,true,chipped-neoforge-1.21.1-4.0.2.jar,C:\Users\Lucky56\github\modpacks\mods\chipped-neoforge-1.21.1-4.0.2.jar
 chunksending mod,Someaddon,2.9,NeoForge,true,chunksending-1.21-2.9.jar,C:\Users\Lucky56\github\modpacks\mods\chunksending-1.21-2.9.jar
+Chunks Fade In,kerudion (koteinik),3.0.23-1.21,NeoForge,false,chunksfadein-neoforge-3.0.23-1.21.jar.disabled,C:\Users\Lucky56\github\modpacks\mods\chunksfadein-neoforge-3.0.23-1.21.jar.disabled
 Chunky,pop4959,1.4.23,NeoForge,true,Chunky-NeoForge-1.4.23.jar,C:\Users\Lucky56\github\modpacks\mods\Chunky-NeoForge-1.4.23.jar
 Cinch's Missing Blocks,Cinchtail,3.2,NeoForge,true,cinchsmissingblocks-[NeoForge-1.21.1]-3.2.jar,C:\Users\Lucky56\github\modpacks\mods\cinchsmissingblocks-[NeoForge-1.21.1]-3.2.jar
 Citadel,Alexthe666,2.7.0,NeoForge,true,citadel-2.7.0-1.21.1.jar,C:\Users\Lucky56\github\modpacks\mods\citadel-2.7.0-1.21.1.jar
@@ -84,7 +87,7 @@ Cloth Config v15 API,shedaniel,15.0.140,NeoForge,true,cloth-config-15.0.140-neof
 Clumps,Jared,19.0.0.1,NeoForge,true,Clumps-neoforge-1.21.1-19.0.0.1.jar,C:\Users\Lucky56\github\modpacks\mods\Clumps-neoforge-1.21.1-19.0.0.1.jar
 Create More: Package Couriers,Krei,2.3.0,NeoForge,true,cmpackagecouriers-neoforge-2.3.0.jar,C:\Users\Lucky56\github\modpacks\mods\cmpackagecouriers-neoforge-2.3.0.jar
 Cobweb,"Crystal Spider, Moonstone Webber, Noir",1.4.0,NeoForge,true,cobweb-neoforge-1.21-1.4.0.jar,C:\Users\Lucky56\github\modpacks\mods\cobweb-neoforge-1.21-1.4.0.jar
-Collective,Rick South,8.25,"NeoForge, Forge, Fabric",true,collective-1.21.1-8.25.jar,C:\Users\Lucky56\github\modpacks\mods\collective-1.21.1-8.25.jar
+Collective,Rick South,8.27,"NeoForge, Forge, Fabric",true,collective-1.21.1-8.27.jar,C:\Users\Lucky56\github\modpacks\mods\collective-1.21.1-8.27.jar
 Colorwheel,djefrey,1.2.9+mc1.21.1,NeoForge,true,colorwheel-neoforge-1.2.9+mc1.21.1.jar,C:\Users\Lucky56\github\modpacks\mods\colorwheel-neoforge-1.2.9+mc1.21.1.jar
 Completionist's Index,Fuzs,21.1.0,NeoForge,true,CompletionistsIndex-v21.1.0-1.21.1-NeoForge.jar,C:\Users\Lucky56\github\modpacks\mods\CompletionistsIndex-v21.1.0-1.21.1-NeoForge.jar
 Configurable,Bawnorton,3.5.1,NeoForge,true,configurable-3.5.1+1.21.1-neoforge.jar,C:\Users\Lucky56\github\modpacks\mods\configurable-3.5.1+1.21.1-neoforge.jar
@@ -101,7 +104,7 @@ Create: Copycats+,"Lysine, Bennyboy1695, Redcat_XVIII",3.0.4+mc.1.21.1-neoforge,
 CoroUtil,Corosus,1.21.0-1.3.8,NeoForge,true,coroutil-neoforge-1.21.0-1.3.8.jar,C:\Users\Lucky56\github\modpacks\mods\coroutil-neoforge-1.21.0-1.3.8.jar
 Cosy Critters & Creepy Crawlies,pigcart,0.3.2,NeoForge,true,cosycritters-0.3.2+1.21.1-neoforge.jar,C:\Users\Lucky56\github\modpacks\mods\cosycritters-0.3.2+1.21.1-neoforge.jar
 Crafting Tweaks,BlayTheNinth,21.1.10,NeoForge,true,craftingtweaks-neoforge-1.21.1-21.1.10.jar,C:\Users\Lucky56\github\modpacks\mods\craftingtweaks-neoforge-1.21.1-21.1.10.jar
-Crash Assistant,KostromDan,1.11.9,NeoForge,true,CrashAssistant-neoforge-1.20.6-1.21.4-1.11.9.jar,C:\Users\Lucky56\github\modpacks\mods\CrashAssistant-neoforge-1.20.6-1.21.4-1.11.9.jar
+Crash Assistant,KostromDan,1.11.10,NeoForge,true,CrashAssistant-neoforge-1.20.6-1.21.4-1.11.10.jar,C:\Users\Lucky56\github\modpacks\mods\CrashAssistant-neoforge-1.20.6-1.21.4-1.11.10.jar
 Create,simibubi,6.0.10,NeoForge,true,create-1.21.1-6.0.10.jar,C:\Users\Lucky56\github\modpacks\mods\create-1.21.1-6.0.10.jar
 Create Aeronautics,Simulated Team,1.3.0,NeoForge,true,create-aeronautics-bundled-1.21.1-1.3.0.jar,C:\Users\Lucky56\github\modpacks\mods\create-aeronautics-bundled-1.21.1-1.3.0.jar
 Create: Cardboarded Conveynience,TakeruDavis,1.0.0,NeoForge,true,create-cardboarded-conveynience-1.21.1-neoforge-1.0.0.jar,C:\Users\Lucky56\github\modpacks\mods\create-cardboarded-conveynience-1.21.1-neoforge-1.0.0.jar
@@ -115,7 +118,7 @@ Create Big Cannons,rbasamoyai,5.11.6,NeoForge,true,createbigcannons-5.11.6+mc.1.
 Create Deco,"Kayla, Talrey, Ordana, Cassian",2.1.3,NeoForge,true,createdeco-2.1.3.jar,C:\Users\Lucky56\github\modpacks\mods\createdeco-2.1.3.jar
 Create Diesel Generators,George VI,1.21.1-1.3.13,NeoForge,true,createdieselgenerators-1.21.1-1.3.13.jar,C:\Users\Lucky56\github\modpacks\mods\createdieselgenerators-1.21.1-1.3.13.jar
 Create: Dragons Plus,DragonsPlus,1.11.2b,NeoForge,true,CreateDragonsPlus-1.11.2b.jar,C:\Users\Lucky56\github\modpacks\mods\CreateDragonsPlus-1.11.2b.jar
-[Furniture] Create/Sable Compat,mistrberry,4.8.10,NeoForge,true,createfurnitureseats-4.8.10.jar,C:\Users\Lucky56\github\modpacks\mods\createfurnitureseats-4.8.10.jar
+[Furniture] Create/Sable Compat,mistrberry,4.8.17,NeoForge,true,createfurnitureseats-4.8.17.jar,C:\Users\Lucky56\github\modpacks\mods\createfurnitureseats-4.8.17.jar
 Create:Lazy Tick,"Authors: PinkCats, Fugit-5414 (Without Order) Contributors: rightlv",2.4.9-6.0.x,NeoForge,true,CreateLazyTick-2.4.9-6.0.x-neoforge-1.21.1.jar,C:\Users\Lucky56\github\modpacks\mods\CreateLazyTick-2.4.9-6.0.x-neoforge-1.21.1.jar
 Create More Conveyor,Darudas,1.0.1,NeoForge,true,createmoreconveyor-neoforge-1.21.1-1.0.1.jar,C:\Users\Lucky56\github\modpacks\mods\createmoreconveyor-neoforge-1.21.1-1.0.1.jar
 Create Nuclear,Create Nuclear,1.3.2-beta.3,NeoForge,true,createnuclear-1.3.2-beta.3-neoforge.jar,C:\Users\Lucky56\github\modpacks\mods\createnuclear-1.3.2-beta.3-neoforge.jar
@@ -127,6 +130,7 @@ Create: Bitterballen,pyzpre,1.0.2C,NeoForge,true,create_bic_bit-1.0.2C.jar,C:\Us
 Create: Compatible Storage,Dadamalda,2.11.0-neoforge,NeoForge,true,create_compatible_storage-2.11.0-neoforge.jar,C:\Users\Lucky56\github\modpacks\mods\create_compatible_storage-2.11.0-neoforge.jar
 Create: Connected,Lysine,1.2.2-mc1.21.1,NeoForge,true,create_connected-1.2.2-mc1.21.1.jar,C:\Users\Lucky56\github\modpacks\mods\create_connected-1.2.2-mc1.21.1.jar
 Create Hypertube,Rok,0.4.0-SABLE-COMPAT,NeoForge,true,create_hypertube-0.4.0-SABLE-COMPAT-NEOFORGE.jar,C:\Users\Lucky56\github\modpacks\mods\create_hypertube-0.4.0-SABLE-COMPAT-NEOFORGE.jar
+Create Jetpack,possible_triangle,5.1.2,NeoForge,false,create_jetpack-forge-5.1.2.jar.disabled,C:\Users\Lucky56\github\modpacks\mods\create_jetpack-forge-5.1.2.jar.disabled
 Create: Pattern Schematics,Cake,2.0.10,NeoForge,true,create_pattern_schematics-2.0.10.jar,C:\Users\Lucky56\github\modpacks\mods\create_pattern_schematics-2.0.10.jar
 Ratatouille,"Forsteri, Thaumstrial, Even",1.3.9-2,NeoForge,true,create_ratatouille-1.21.1-1.3.9-2.jar,C:\Users\Lucky56\github\modpacks\mods\create_ratatouille-1.21.1-1.3.9-2.jar
 Create: Vibrant Vaults,ZLT,0.3.2,NeoForge,true,create_vibrant_vaults-0.3.2.jar,C:\Users\Lucky56\github\modpacks\mods\create_vibrant_vaults-0.3.2.jar
@@ -135,8 +139,10 @@ Creature Feature,"AtiredDev, Team Galena",1.0.4.1,NeoForge,true,creaturefeature-
 Creeper Overhaul,"Artist/Creator - Joosh, Dev - ThatGravyBoat",4.0.6,NeoForge,true,CreeperOverhaul-neoforge-1.21.1-4.0.6.jar,C:\Users\Lucky56\github\modpacks\mods\CreeperOverhaul-neoforge-1.21.1-4.0.6.jar
 Critters and Companions,"Joosh, EterDelta",1.21.1-2.3.4,NeoForge,true,crittersandcompanions-neoforge-1.21.1-2.3.4.jar,C:\Users\Lucky56\github\modpacks\mods\crittersandcompanions-neoforge-1.21.1-2.3.4.jar
 Cupboard mod,Someaddon,3.5,NeoForge,true,cupboard-1.21-3.5.jar,C:\Users\Lucky56\github\modpacks\mods\cupboard-1.21-3.5.jar
+Cupboard mod,Someaddon,3.7,NeoForge,false,cupboard-1.21-3.7.jar.disabled,C:\Users\Lucky56\github\modpacks\mods\cupboard-1.21-3.7.jar.disabled
 Curios API,C4,9.5.1+1.21.1,NeoForge,true,curios-neoforge-9.5.1+1.21.1.jar,C:\Users\Lucky56\github\modpacks\mods\curios-neoforge-9.5.1+1.21.1.jar
 Cut Through,Fuzs,21.1.0,NeoForge,true,CutThrough-v21.1.0-1.21.1-NeoForge.jar,C:\Users\Lucky56\github\modpacks\mods\CutThrough-v21.1.0-1.21.1-NeoForge.jar
+Cubes Without Borders,Kir_Antipov,3.0.0+mc1.21,NeoForge,true,cwb-neoforge-3.0.0+mc1.21.jar,C:\Users\Lucky56\github\modpacks\mods\cwb-neoforge-3.0.0+mc1.21.jar
 Coop Moves,Anteryo,2.0.0,Fabric,true,DAP ur HOMIE (Bully ur Homie).jar,C:\Users\Lucky56\github\modpacks\mods\DAP ur HOMIE (Bully ur Homie).jar
 Darker Depths,"Naterbobber, Blackgear, Toxteer, Orcinus",2.1.4,NeoForge,true,darkerdepths-2.1.4.jar,C:\Users\Lucky56\github\modpacks\mods\darkerdepths-2.1.4.jar
 DarkPaintings,Darkhax,21.1.7,NeoForge,true,darkpaintings-neoforge-1.21.1-21.1.7.jar,C:\Users\Lucky56\github\modpacks\mods\darkpaintings-neoforge-1.21.1-21.1.7.jar
@@ -148,7 +154,7 @@ Design n' Decor,"LopyLuna, DrMangoTea",2.2b,NeoForge,true,Design-n-Decor-1.21.1-
 KubeJS Diesel Generators,BluePHS,1.21.1-1.1.5,NeoForge,true,dg_js-1.21.1-1.1.5.jar,C:\Users\Lucky56\github\modpacks\mods\dg_js-1.21.1-1.1.5.jar
 Dimensional Tears,Ordana,1.21.1-0.2.1,NeoForge,true,dimensional_tears-neoforge-1.21.1-0.2.1.jar,C:\Users\Lucky56\github\modpacks\mods\dimensional_tears-neoforge-1.21.1-0.2.1.jar
 Distant Friends,"Mrbysco, ShyNieke",0.9.5,NeoForge,true,DistantFriends-neoforge-1.21.1-0.9.5.jar,C:\Users\Lucky56\github\modpacks\mods\DistantFriends-neoforge-1.21.1-0.9.5.jar
-Distant Horizons,"James Seibel, Leonardo Amato, Cola, coolGi, Ran, Leetom, pshsh",3.0.3-b,"NeoForge, Fabric",true,DistantHorizons-3.0.3-b-1.21.1-fabric-neoforge.jar,C:\Users\Lucky56\github\modpacks\mods\DistantHorizons-3.0.3-b-1.21.1-fabric-neoforge.jar
+Distant Horizons,"James Seibel, Leonardo Amato, Cola, coolGi, Ran, Leetom, pshsh",3.1.0-b,"NeoForge, Fabric",true,DistantHorizons-3.1.0-b-1.21.1-fabric-neoforge.jar,C:\Users\Lucky56\github\modpacks\mods\DistantHorizons-3.1.0-b-1.21.1-fabric-neoforge.jar
 Create: Dreams n' Desires,LopyLuna,2.3a-BETA,NeoForge,true,DnDesires-1.21.1-2.3a-BETA.jar,C:\Users\Lucky56\github\modpacks\mods\DnDesires-1.21.1-2.3a-BETA.jar
 Doom & Gloom,Team Galena,3.0.0,NeoForge,true,doom_and_gloom-forge-3.0.0.jar,C:\Users\Lucky56\github\modpacks\mods\doom_and_gloom-forge-3.0.0.jar
 DragonLib,MrJulsen,1.21.1-beta-3.0.28,NeoForge,true,dragonlib-neoforge-1.21.1-beta-3.0.28.jar,C:\Users\Lucky56\github\modpacks\mods\dragonlib-neoforge-1.21.1-beta-3.0.28.jar
@@ -175,7 +181,7 @@ EMI,Emi,1.1.24+1.21.1+neoforge,NeoForge,true,emi-1.1.24+1.21.1+neoforge.jar,C:\U
 EMI++,ConcerroX,2.0.0,NeoForge,true,emixx-2.0.0.jar,C:\Users\Lucky56\github\modpacks\mods\emixx-2.0.0.jar
 Create: EMI Schematics,"LiukRast, swzo",1.1.0,NeoForge,true,emi_create_schematics-1.1.0.jar,C:\Users\Lucky56\github\modpacks\mods\emi_create_schematics-1.1.0.jar
 EMI Enchanting,fzzyhmstrs,0.1.2+1.21+neoforge,NeoForge,true,emi_enchanting-0.1.2+1.21+neoforge.jar,C:\Users\Lucky56\github\modpacks\mods\emi_enchanting-0.1.2+1.21+neoforge.jar
-EMI Ores,Abbie,1.2+1.21.1+neoforge,NeoForge,true,emi_ores-1.2+1.21.1+neoforge.jar,C:\Users\Lucky56\github\modpacks\mods\emi_ores-1.2+1.21.1+neoforge.jar
+EMI Ores,Abbie,1.3+1.21.1+neoforge,NeoForge,true,emi_ores-1.3+1.21.1+neoforge.jar,C:\Users\Lucky56\github\modpacks\mods\emi_ores-1.3+1.21.1+neoforge.jar
 Emojiful,HRZN,5.2.2,NeoForge,true,Emojiful-Neoforge-1.21-5.2.2-all.jar,C:\Users\Lucky56\github\modpacks\mods\Emojiful-Neoforge-1.21-5.2.2-all.jar
 EnchantmentDescriptions,Darkhax,21.1.10,NeoForge,true,enchdesc-neoforge-1.21.1-21.1.10.jar,C:\Users\Lucky56\github\modpacks\mods\enchdesc-neoforge-1.21.1-21.1.10.jar
 Enchantment Sort,Locus_Natit,2.2.2,NeoForge,true,enchsort-1.21.1-2.2.2-all.jar,C:\Users\Lucky56\github\modpacks\mods\enchsort-1.21.1-2.2.2-all.jar
@@ -189,12 +195,14 @@ Entity Sound Features,Traben,0.8.1,NeoForge,true,entity_sound_features-0.8.1-1.2
 Entity Texture Features,Traben,7.1,NeoForge,true,entity_texture_features_1.21-neoforge-7.1.jar,C:\Users\Lucky56\github\modpacks\mods\entity_texture_features_1.21-neoforge-7.1.jar
 Environmental,Team Abnormals,5.0.1,NeoForge,true,environmental-1.21.1-5.0.1.jar,C:\Users\Lucky56\github\modpacks\mods\environmental-1.21.1-5.0.1.jar
 Create: Escalated,rbasamoyai,1.3.1,NeoForge,true,escalated-1.3.1-mc.1.21.1.jar,C:\Users\Lucky56\github\modpacks\mods\escalated-1.3.1-mc.1.21.1.jar
+Every Compat,"MehVahdJukaar, Xel'Bayria, WenXin2",1.21-2.11.44,NeoForge,false,everycomp-1.21-2.11.44-neoforge.jar.disabled,C:\Users\Lucky56\github\modpacks\mods\everycomp-1.21-2.11.44-neoforge.jar.disabled
 Explosive Enhancement,Xylonity,1.1.2,NeoForge,true,explosiveenhancement-neoforge-1.21.1-1.1.2.jar,C:\Users\Lucky56\github\modpacks\mods\explosiveenhancement-neoforge-1.21.1-1.1.2.jar
 Exposure,mortuusars,1.9.18,NeoForge,true,exposure-neoforge-1.21.1-1.9.18.jar,C:\Users\Lucky56\github\modpacks\mods\exposure-neoforge-1.21.1-1.9.18.jar
 Exposure: Detective,MineBlock1305,1.0.1,NeoForge,true,ExposureDetective-1.21.1-1.0.1.jar,C:\Users\Lucky56\github\modpacks\mods\ExposureDetective-1.21.1-1.0.1.jar
 Exposure: Expanded,"Sparkwave, JohnRamRu",1.0.1,NeoForge,true,exposure_expanded-neoforge-1.0.1.jar,C:\Users\Lucky56\github\modpacks\mods\exposure_expanded-neoforge-1.0.1.jar
 Exposure Polaroid,mortuusars,1.1.5,NeoForge,true,exposure_polaroid-neoforge-1.21.1-1.1.5.jar,C:\Users\Lucky56\github\modpacks\mods\exposure_polaroid-neoforge-1.21.1-1.1.5.jar
 Create: Extra Gauges,"Liukrast, Francywott",2.1.2,NeoForge,true,extra_gauges-2.1.2.jar,C:\Users\Lucky56\github\modpacks\mods\extra_gauges-2.1.2.jar
+Fabric API,FabricMC,0.116.12+1.21.1,Fabric,false,fabric-api-0.116.12+1.21.1.jar.disabled,C:\Users\Lucky56\github\modpacks\mods\fabric-api-0.116.12+1.21.1.jar.disabled
 FancyMenu,Keksuccino,3.9.1,NeoForge,true,fancymenu_neoforge_3.9.1_MC_1.21.1.jar,C:\Users\Lucky56\github\modpacks\mods\fancymenu_neoforge_3.9.1_MC_1.21.1.jar
 Farmer's Delight,vectorwing,1.3.2,NeoForge,true,FarmersDelight-1.21.1-1.3.2.jar,C:\Users\Lucky56\github\modpacks\mods\FarmersDelight-1.21.1-1.3.2.jar
 fastasyncworldsave mod,Someaddon,2.6,NeoForge,true,fastasyncworldsave-1.21-2.6.jar,C:\Users\Lucky56\github\modpacks\mods\fastasyncworldsave-1.21-2.6.jar
@@ -206,7 +214,7 @@ Fast Workbench,Shadows_of_Fire,9.1.3,NeoForge,true,FastWorkbench-1.21.1-9.1.3.ja
 Ferrite Core,malte0811,7.0.3,NeoForge,true,ferritecore-7.0.3-neoforge..jar,C:\Users\Lucky56\github\modpacks\mods\ferritecore-7.0.3-neoforge..jar
 Field Guide,"Evan, Kobber",1.11.2,NeoForge,true,fieldguide-neoforge-1.21.1-1.11.2.jar,C:\Users\Lucky56\github\modpacks\mods\fieldguide-neoforge-1.21.1-1.11.2.jar
 Fixed Villager Trades,Qu,1.2.2,Fabric,true,fixed-villager-trades-1.2.2..jar,C:\Users\Lucky56\github\modpacks\mods\fixed-villager-trades-1.2.2..jar
-Flerovium,MoePus,1.0.18,NeoForge,true,flerovium-neoforge-1.21.1-1.0.18-all..jar,C:\Users\Lucky56\github\modpacks\mods\flerovium-neoforge-1.21.1-1.0.18-all..jar
+Flerovium,MoePus,1.1.0,NeoForge,true,flerovium-neoforge-1.21.1-1.1.0-all.jar,C:\Users\Lucky56\github\modpacks\mods\flerovium-neoforge-1.21.1-1.1.0-all.jar
 Fog,"IMB11,Steveplays",1.11.0-1.21.1,NeoForge,true,Fog-neoforge-1.11.0-1.21.1..jar,C:\Users\Lucky56\github\modpacks\mods\Fog-neoforge-1.11.0-1.21.1..jar
 Forgified Fabric API,"Sinytra, FabricMC",0.116.7+2.2.4+1.21.1,NeoForge,true,forgified-fabric-api-0.116.7+2.2.4+1.21.1..jar,C:\Users\Lucky56\github\modpacks\mods\forgified-fabric-api-0.116.7+2.2.4+1.21.1..jar
 Fragmentum,Obscuria,2.2.4,NeoForge,true,fragmentum-neoforge-1.21.1-2.2.4.jar,C:\Users\Lucky56\github\modpacks\mods\fragmentum-neoforge-1.21.1-2.2.4.jar
@@ -219,7 +227,8 @@ Fzzy Config,fzzyhmstrs,0.7.6+1.21+neoforge,NeoForge,true,fzzy_config-0.7.6+1.21+
 Gallery,Team Abnormals,2.0.1,NeoForge,true,gallery-1.21.1-2.0.1.jar,C:\Users\Lucky56\github\modpacks\mods\gallery-1.21.1-2.0.1.jar
 Gardens of the Dead,ochotonida,5.0.2,NeoForge,true,gardens-of-the-dead-neoforge-5.0.2..jar,C:\Users\Lucky56\github\modpacks\mods\gardens-of-the-dead-neoforge-5.0.2..jar
 GeckoLib 4,"Gecko, Eliot, AzureDoom, DerToaster, Tslat, Witixin",4.8.4,NeoForge,true,geckolib-neoforge-1.21.1-4.8.4..jar,C:\Users\Lucky56\github\modpacks\mods\geckolib-neoforge-1.21.1-4.8.4..jar
-Geophilic,bebebea_loste,3.5,"NeoForge, Forge, Fabric, Quilt",true,Geophilic v3.5.mod.jar,C:\Users\Lucky56\github\modpacks\mods\Geophilic v3.5.mod.jar
+Gems Realm,"Xel'Bayria, MehVahdJukaar",1.21-2.11.3,NeoForge,false,gemsrealm-1.21-2.11.3-neoforge.jar.disabled,C:\Users\Lucky56\github\modpacks\mods\gemsrealm-1.21-2.11.3-neoforge.jar.disabled
+Geophilic,bebebea_loste,3.6,"NeoForge, Forge, Fabric, Quilt",true,Geophilic v3.6.mod.jar,C:\Users\Lucky56\github\modpacks\mods\Geophilic v3.6.mod.jar
 Geophilic Backport,Aarods,1.3.3,"NeoForge, Fabric",true,GeophilicBackported-v1.3.3 1.21.1.jar,C:\Users\Lucky56\github\modpacks\mods\GeophilicBackported-v1.3.3 1.21.1.jar
 GlitchCore,Adubbz,2.1.0.2,NeoForge,true,GlitchCore-neoforge-1.21.1-2.1.0.2.jar,C:\Users\Lucky56\github\modpacks\mods\GlitchCore-neoforge-1.21.1-2.1.0.2.jar
 Gnetum,decce,3.3.4,NeoForge,true,gnetum-3.3.4.jar,C:\Users\Lucky56\github\modpacks\mods\gnetum-3.3.4.jar
@@ -242,15 +251,16 @@ Immersive Optimization,Luke100000,0.1.6,NeoForge,true,immersive_optimization-neo
 Immersive Paintings,Luke100000,0.7.8,NeoForge,true,immersive_paintings-neoforge-1.21.1-0.7.8.jar,C:\Users\Lucky56\github\modpacks\mods\immersive_paintings-neoforge-1.21.1-0.7.8.jar
 Incendium,Stardust Labs,5.4.3,"NeoForge, Forge, Fabric, Quilt",true,Incendium_1.21.x_v5.4.4...jar,C:\Users\Lucky56\github\modpacks\mods\Incendium_1.21.x_v5.4.4...jar
 Incubation,Team Abnormals,5.0.2,NeoForge,true,incubation-1.21.1-5.0.2...jar,C:\Users\Lucky56\github\modpacks\mods\incubation-1.21.1-5.0.2...jar
+Create: Interiors,"sudolev, rdh",0.6.1,NeoForge,false,interiors-1.21.1-neoforge-0.6.1...jar.disabled,C:\Users\Lucky56\github\modpacks\mods\interiors-1.21.1-neoforge-0.6.1...jar.disabled
 Iris,"coderbot, IMS212",1.8.14-beta.1+mc1.21.1,NeoForge,true,iris-neoforge-1.8.14-beta.1+mc1.21.1.jar,C:\Users\Lucky56\github\modpacks\mods\iris-neoforge-1.8.14-beta.1+mc1.21.1.jar
 Item Obliterator,"ElocinDev, Recon1991, UQuark",2.3.0,NeoForge,true,Item-Obliterator-NeoForge-MC1.21.1-2.3.0.jar,C:\Users\Lucky56\github\modpacks\mods\Item-Obliterator-NeoForge-MC1.21.1-2.3.0.jar
-Item Zoomer,iMeeTake,2.2.0-1.21.1,NeoForge,true,itemzoomer-neoforge-2.2.0-1.21.1.jar,C:\Users\Lucky56\github\modpacks\mods\itemzoomer-neoforge-2.2.0-1.21.1.jar
+Item Zoomer,iMeeTake,2.2.1-1.21.1,NeoForge,true,itemzoomer-neoforge-2.2.1-1.21.1.jar,C:\Users\Lucky56\github\modpacks\mods\itemzoomer-neoforge-2.2.1-1.21.1.jar
 Item Descriptions,cassiancc,2.8.0+1.21.1,"NeoForge, Fabric",true,item_descriptions-2.8.0+1.21.1-neoforge.jar,C:\Users\Lucky56\github\modpacks\mods\item_descriptions-2.8.0+1.21.1-neoforge.jar
 Jade,Snownee,15.10.5+neoforge,NeoForge,true,Jade-1.21.1-NeoForge-15.10.5...jar,C:\Users\Lucky56\github\modpacks\mods\Jade-1.21.1-NeoForge-15.10.5...jar
 Jade Addons,Snownee,6.1.0+neoforge,NeoForge,true,JadeAddons-1.21.1-NeoForge-6.1.0...jar,C:\Users\Lucky56\github\modpacks\mods\JadeAddons-1.21.1-NeoForge-6.1.0...jar
 JamLib,Jamalam,1.3.6+1.21.1,NeoForge,true,jamlib-neoforge-1.3.6+1.21.1.jar,C:\Users\Lucky56\github\modpacks\mods\jamlib-neoforge-1.3.6+1.21.1.jar
 Just Enough Effects Descriptions,MehVahdJukaar,1.21-2.3.2,NeoForge,true,jeed-1.21-2.3.2.jar,C:\Users\Lucky56\github\modpacks\mods\jeed-1.21-2.3.2.jar
-Journeymap,"Techbrew, Mysticdrew",1.21.1-6.0.0-beta.84,"NeoForge, Fabric",true,journeymap-neoforge-1.21.1-6.0.0-beta.84.jar,C:\Users\Lucky56\github\modpacks\mods\journeymap-neoforge-1.21.1-6.0.0-beta.84.jar
+Journeymap,"Techbrew, Mysticdrew",1.21.1-6.0.0-beta.85,"NeoForge, Fabric",true,journeymap-neoforge-1.21.1-6.0.0-beta.85.jar,C:\Users\Lucky56\github\modpacks\mods\journeymap-neoforge-1.21.1-6.0.0-beta.85.jar
 Just Enough Breeding,Christofmeg,3.1.0,NeoForge,true,justenoughbreeding-neoforge-1.21.1-3.1.0.jar,C:\Users\Lucky56\github\modpacks\mods\justenoughbreeding-neoforge-1.21.1-3.1.0.jar
 Kaleidoscope Cookery,"ysbbbbbb, tartaric_acid, Azumic",1.4.0-neoforge+mc1.21.1,NeoForge,true,kaleidoscopecookery-1.4.0-neoforge+mc1.21.1.jar,C:\Users\Lucky56\github\modpacks\mods\kaleidoscopecookery-1.4.0-neoforge+mc1.21.1.jar
 Kaleidoscope Tavern,"ysbbbbbb, tartaric_acid",1.1.2-neoforge+mc1.21.1,NeoForge,true,kaleidoscopetavern-1.1.2-neoforge+mc1.21.1.jar,C:\Users\Lucky56\github\modpacks\mods\kaleidoscopetavern-1.1.2-neoforge+mc1.21.1.jar
@@ -266,7 +276,7 @@ KubeJSDelight,"QinomeD, Bob Varioa",1.1.6,NeoForge,true,kubejsdelight-1.1.6.jar,
 Storage Labels,"MehVahdJukaar, Plantkillable",1.21-2.0.3,NeoForge,true,labels-1.21-2.0.3-neoforge...jar,C:\Users\Lucky56\github\modpacks\mods\labels-1.21-2.0.3-neoforge...jar
 LambDynamicLights,LambdAurora,4.8.9+1.21.1,"NeoForge, Fabric",true,lambdynamiclights-4.8.9+1.21.1.jar,C:\Users\Lucky56\github\modpacks\mods\lambdynamiclights-4.8.9+1.21.1.jar
 leaky mod,Someaddon,2.4,NeoForge,true,leaky-1.21-2.4.jar,C:\Users\Lucky56\github\modpacks\mods\leaky-1.21-2.4.jar
-lever drugster,-,1.6.0,NeoForge,true,lever-drugster-1.6.0.jar,C:\Users\Lucky56\github\modpacks\mods\lever-drugster-1.6.0.jar
+lever drugster,-,1.7.0,NeoForge,true,lever-drugster-neoforge-1.21.1-1.7.0.jar,C:\Users\Lucky56\github\modpacks\mods\lever-drugster-neoforge-1.21.1-1.7.0.jar
 Liberty's Villagers,gitsh01,1.0.15+fabric+1.21,Fabric,true,liberty-villagers-mod-1.0.15+fabric+1.21...jar,C:\Users\Lucky56\github\modpacks\mods\liberty-villagers-mod-1.0.15+fabric+1.21...jar
 Life-Size Bdubs,Superkat32,1.0.5,NeoForge,true,lifesizebdubs-1.0.5.jar,C:\Users\Lucky56\github\modpacks\mods\lifesizebdubs-1.0.5.jar
 limitedchunks mod,Someaddon,4.1,"NeoForge, Forge",true,limitedchunks-1.21-4.1.jar,C:\Users\Lucky56\github\modpacks\mods\limitedchunks-1.21-4.1.jar
@@ -294,9 +304,9 @@ Midnight Thoughts,iliiasik,1.4.1,NeoForge,true,midnightthoughts-1.4.1+neoforge.1
 Minecraft Cursor,fishstiz,3.11.3+1.21.1,NeoForge,true,minecraft-cursor-neoforge-3.11.3+1.21.1...jar,C:\Users\Lucky56\github\modpacks\mods\minecraft-cursor-neoforge-3.11.3+1.21.1...jar
 Minopp,"Zbx1425, MalayP",1.4.0+1.21.1+neoforge,NeoForge,true,minopp-1.4.0+1.21.1+neoforge.jar,C:\Users\Lucky56\github\modpacks\mods\minopp-1.4.0+1.21.1+neoforge.jar
 Model Gap Fix,MehVahdJukaar,1.21-1.10,NeoForge,true,modelfix-1.21-1.10...jar,C:\Users\Lucky56\github\modpacks\mods\modelfix-1.21-1.10...jar
-ModernFix,embeddedt,5.27.12+mc1.21.1,NeoForge,true,modernfix-neoforge-5.27.12+mc1.21.1.jar,C:\Users\Lucky56\github\modpacks\mods\modernfix-neoforge-5.27.12+mc1.21.1.jar
+ModernFix,embeddedt,5.27.14+mc1.21.1,NeoForge,true,modernfix-neoforge-5.27.14+mc1.21.1.jar,C:\Users\Lucky56\github\modpacks\mods\modernfix-neoforge-5.27.14+mc1.21.1.jar
 Modpack Update Checker,Jab125,0.15.6,"NeoForge, Forge",true,modpack-update-checker-1.21.1-neoforge-0.15.6...jar,C:\Users\Lucky56\github\modpacks\mods\modpack-update-checker-1.21.1-neoforge-0.15.6...jar
-Moonlight Lib,MehVahdJukaar,1.21.1-3.0.17,NeoForge,true,moonlight-neoforge-1.21.1-3.0.17.jar,C:\Users\Lucky56\github\modpacks\mods\moonlight-neoforge-1.21.1-3.0.17.jar
+Moonlight Lib,MehVahdJukaar,1.21.1-3.0.18,NeoForge,true,moonlight-neoforge-1.21.1-3.0.18.jar,C:\Users\Lucky56\github\modpacks\mods\moonlight-neoforge-1.21.1-3.0.18.jar
 More Culling,"FX - PR0CESS, 1Foxy2",1.0.8,NeoForge,true,moreculling-neoforge-1.21.1-1.0.8.jar,C:\Users\Lucky56\github\modpacks\mods\moreculling-neoforge-1.21.1-1.0.8.jar
 MoreDensityFunctions,Klinbee,2.3.1,NeoForge,true,moredensityfunctions-neoforge-1.21.1-2.3.1.jar,C:\Users\Lucky56\github\modpacks\mods\moredensityfunctions-neoforge-1.21.1-2.3.1.jar
 MoreMouseTweaks,NotRyken,1.1.1+1.21.1,NeoForge,true,moremousetweaks-neoforge-1.1.1+1.21.1...jar,C:\Users\Lucky56\github\modpacks\mods\moremousetweaks-neoforge-1.1.1+1.21.1...jar
@@ -335,6 +345,7 @@ Particle Effects,"LopyMine, KlashRaick",1.4.0+1.21.1+neoforge,NeoForge,true,Part
 Particle Rain,pigcart,4.0.0-beta.10,NeoForge,true,particlerain-4.0.0-beta.10+1.21.1-neoforge.jar,C:\Users\Lucky56\github\modpacks\mods\particlerain-4.0.0-beta.10+1.21.1-neoforge.jar
 Particle Core,fzzyhmstrs,0.3.3+1.21+neoforge,NeoForge,true,particle_core-0.3.3+1.21+neoforge...jar,C:\Users\Lucky56\github\modpacks\mods\particle_core-0.3.3+1.21+neoforge...jar
 PatPat,"LopyMine, nikita51",1.2.4+1.21.1+neoforge,NeoForge,true,PatPat-1.2.4+1.21.1+neoforge...jar,C:\Users\Lucky56\github\modpacks\mods\PatPat-1.2.4+1.21.1+neoforge...jar
+Peeping Angels,DavigJ,3.0.0,NeoForge,true,peeping_angels-1.21.1-3.0.0.jar,C:\Users\Lucky56\github\modpacks\mods\peeping_angels-1.21.1-3.0.0.jar
 Pehkui,Virtuoel,3.8.3+1.21-neoforge,"NeoForge, Fabric",true,Pehkui-3.8.3+1.21-neoforge.jar,C:\Users\Lucky56\github\modpacks\mods\Pehkui-3.8.3+1.21-neoforge.jar
 Perception,OctoStudios,0.2.1,NeoForge,true,Perception-NEOFORGE-0.2.1+1.21.1...jar,C:\Users\Lucky56\github\modpacks\mods\Perception-NEOFORGE-0.2.1+1.21.1...jar
 Personality,Team Abnormals,5.0.2,NeoForge,true,personality-1.21.1-5.0.2.jar,C:\Users\Lucky56\github\modpacks\mods\personality-1.21.1-5.0.2.jar
@@ -363,8 +374,8 @@ Quark Oddities,"Vazkii, WireSegal, MCVinnyq, Sully",1.21.1,NeoForge,true,QuarkOd
 QuarkPonders,LeoBeliik,1.5.1,NeoForge,true,QuarkPonders-1.5.1_NeoForge-1.21.1.jar,C:\Users\Lucky56\github\modpacks\mods\QuarkPonders-1.5.1_NeoForge-1.21.1.jar
 Quark X Not Enough Trials,Danmatisk,1.0,NeoForge,true,QuarkXNET-1.21-v1.0.jar,C:\Users\Lucky56\github\modpacks\mods\QuarkXNET-1.21-v1.0.jar
 Quick Menu,codist,1.2.4,Fabric,true,quick-menu-1.2.4-1.21...jar,C:\Users\Lucky56\github\modpacks\mods\quick-menu-1.2.4-1.21...jar
-Ragdoll Reactions,Leonardoinc22,0.6.5,NeoForge,true,ragdoll_reactions-1.21.1-0.6.5.jar,C:\Users\Lucky56\github\modpacks\mods\ragdoll_reactions-1.21.1-0.6.5.jar
-Create: Steam 'n' Rails 1.21.1,"PoppyBlossom, Chameleon538, gblfxt",0.2.1+neoforge-mc1.21.1,NeoForge,true,railways-0.2.1+neoforge-mc1.21.1.jar,C:\Users\Lucky56\github\modpacks\mods\railways-0.2.1+neoforge-mc1.21.1.jar
+Ragdoll Reactions,Leonardoinc22,0.6.6,NeoForge,true,ragdoll_reactions-1.21.1-0.6.6.jar,C:\Users\Lucky56\github\modpacks\mods\ragdoll_reactions-1.21.1-0.6.6.jar
+Create: Steam 'n' Rails 1.21.1,"PoppyBlossom, Chameleon538, gblfxt",0.3.0-alpha.2+neoforge-mc1.21.1,NeoForge,true,railways-0.3.0-alpha.2+neoforge-mc1.21.1.jar,C:\Users\Lucky56\github\modpacks\mods\railways-0.3.0-alpha.2+neoforge-mc1.21.1.jar
 Raised,yurisuika,5.1.2,NeoForge,true,raised-neoforge-1.21.1-5.1.2...jar,C:\Users\Lucky56\github\modpacks\mods\raised-neoforge-1.21.1-5.1.2...jar
 ReadyPlayerFun,wendall911,3.0.1.5,NeoForge,true,readyplayerfun-1.21.1-neoforge-3.0.1.5-NEOFORGE.jar,C:\Users\Lucky56\github\modpacks\mods\readyplayerfun-1.21.1-neoforge-3.0.1.5-NEOFORGE.jar
 Reese's Sodium Options,FlashyReese,2.0.5+mc1.21.1,NeoForge,true,reeses-sodium-options-neoforge-2.0.5+mc1.21.1.jar,C:\Users\Lucky56\github\modpacks\mods\reeses-sodium-options-neoforge-2.0.5+mc1.21.1.jar
@@ -382,12 +393,12 @@ Ritchie's Projectile Library,rbasamoyai,2.1.2,NeoForge,true,ritchiesprojectileli
 RoadWeaver,shiroha233,2.2.2-1.21.1,NeoForge,true,roadweaver-neoforge-2.2.2-1.21.1.jar,C:\Users\Lucky56\github\modpacks\mods\roadweaver-neoforge-2.2.2-1.21.1.jar
 Remove Reloading Screen,dima_dencep,5.0.10+mc1.21.1-forge,NeoForge,true,rrls-5.0.10+mc1.21.1-forge...jar,C:\Users\Lucky56\github\modpacks\mods\rrls-5.0.10+mc1.21.1-forge...jar
 Raise Sound Limit Simplified,"RelativityMC, ishland",1.1.16,NeoForge,true,rsls-neoforge-1.1.16...jar,C:\Users\Lucky56\github\modpacks\mods\rsls-neoforge-1.1.16...jar
-Sable,RyanHCode,2.0.1,NeoForge,true,sable-neoforge-1.21.1-2.0.1.jar,C:\Users\Lucky56\github\modpacks\mods\sable-neoforge-1.21.1-2.0.1.jar
+Sable,RyanHCode,2.0.3,NeoForge,true,sable-neoforge-1.21.1-2.0.3.jar,C:\Users\Lucky56\github\modpacks\mods\sable-neoforge-1.21.1-2.0.3.jar
 Jade Sable Compat,-,1.2.0,NeoForge,true,sablejade-1.2.0.jar,C:\Users\Lucky56\github\modpacks\mods\sablejade-1.2.0.jar
 Sable Player Ragdoll,Leonardoinc22,0.6.7,NeoForge,true,sable_player_ragdoll-1.21.1-0.6.7.jar,C:\Users\Lucky56\github\modpacks\mods\sable_player_ragdoll-1.21.1-0.6.7.jar
 Saturn,AbdElAziz,0.1.5,NeoForge,true,saturn-mc1.21.1-0.1.5...jar,C:\Users\Lucky56\github\modpacks\mods\saturn-mc1.21.1-0.1.5...jar
 Universal Sawmill,MehVahdJukaar,1.21-1.7.1,NeoForge,true,sawmill-1.21-1.7.2-neoforge.jar,C:\Users\Lucky56\github\modpacks\mods\sawmill-1.21-1.7.2-neoforge.jar
-Scholar,mortuusars,1.2.0,NeoForge,true,scholar-neoforge-1.21.1-1.2.0.jar,C:\Users\Lucky56\github\modpacks\mods\scholar-neoforge-1.21.1-1.2.0.jar
+Scholar,mortuusars,1.2.2,NeoForge,true,scholar-neoforge-1.21.1-1.2.2.jar,C:\Users\Lucky56\github\modpacks\mods\scholar-neoforge-1.21.1-1.2.2.jar
 Searchables,Jaredlll08,1.0.2,NeoForge,true,Searchables-neoforge-1.21.1-1.0.2...jar,C:\Users\Lucky56\github\modpacks\mods\Searchables-neoforge-1.21.1-1.0.2...jar
 Separated Leaves,LarsMans,2.6.1,NeoForge,true,separatedleaves-2.6.1-neoforge-1.21.1...jar,C:\Users\Lucky56\github\modpacks\mods\separatedleaves-2.6.1-neoforge-1.21.1...jar
 ServerCore,Wesley1808,1.5.17+1.21.1,NeoForge,true,servercore-neoforge-1.5.17+1.21.1.jar,C:\Users\Lucky56\github\modpacks\mods\servercore-neoforge-1.5.17+1.21.1.jar
@@ -399,11 +410,11 @@ Create Slice & Dice,possible_triangle,4.2.4,NeoForge,true,sliceanddice-forge-4.2
 Smarter Farmers,MehVahdJukaar,1.21-2.2.4,NeoForge,true,smarterfarmers-1.21-2.2.4-neoforge...jar,C:\Users\Lucky56\github\modpacks\mods\smarterfarmers-1.21-2.2.4-neoforge...jar
 Smooth Boot,1Influence,1.0.0,NeoForge,true,SmoothBoot-NeoForge+1.21-1.0.0...jar,C:\Users\Lucky56\github\modpacks\mods\SmoothBoot-NeoForge+1.21-1.0.0...jar
 Smoothchunk mod,Someaddon,4.1,NeoForge,true,smoothchunk-1.21-4.1.jar,C:\Users\Lucky56\github\modpacks\mods\smoothchunk-1.21-4.1.jar
+smoothmovement mod,Someaddon,2.7,NeoForge,false,smoothmovement-1.21.1-2.7.jar.disabled,C:\Users\Lucky56\github\modpacks\mods\smoothmovement-1.21.1-2.7.jar.disabled
 Snow! Real Magic!,Snownee,12.2.1+neoforge,NeoForge,true,SnowRealMagic-1.21.1-NeoForge-12.2.1...jar,C:\Users\Lucky56\github\modpacks\mods\SnowRealMagic-1.21.1-NeoForge-12.2.1...jar
 Snuffles,"SchnappDragon, Edmord17",1.1.2,NeoForge,true,snuffles-1.1.2...jar,C:\Users\Lucky56\github\modpacks\mods\snuffles-1.1.2...jar
 Sodium Extra,FlashyReese,0.8.7+mc1.21.1,NeoForge,true,sodium-extra-neoforge-0.8.7+mc1.21.1.jar,C:\Users\Lucky56\github\modpacks\mods\sodium-extra-neoforge-0.8.7+mc1.21.1.jar
 Sodium,"JellySquid (jellysquid3), IMS212",0.8.12-beta.1+mc1.21.1,NeoForge,true,sodium-neoforge-0.8.12-beta.1+mc1.21.1.jar,C:\Users\Lucky56\github\modpacks\mods\sodium-neoforge-0.8.12-beta.1+mc1.21.1.jar
-Sodium Extras,toni,1.0.7,"NeoForge, Forge",true,sodiumextras-neoforge-1.0.8-1.21.1...jar,C:\Users\Lucky56\github\modpacks\mods\sodiumextras-neoforge-1.0.8-1.21.1...jar
 Some Assembly Required,Wouter,5.2.8,NeoForge,true,someassemblyrequired-5.2.8...jar,C:\Users\Lucky56\github\modpacks\mods\someassemblyrequired-5.2.8...jar
 Sooty Chimneys,mortuusars,1.3.5,NeoForge,true,sootychimneys-neoforge-1.3.5.jar,C:\Users\Lucky56\github\modpacks\mods\sootychimneys-neoforge-1.3.5.jar
 Soul Fire'd,"Crystal Spider, Moonstone Webber, Noir",6.1.0,NeoForge,true,soul-fire-d-neoforge-1.21-6.1.0...jar,C:\Users\Lucky56\github\modpacks\mods\soul-fire-d-neoforge-1.21-6.1.0...jar
@@ -413,12 +424,13 @@ Sound Physics Perfected,RedLife,1.17.3,NeoForge,true,sound_physics_perfected-1.1
 spark,Luck,1.10.124,NeoForge,true,spark-1.10.124-neoforge...jar,C:\Users\Lucky56\github\modpacks\mods\spark-1.10.124-neoforge...jar
 Backported Spears,N0t_UN_Owen/NotUnaNancyOwen,1.8.0,NeoForge,true,spear-backport-neoforge-1.8.0-1.21.1...jar,C:\Users\Lucky56\github\modpacks\mods\spear-backport-neoforge-1.8.0-1.21.1...jar
 Spelunkery,"Ordana, Keybounce, eldabys",1.21.1-0.4.2,NeoForge,true,spelunkery-1.21.1-0.4.2-neoforge.jar,C:\Users\Lucky56\github\modpacks\mods\spelunkery-1.21.1-0.4.2-neoforge.jar
-Spice of Life Berry,mistrberry,0.8.173,NeoForge,true,spice_of_life_berry-0.8.173.jar,C:\Users\Lucky56\github\modpacks\mods\spice_of_life_berry-0.8.173.jar
+Spice of Life Berry,mistrberry,0.8.190,NeoForge,true,spice_of_life_berry-0.8.190.jar,C:\Users\Lucky56\github\modpacks\mods\spice_of_life_berry-0.8.190.jar
 Spyglass Improvements,juancarloscp52 (Im_JC),1.5.7,NeoForge,true,spyglass_improvements-1.5.7+mc1.21+neoforge...jar,C:\Users\Lucky56\github\modpacks\mods\spyglass_improvements-1.5.7+mc1.21+neoforge...jar
 Stalker Creepers,AtomicStryker,1.21.1.1NF,NeoForge,true,stalkercreepers-1.21.1.1NF.jar,C:\Users\Lucky56\github\modpacks\mods\stalkercreepers-1.21.1.1NF.jar
-Starcatcher,-,2.3.14-NEOFORGE-1.21.1,NeoForge,true,starcatcher-2.3.14-NEOFORGE-1.21.1.jar,C:\Users\Lucky56\github\modpacks\mods\starcatcher-2.3.14-NEOFORGE-1.21.1.jar
+Starcatcher,-,2.3.16-NEOFORGE-1.21.1,NeoForge,true,starcatcher-2.3.16-NEOFORGE-1.21.1.jar,C:\Users\Lucky56\github\modpacks\mods\starcatcher-2.3.16-NEOFORGE-1.21.1.jar
 Starcatcher's Delight,wdiscute,0.2-ALPHA-NEOFORGE-1.21.1,NeoForge,true,starcatcher_delight-0.2-ALPHA-NEOFORGE-1.21.1...jar,C:\Users\Lucky56\github\modpacks\mods\starcatcher_delight-0.2-ALPHA-NEOFORGE-1.21.1...jar
 Status Effect Bars,Leclowndu93150,1.0.2,NeoForge,true,statuseffectbars-1.21.1-NeoForge-1.0.2...jar,C:\Users\Lucky56\github\modpacks\mods\statuseffectbars-1.21.1-NeoForge-1.0.2...jar
+Stone Zone,"Xel'Bayria, MehVahdJukaar",1.21-2.11.16,NeoForge,false,stonezone-1.21-2.11.16-neoforge.jar.disabled,C:\Users\Lucky56\github\modpacks\mods\stonezone-1.21-2.11.16-neoforge.jar.disabled
 Structory,Stardust Labs,1.3.16,"NeoForge, Forge, Fabric, Quilt",true,Structory_26.1_v1.3.16...jar,C:\Users\Lucky56\github\modpacks\mods\Structory_26.1_v1.3.16...jar
 Structory: Towers,Stardust Labs,1.0.16,"NeoForge, Forge, Fabric, Quilt",true,Structory_Towers_26.1_v1.0.16...jar,C:\Users\Lucky56\github\modpacks\mods\Structory_Towers_26.1_v1.0.16...jar
 Structure Layout Optimizer,TelepathicGrunt,1.0.12,NeoForge,true,structure_layout_optimizer-neoforge-1.0.12...jar,C:\Users\Lucky56\github\modpacks\mods\structure_layout_optimizer-neoforge-1.0.12...jar
@@ -438,7 +450,7 @@ Tide Extra Compatibility,SilentAutopsy,2.2.0,"NeoForge, Forge, Fabric, Quilt",tr
 Tide,Lightning64,2.0.3,"NeoForge, Forge",true,tide-neoforge-1.21.1-2.0.3....jar,C:\Users\Lucky56\github\modpacks\mods\tide-neoforge-1.21.1-2.0.3....jar
 TooManyRecipeViewers,Nolij (@xdMatthewbx#1337) & the Craftoria team,0.8.1+mc.21.1,NeoForge,true,toomanyrecipeviewers-0.8.1+mc.21.1.jar,C:\Users\Lucky56\github\modpacks\mods\toomanyrecipeviewers-0.8.1+mc.21.1.jar
 Transparent,Trikzon,21.1.0,NeoForge,true,transparent-neoforge-21.1.0....jar,C:\Users\Lucky56\github\modpacks\mods\transparent-neoforge-21.1.0....jar
-Tree Physics,"Farcr, KyanBirb",2.1,NeoForge,true,treephysics-neoforge-1.21.1.jar,C:\Users\Lucky56\github\modpacks\mods\treephysics-neoforge-1.21.1.jar
+Tree Physics,"Farcr, KyanBirb",2.2,NeoForge,true,treephysics-neoforge-1.21.1.jar,C:\Users\Lucky56\github\modpacks\mods\treephysics-neoforge-1.21.1.jar
 Trimmed,dhyces,3.0.0,NeoForge,true,trimmed-neo-1.21-3.0.0....jar,C:\Users\Lucky56\github\modpacks\mods\trimmed-neo-1.21-3.0.0....jar
 The Roads More Travelled,milkucha,0.5.1-1.21.1-neoforge,NeoForge,true,trmt-0.5.1-1.21.1-neoforge.jar,C:\Users\Lucky56\github\modpacks\mods\trmt-0.5.1-1.21.1-neoforge.jar
 Universal Bone Meal,Fuzs,21.1.0,NeoForge,true,UniversalBoneMeal-v21.1.0-1.21.1-NeoForge....jar,C:\Users\Lucky56\github\modpacks\mods\UniversalBoneMeal-v21.1.0-1.21.1-NeoForge....jar
@@ -481,4 +493,4 @@ YUNG's Extras,"YUNGNICKYOUNG, Acarii",1.21.1-NeoForge-5.1.1,NeoForge,true,YungsE
 YUNG's Menu Tweaks,YUNGNICKYOUNG,1.21.1-NeoForge-2.1.2,NeoForge,true,YungsMenuTweaks-1.21.1-NeoForge-2.1.2....jar,C:\Users\Lucky56\github\modpacks\mods\YungsMenuTweaks-1.21.1-NeoForge-2.1.2....jar
 Zeta,"Vazkii, quat, IThundxr, Siuol, wiresegal, MehVahdJukaar",1.1-40,NeoForge,true,Zeta-1.1-40.jar,C:\Users\Lucky56\github\modpacks\mods\Zeta-1.1-40.jar
 Additional Placements,FirEmerald,3.0.1,NeoForge,true,[1.21-1.21.1 NeoForge] Additional Placements 3.0.1.jar,C:\Users\Lucky56\github\modpacks\mods\[1.21-1.21.1 NeoForge] Additional Placements 3.0.1.jar
-java.io.FileWriter@761df592
+java.io.FileWriter@760f0396

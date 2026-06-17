@@ -1,1 +1,37 @@
-**TBA**
+### "fixed all found bugs"
+
+added `client`:
+
+- [Cubes Without Borders *3.0.0*](https://mods.gay/cubes-without-borders/version/epixUL1j)
+
+added `common`;
+
+- [Peeping Angels *3.0.0*](https://mods.gay/peeping-angels/version/bAOruOCk)
+
+updated:
+
+- [Biolith](https://mods.gay/biolith) *3.0.11* > *3.0.12*
+- [Collective](https://mods.gay/collective) *8.25* > *8.27*
+- [Crash Assistant](https://mods.gay/crash-assistant) *1.11.9* > *1.11.10*
+- [Distant Horizons](https://mods.gay/distanthorizons) *3.0.3-b* > *3.1.0-b*
+- [EMI Ores](https://mods.gay/emi-ores) *1.2* > *1.3*
+- [Flerovium](https://mods.gay/flerovium) *1.0.18* > *1.1.0*
+- [Furniture with create and sable compat](https://mods.gay/lets-do-furniture-another-furniture-handcrafted-create-sable) *4.8.10* > *4.8.17*
+- [Geophilic](https://mods.gay/geophilic) *3.5* > *3.6*
+- [Item Zoomer](https://mods.gay/itemzoomer) *2.2.0* > *2.2.1*
+- [JourneyMap](https://mods.gay/journeymap) *6.0.0-beta.84* > *6.0.0-beta.85*
+- [Lever drugster](https://mods.gay/lever-drugster) *1.6.0* > *1.7.0*
+- [ModernFix](https://mods.gay/modernfix) *5.27.12* > *5.27.14*
+- [Moonlight Lib](https://mods.gay/moonlight) *3.0.17* > *3.0.18*
+- [Ragdoll Reactions](https://mods.gay/ragdoll-reactions) *0.6.5* > *0.6.6*
+- [Sable](https://mods.gay/sable) *2.0.1* > *2.0.3*
+- [Scholar](https://mods.gay/scholar) *1.2.0* > *1.2.2*
+- [Starcatcher](https://mods.gay/starcatcher) *2.3.14* > *2.3.16*
+- [Steam 'n' Rails Neoforge](https://mods.gay/create-steam-n-rails-1.21.1) *0.2.1* > *0.3.0-alpha.2*
+- [Tree Physics](https://mods.gay/tree-physics) *2.1* > *2.2*
+
+- Spice of Life Berry *0.8.173* > *0.8.190*
+
+removed:
+
+- Sodium Extras *doesn't work w/ newest Sodium version, and is unlikely to get updated*

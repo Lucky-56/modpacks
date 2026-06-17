@@ -1,3 +1,6 @@
+[1.1] {maintenance} (client) Cubes Without Borders
+[1.1] {ai-tweaks} (common) Peeping Angels
+
 [1.0] {} (client) Aeronautics Camera Sync
 [1.0] {} (client) Barebones McQoy
 [1.0] {} (client) Beautified Chat Client
@@ -166,7 +169,7 @@
 [1.0] {} (common) Sounds
 [1.0] {} (common) Spelunkery
 [1.0] {} (common) Spice of Life Berry
-[1.0] {} (common) Stalker Creepers
+[1.0] {ai-tweaks} (common) Stalker Creepers
 [1.0] {} (common) Starcatcher
 [1.0] {} (common) Starcatcher's Delight
 [1.0] {} (common) Storage Labels
@@ -439,7 +442,6 @@
 [1.0] {optimization} (client) Remove Reloading Screen
 [1.0] {optimization} (client) Sodium
 [1.0] {optimization} (client) Sodium Extra
-[1.0] {optimization} (client) Sodium Extras
 [1.0] {optimization} (common) Concurrent Chunk Management Engine
 [1.0] {optimization} (common) Connectivity Mod
 [1.0] {optimization} (common) Distant Horizons
@@ -480,6 +482,8 @@
 [1.0] {visuals} (client) LambDynamicLights
 [1.0] {visuals} (client) Minecraft Cursor
 [1.0] {worldgen} (common) RoadWeaver
+
+[1.0 - 1.1] {optimization} (client) Sodium Extras
 
 [TBD] {visuals} (client) Chunks Fade In
 [TBD] {maintenance} (common) Advancements Reloaded

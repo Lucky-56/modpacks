@@ -1,5 +1,6 @@
 {
-    "block.kaleidoscope_cookery.millstone": "Donkey Millstone",
+	"block.kaleidoscope_cookery.millstone": "Donkey Millstone",
+	"block.kaleidoscope_cookery.millstone.description": "Can be used with Mules, Villagers, Donkeys, Horses, Zombie Horses, Skeleton Horses, Llamas, Wandering Llamas, Cows, Mushroom Cows, Sheep and Goats. With Mules being the best, and Sheep/Goats being the worst.",
 	"emi.category.kaleidoscope_cookery.millstone": "Donkey Millstone",
 	"config.jade.plugin_kaleidoscope_cookery.millstone": "Donkey Millstone",
 	"kaleidoscope_cookery.ponder.millstone.header": "Using the Donkey Millstone"
