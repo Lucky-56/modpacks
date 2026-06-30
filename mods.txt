@@ -5,6 +5,7 @@
 [1.2] {maintenance} (common) Horseman
 [1.2] {maintenance} (common) Nest Egg
 [1.2] {maintenance} (common) VbIncubation
+[1.2] {treechop} (common) HT's TreeChop
 [1.2] {visuals} (client) Aeronautics Propeller Blur
 
 [1.1] {ai-tweaks} (common) Peeping Angels
@@ -188,7 +189,6 @@
 [1.0] {} (common) Thick Air
 [1.0] {} (common) Tide
 [1.0] {} (common) Tide Extra Compatibility
-[1.0] {} (common) Tree Physics
 [1.0] {} (common) Universal Bone Meal
 [1.0] {} (common) Universal Sawmill
 [1.0] {} (common) Vanilla Backport Compat
@@ -492,6 +492,7 @@
 [1.0 - 1.2] {kubejs} (common) ProbeJS
 [1.0 - 1.2] {maintenance} (common) NoWeatherSkip
 [1.0 - 1.2] {maintenance} (common) World Preview
+[1.0 - 1.2] {treechop} (common) Tree Physics
 
 [1.0 - 1.1] {optimization} (client) Sodium Extras
 
