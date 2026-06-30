@@ -30,6 +30,7 @@
 [1.0] {} (client) Raised
 [1.0] {} (client) Shut Up GL Error
 [1.0] {} (client) Status Effect Bars
+[1.0] {} (client) Stylish Effects
 [1.0] {} (client) VTDownloader
 [1.0] {} (client) Wakes
 [1.0] {} (client) WaterMedia
@@ -84,7 +85,6 @@
 [1.0] {} (common) Fzzy Config
 [1.0] {} (common) Geophilic
 [1.0] {} (common) Geophilic Backport
-[1.0] {} (common) Gnetum
 [1.0] {} (common) Handcrafted
 [1.0] {} (common) Hardcore Revival
 [1.0] {} (common) Heartstone
@@ -99,10 +99,6 @@
 [1.0] {} (common) Iris
 [1.0] {} (common) Item Obliterator
 [1.0] {} (common) Item Zoomer
-[1.0] {} (common) Jade
-[1.0] {} (common) Jade Addon: TFMG Compat
-[1.0] {} (common) Jade Addons
-[1.0] {} (common) Jade Sable Compat
 [1.0] {} (common) JamLib
 [1.0] {} (common) Journeymap
 [1.0] {} (common) Just Enough Breeding
@@ -181,7 +177,6 @@
 [1.0] {} (common) Starcatcher
 [1.0] {} (common) Starcatcher's Delight
 [1.0] {} (common) Storage Labels
-[1.0] {} (common) Stylish Effects
 [1.0] {} (common) Suggestion Tweaker
 [1.0] {} (common) Supplementaries X Not Enough Trials
 [1.0] {} (common) Surveyor Map Framework
@@ -358,6 +353,10 @@
 [1.0] {intel} (client) Immersive Overlays
 [1.0] {intel} (client) Item Descriptions
 [1.0] {intel} (common) Better Statistics Screen
+[1.0] {jade} (client) Jade Addon: TFMG Compat
+[1.0] {jade} (client) Jade Sable Compat
+[1.0] {jade} (common) Jade
+[1.0] {jade} (common) Jade Addons
 [1.0] {kubejs} (common) AlmostUnified
 [1.0] {kubejs} (common) KubeJS
 [1.0] {kubejs} (common) KubeJS Create
@@ -441,6 +440,7 @@
 [1.0] {optimization} (client) clientcrafting mod
 [1.0] {optimization} (client) Dynamic FPS
 [1.0] {optimization} (client) Flerovium
+[1.0] {optimization} (client) Gnetum
 [1.0] {optimization} (client) Gpu memory leak fix
 [1.0] {optimization} (client) ImmediatelyFast
 [1.0] {optimization} (client) More Culling
