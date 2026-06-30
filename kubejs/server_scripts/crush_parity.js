@@ -334,25 +334,25 @@ ServerEvents.recipes(event => {
             //event.recipes.farmersdelight.cutting([single], '#c:tools/knife', `2x ${dyes(color)}`).id(`kubejs:cutting/dyes_single/'${color}`)
             if (single.length == 1) {
                 event.custom({
-                    'type': 'farmersdelight:cutting',
-                    'ingredients': [
+                    type: 'farmersdelight:cutting',
+                    ingredients: [
                         Ingredient.of(single)
                     ],
-                    'result': [
+                    result: [
                         {
-                            'item': {
-                                'count': 2,
-                                'id': dyeItem(color)
+                            item: {
+                                count: 2,
+                                id: dyeItem(color)
                             }
                         }
                     ],
-                    'tool': [
+                    tool: [
                         {
-                            'type': 'farmersdelight:item_ability',
-                            'action': 'knife_dig'
+                            type: 'farmersdelight:item_ability',
+                            action: 'knife_dig'
                         },
                         {
-                            'tag': 'c:tools/knife'
+                            tag: 'c:tools/knife'
                         }
                     ]
                 }).id(`kubejs:cutting/dyes_single/${color}`)
@@ -362,28 +362,28 @@ ServerEvents.recipes(event => {
                     single.splice(beetroot, 1)
                 }
                 event.custom({
-                    'type': 'farmersdelight:cutting',
-                    'ingredients': [
+                    type: 'farmersdelight:cutting',
+                    ingredients: [
                         {
-                            'type': 'neoforge:compound',
-                            'children': Ingredient.of(single)
+                            type: 'neoforge:compound',
+                            children: Ingredient.of(single)
                         }
                     ],
-                    'result': [
+                    result: [
                         {
-                            'item': {
-                                'count': 2,
-                                'id': dyeItem(color)
+                            item: {
+                                count: 2,
+                                id: dyeItem(color)
                             }
                         }
                     ],
-                    'tool': [
+                    tool: [
                         {
-                            'type': 'farmersdelight:item_ability',
-                            'action': 'knife_dig'
+                            type: 'farmersdelight:item_ability',
+                            action: 'knife_dig'
                         },
                         {
-                            'tag': 'c:tools/knife'
+                            tag: 'c:tools/knife'
                         }
                     ]
                 }).id(`kubejs:cutting/dyes_single/${color}`)
@@ -417,52 +417,52 @@ ServerEvents.recipes(event => {
             //event.recipes.farmersdelight.cutting([double], '#c:tools/knife', `3x ${dyes(color)}`).id(`kubejs:cutting/dyes_double/${color}`)
             if (double.length == 1) {
                 event.custom({
-                    'type': 'farmersdelight:cutting',
-                    'ingredients': [
+                    type: 'farmersdelight:cutting',
+                    ingredients: [
                         Ingredient.of(double)
                     ],
-                    'result': [
+                    result: [
                         {
-                            'item': {
-                                'count': 3,
-                                'id': dyeItem(color)
+                            item: {
+                                count: 3,
+                                id: dyeItem(color)
                             }
                         }
                     ],
-                    'tool': [
+                    tool: [
                         {
-                            'type': 'farmersdelight:item_ability',
-                            'action': 'knife_dig'
+                            type: 'farmersdelight:item_ability',
+                            action: 'knife_dig'
                         },
                         {
-                            'tag': 'c:tools/knife'
+                            tag: 'c:tools/knife'
                         }
                     ]
                 }).id(`kubejs:cutting/dyes_double/${color}`)
             } else {
                 event.custom({
-                    'type': 'farmersdelight:cutting',
-                    'ingredients': [
+                    type: 'farmersdelight:cutting',
+                    ingredients: [
                         {
-                            'type': 'neoforge:compound',
-                            'children': Ingredient.of(double)
+                            type: 'neoforge:compound',
+                            children: Ingredient.of(double)
                         }
                     ],
-                    'result': [
+                    result: [
                         {
-                            'item': {
-                                'count': 3,
-                                'id': dyeItem(color)
+                            item: {
+                                count: 3,
+                                id: dyeItem(color)
                             }
                         }
                     ],
-                    'tool': [
+                    tool: [
                         {
-                            'type': 'farmersdelight:item_ability',
-                            'action': 'knife_dig'
+                            type: 'farmersdelight:item_ability',
+                            action: 'knife_dig'
                         },
                         {
-                            'tag': 'c:tools/knife'
+                            tag: 'c:tools/knife'
                         }
                     ]
                 }).id(`kubejs:cutting/dyes_double/${color}`)
@@ -533,10 +533,10 @@ ServerEvents.recipes(event => {
     stonetypeCrushing(['2x create:crushed_raw_iron', CreateItem.of('2x create:crushed_raw_iron', 0.25), CreateItem.of('create:experience_nugget', 0.75), CreateItem.of('alexscaves:galena', 0.125)], 'alexscaves:galena_iron_ore')
     //Iron Nugget Removal
     event.remove([
-        {id:'create:crushing/crimsite_recycling'},
-        {id:'create:crushing/crimsite'},
-        {id:'spelunkery:crushing/crimsite'},
-        {id:'create:splashing/gravel'}
+        { id: 'create:crushing/crimsite_recycling' },
+        { id: 'create:crushing/crimsite' },
+        { id: 'spelunkery:crushing/crimsite' },
+        { id: 'create:splashing/gravel' }
     ])
 
 
@@ -595,6 +595,47 @@ ServerEvents.recipes(event => {
     stonetypeCrushing(['2x create:crushed_raw_tin', CreateItem.of('2x create:crushed_raw_tin', 0.25), CreateItem.of('create:experience_nugget', 0.75), CreateItem.of('caverns_and_chasms:cylindrite', 0.125)], 'caverns_and_chasms:cylindrite_tin_ore')
     stonetypeCrushing(['2x create:crushed_raw_tin', CreateItem.of('3x create:crushed_raw_tin', 0.25), CreateItem.of('create:experience_nugget', 0.75), CreateItem.of('caverns_and_chasms:cassiterite', 0.125)], 'caverns_and_chasms:cassiterite_tin_ore')
 
+    event.smelting('caverns_and_chasms:tin_ingot', 'create:crushed_raw_tin', 0.1).id('kubejs:smelting/tin_ingot')
+    event.blasting('caverns_and_chasms:tin_ingot', 'create:crushed_raw_tin', 0.1).id('kubejs:blasting/tin_ingot')
+    event.recipes.create.splashing('9x caverns_and_chasms:tin_nugget', 'create:crushed_raw_tin').id('kubejs:splashing/crushed_raw_tin')
+    event.custom({
+        type: 'dndesires:seething',
+        ingredients: [
+            {
+                item: 'create:crushed_raw_tin'
+            }
+        ],
+        results: [
+            {
+                id: 'caverns_and_chasms:tin_ingot'
+            },
+            {
+                chance: 0.25,
+                id: 'caverns_and_chasms:tin_ingot'
+            }
+        ]
+    }).id('kubejs:seething/crushed_raw_tin')
+
+    //Lithium
+    event.recipes.create.splashing('9x tfmg:lithium_nugget', 'tfmg:crushed_raw_lithium').id('kubejs:splashing/crushed_raw_lithium')
+    event.custom({
+        type: 'dndesires:seething',
+        ingredients: [
+            {
+                item: 'tfmg:crushed_raw_lithium'
+            }
+        ],
+        results: [
+            {
+                id: 'tfmg:lithium_ingot'
+            },
+            {
+                chance: 0.25,
+                id: 'tfmg:lithium_ingot'
+            }
+        ]
+    }).id('kubejs:seething/crushed_raw_lithium')
+
     //Silver
     event.remove({ id: 'create:crushing/silver_ore' })
     stonetypeCrushing(['create:crushed_raw_silver', CreateItem.of('create:crushed_raw_silver', 0.75), CreateItem.of('create:experience_nugget', 0.75), CreateItem.of('minecraft:cobblestone', 0.125)], 'oreganized:silver_ore')
@@ -629,6 +670,24 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'create:crushing/nickel_ore' })
     stonetypeCrushing(['create:crushed_raw_nickel', CreateItem.of('create:crushed_raw_nickel', 0.75), CreateItem.of('create:experience_nugget', 0.75), CreateItem.of('minecraft:cobblestone', 0.125)], 'tfmg:nickel_ore')
     stonetypeCrushing(['2x create:crushed_raw_nickel', CreateItem.of('create:crushed_raw_nickel', 0.75), CreateItem.of('create:experience_nugget', 0.75), CreateItem.of('minecraft:cobbled_deepslate', 0.125)], 'tfmg:deepslate_nickel_ore')
+    event.recipes.create.splashing('9x tfmg:nickel_nugget', 'create:crushed_raw_nickel').id('kubejs:splashing/crushed_raw_nickel')
+    event.custom({
+        type: 'dndesires:seething',
+        ingredients: [
+            {
+                item: 'create:crushed_raw_nickel'
+            }
+        ],
+        results: [
+            {
+                id: 'tfmg:nickel_ingot'
+            },
+            {
+                chance: 0.25,
+                id: 'tfmg:nickel_ingot'
+            }
+        ]
+    }).id('kubejs:seething/crushed_raw_nickel')
 
     //Seabrass
     stonetypeCrushing(['abyssal_decor:raw_seabrass', CreateItem.of('abyssal_decor:raw_seabrass', 0.75), CreateItem.of('create:experience_nugget', 0.75), CreateItem.of('minecraft:gravel', 0.125)], 'abyssal_decor:seabrass_ore')
@@ -644,4 +703,59 @@ ServerEvents.recipes(event => {
     //Skyjade
     stonetypeCrushing(['18x deep_aether:skyjade_nugget', CreateItem.of('create:experience_nugget', 0.75), CreateItem.of('aether:holystone', 0.125)], 'deep_aether:skyjade_ore')
 
+    //Arkenium
+    event.recipes.create.crushing(['kubejs:crushed_raw_arkenium', CreateItem.of('kubejs:crushed_raw_arkenium', 0.75), CreateItem.of('create:experience_nugget', 0.75), CreateItem.of('aether:holystone', 0.125)], Ingredient.of('#c:ores/arkenium')).id('kubejs:crushing/arkenium_ore')
+    event.recipes.create.crushing(['kubejs:crushed_raw_arkenium', CreateItem.of('create:experience_nugget', 0.75)], Ingredient.of('#c:raw_materials/arkenium'), 400).id('kubejs:crushing/raw_arkenium')
+    event.recipes.create.crushing(['9x kubejs:crushed_raw_arkenium', CreateItem.of('9x create:experience_nugget', 0.75)], Ingredient.of('#c:storage_blocks/raw_arkenium'), 400).id('kubejs:crushing/raw_arkenium_block')
+
+    event.smelting('aethersdelight:arkenium_ingot', 'kubejs:crushed_raw_arkenium', 0.1).id('kubejs:smelting/arkenium_ingot')
+    event.blasting('aethersdelight:arkenium_ingot', 'kubejs:crushed_raw_arkenium', 0.1).id('kubejs:blasting/arkenium_ingot')
+    event.recipes.create.splashing(['9x aethersdelight:arkenium_nugget', CreateItem.of('aether:ambrosium_shard', 0.75)], 'kubejs:crushed_raw_arkenium').id('kubejs:splashing/crushed_raw_arkenium')
+    event.custom({
+        type: 'dndesires:seething',
+        ingredients: [
+            {
+                item: 'kubejs:crushed_raw_arkenium'
+            }
+        ],
+        results: [
+            {
+                id: 'aethersdelight:arkenium_ingot'
+            },
+            {
+                chance: 0.75,
+                id: 'aethersdelight:arkenium_ingot'
+            }
+        ]
+    }).id('kubejs:seething/crushed_raw_arkenium')
+
+    //Bone Pile
+    event.recipes.create.crushing(['27x minecraft:bone_meal', CreateItem.of(`9x ${dyeItem('white')}`, 0.25), CreateItem.of('27x minecraft:bone_meal', 0.25)],
+        'doom_and_gloom:bone_pile'
+    ).id('kubejs:crushing/bone_pile')
+
+    //Hay Bale
+    event.recipes.create.crushing(['9x bountifulfares:flour', CreateItem.of('18x bountifulfares:flour', 0.25), CreateItem.of('9x minecraft:wheat_seeds', 0.25)],
+        'minecraft:hay_block'
+    ).id('kubejs:crushing/hay_block')
+
+    //Wood Chip recycling
+    function chipper(amount, input) {
+        event.recipes.create.crushing([`${amount - 1}x createdieselgenerators:wood_chip`, CreateItem.of('createdieselgenerators:wood_chip', 0.5)],
+            [input]
+        ).id(`kubejs:crushing/wood_chip/${amount}`)
+
+    }
+    chipper(8,
+        ['create:large_cogwheel', 'gnkinetics:shaftless_large_cogwheel']
+    )
+    chipper(6,
+        ['petrolsparts:large_coaxial_gear', 'gnkinetics:hollow_large_cogwheel']
+    )
+    chipper(4,
+        ['create:cogwheel', 'gnkinetics:shaftless_cogwheel']
+    )
+    chipper(2,
+        ['gnkinetics:shaftless_tiny_cogwheel', 'petrolsparts:coaxial_gear', 'gnkinetics:hollow_cogwheel']
+    )
 })

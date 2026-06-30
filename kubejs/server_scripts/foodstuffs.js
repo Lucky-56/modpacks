@@ -87,7 +87,7 @@ ServerEvents.recipes(event => {
 		'sps'
 	], {
 		f: '#c:flours',
-		a: 'minecraft:apple',
+		a: '#c:foods/apple',
 		s: 'minecraft:sugar',
 		p: 'farmersdelight:pie_crust'
 	}).id('farmersdelight:apple_pie')
@@ -216,7 +216,7 @@ ServerEvents.recipes(event => {
 	pietart('bountifulfares:sweet_berry_tart', 'minecraft:sweet_berries')
 	pietart('bountifulfares:lapisberry_tart', 'bountifulfares:lapisberries')
 	pietart('bountifulfares:melon_pie', 'minecraft:melon_slice')
-	pietart('bountifulfares:apple_pie', 'minecraft:apple')
+	pietart('bountifulfares:apple_pie', '#c:foods/apple')
 	pietart('bountifulfares:orange_pie', '#c:foods/oranges')
 	pietart('bountifulfares:lemon_pie', '#c:foods/lemons')
 	pietart('bountifulfares:plum_pie', '#c:foods/plums')
@@ -345,25 +345,25 @@ ServerEvents.recipes(event => {
 		[SizedIngredient.of('#c:flours/wheat', 1), '100x minecraft:water']
 	).id('createdieselgenerators:basin_fermenting/dough')
 	event.custom({
-		'type': 'ratatouille:composting',
-		'ingredients': [
+		type: 'ratatouille:composting',
+		ingredients: [
 			{
-				'item': 'farmersdelight:wheat_dough'
+				item: 'farmersdelight:wheat_dough'
 			},
 			{
-				'tag': 'c:flours'
+				tag: 'c:flours'
 			},
 			{
-				'type': 'neoforge:single',
-				'amount': 100,
-				'fluid': 'minecraft:water'
+				type: 'neoforge:single',
+				amount: 100,
+				fluid: 'minecraft:water'
 			}
 		],
-		'processing_time': 200,
-		'results': [
+		processing_time: 200,
+		results: [
 			{
-				'count': 3,
-				'id': 'farmersdelight:wheat_dough'
+				count: 3,
+				id: 'farmersdelight:wheat_dough'
 			}
 		]
 	}).id('ratatouille:composting/more_dough')
@@ -382,22 +382,21 @@ ServerEvents.recipes(event => {
 		{ id: 'create:campfire_cooking/bread' }
 	])
 	event.custom({
-		'type': 'create_bic_bit:deep_frying',
-		'heat_requirement': 'heated',
-		'ingredients': [
+		type: 'create_bic_bit:deep_frying',
+		heat_requirement: 'heated',
+		ingredients: [
 			{
-				'tag': 'c:foods/dough'
+				tag: 'c:foods/dough'
 			},
 			{
-				'type': 'fluid_stack',
-				'amount': 125,
-				'fluid': 'create_bic_bit:frying_oil'
+				type: 'fluid_stack',
+				amount: 125,
+				fluid: 'create_bic_bit:frying_oil'
 			}
 		],
-		'results': [
+		results: [
 			{
-
-				'id': 'create_bic_bit:oliebollen'
+				id: 'create_bic_bit:oliebollen'
 			}
 		]
 	}
@@ -463,9 +462,9 @@ ServerEvents.recipes(event => {
 })
 
 ServerEvents.tags('item', event => {
-	event.removeAll('c:flour')
 	event.add('c:flours/wheat', ['bountifulfares:flour', 'kaleidoscope_cookery:flour'])
 	event.add('c:flours', '#c:flours/wheat')
+	event.add('c:flour', '#c:flours')
 
 	event.remove('c:dough', 'kaleidoscope_cookery:raw_dough')
 	event.remove('c:foods/dough', ['kaleidoscope_cookery:raw_dough', 'create:dough'])

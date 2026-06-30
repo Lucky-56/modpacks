@@ -1,9 +1,0 @@
-{
-  "values": [
-    "minecraft:barrier"
-  ],
-  "remove": [
-    "#sable:normal_slabs",
-    "minecraft:barrier"
-  ]
-}

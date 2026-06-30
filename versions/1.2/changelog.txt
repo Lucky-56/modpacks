@@ -1,1 +1,105 @@
-**TBA**
+### first? wave of updates
+
+added `client`:
+
+- [Aeronautics Propeller Blur *1.0a*](https://mods.gay/aeronautics-propeller-blur/version/27nROiTP)
+
+added `common`:
+
+- [Create Deep Seas *2.2.4*](https://mods.gay/create-deep-seas/version/UcXaPVeD)
+- [Create: Lift n' Load | Simulated/Aeronautics Addon *1.0c*](https://mods.gay/create-lift-n-load/version/G7N1k717)
+- [Create: Pipes'n physics *2.0.4*](https://mods.gay/create-pipes-n-physics/version/pZrAIKOA)
+- [Create More: Parallel Pipes *2.0.2*](https://mods.gay/create-more-parallel-pipes/version/aYrPugrv)
+- [Horseman *1.5.11*](https://mods.gay/horseman/version/zts959K0)
+- [HT's TreeChop *0.19.3*](https://mods.gay/treechop/version/iLXWmfax)
+- [Nest Egg *2.0.1*](https://mods.gay/nest-egg/version/6EVW3eIm)
+- [Vanilla Backport X Incubation Compat *1.4*](https://mods.gay/vanillabackportxincubationcompat/version/P6O0gEMr)
+
+removed:
+
+- NoWeatherSkip *content overlap w/ BetterDays*
+
+updated:
+
+- [3D Skin Layers](https://mods.gay/3dskinlayers) *1.11.1* > *1.11.2*
+- [Amendments](https://mods.gay/amendments) *2.0.15* > *2.1.4*
+- [Biomes O' Plenty](https://mods.gay/biomes-o-plenty) *21.1.0.13* > *21.1.0.14*
+- [Brewin' And Chewin'](https://mods.gay/brewin-and-chewin) *4.4.2* > *4.5.0*
+- [Brick & Mortar](https://mods.gay/brick-and-mortar) *1.1.0* > *1.2.1*
+- [Chat Animation [Smooth Chat]](https://mods.gay/chatanimation) *1.1.3* > *1.2.0*
+- [Climbable Ropes for Create Aeronautics](https://mods.gay/create-aeronautics-climbable-rope) *2.0.1* > *2.1.0*
+- [Collective](https://mods.gay/collective) *8.27* > *8.39*
+- [Concurrent Chunk Management Engine (NeoForge)](https://mods.gay/c2me-neoforge) *0.3.0-α0.93* > *0.4.0-α0.112*
+- [Create Big Cannons](https://mods.gay/create-big-cannons) *5.11.6* > *5.11.7*
+- [Create Slice & Dice](https://mods.gay/slice-and-dice) *4.2.4* > *4.3.2*
+- [Create: Connected](https://mods.gay/create-connected) *1.2.2* > *1.3.2*
+- [Create: Diesel Generators](https://mods.gay/create-diesel-generators) *1.3.13* > *1.3.14*
+- [Create: Hypertubes](https://mods.gay/hypertube) *0.4.0-SABLE-COMPAT* > *0.5.0-α*
+- [Creature Feature](https://mods.gay/creature-feature) *1.0.4.1* > *1.1.0*
+- [Critters and Companions](https://mods.gay/critters-and-companions) *2.3.4* > *2.4.1*
+- [Default Options](https://mods.gay/default-options) *21.1.6* > *21.1.7*
+- [Distant Horizons](https://mods.gay/distanthorizons) *3.1.0* > *3.1.2*
+- [Doom & Gloom](https://mods.gay/doom-gloom) *3.0.0* > *3.0.1*
+- [Emojiful](https://mods.gay/emojiful) *5.2.2* > *5.2.3*
+- [End's Delight](https://mods.gay/ends-delight) *2.6* > *2.6.1*
+- [Field Guide](https://mods.gay/field-guide) *1.11.2* > *1.13.0*
+- [Flerovium](https://mods.gay/flerovium) *1.1.0* > *1.1.1*
+- [Geckolib](https://mods.gay/geckolib) *4.8.4* > *4.9.1*
+- [Gnetum](https://mods.gay/gnetum) *3.3.4* > *3.3.6*
+- [Jade Sable Compat](https://mods.gay/jade-sable-compat) *1.2.0* > *1.2.1*
+- [JourneyMap](https://mods.gay/journeymap) *6.0.0-β85* > *6.0.0*
+- [Kaleidoscope Cookery](https://mods.gay/kaleidoscope-cookery) *1.4.0* > *1.4.1*
+- [Kaleidoscope End](https://mods.gay/kaleidoscope-end) *1.0.13* > *1.0.14*
+- [Kaleidoscope Nether](https://mods.gay/kaleidoscope-nether) *1.1.2* > *1.1.4*
+- [Kotlin for Forge](https://mods.gay/kotlin-for-forge) *5.11.0* > *5.12.0*
+- [LambDynamicLights - Dynamic Lights](https://mods.gay/lambdynamiclights) *4.8.9* > *4.8.10*
+- [Lever drugster](https://mods.gay/lever-drugster) *1.7.0* > *1.8.4*
+- [Lithium](https://mods.gay/lithium) *0.15.3* > *0.15.4*
+- [Lithostitched](https://mods.gay/lithostitched) *1.7.10-β4* > *1.7.12*
+- [Lootr](https://mods.gay/lootr) *1.11.37.120* > *1.11.37.121*
+- [Midnight Thoughts](https://mods.gay/midnight-thoughts) *1.4.1* > *1.4.2*
+- [Moonlight Lib](https://mods.gay/moonlight) *3.0.18* > *3.0.22*
+- [Particle Effects](https://mods.gay/particle-effects) *1.4.0* > *1.5.0*
+- [Placebo](https://mods.gay/placebo) *9.9.1* > *9.9.1*
+- [Quark](https://mods.gay/quark) *4.1-480* > *4.1-481*
+- [Ragdoll Reactions](https://mods.gay/ragdoll-reactions) *0.6.6* > *0.7.0*
+- [Reese's Sodium Options](https://mods.gay/reeses-sodium-options) *2.0.5* > *2.2.0*
+- [Remove Reloading Screen](https://mods.gay/rrls) *5.0.10* > *5.0.11*
+- [Sable: Ragdolls](https://mods.gay/sable-ragdolls) *0.6.7* > *0.7.5*
+- [Sawmill](https://mods.gay/universal-sawmill) *1.7.2* > *1.7.7*
+- [Scholar](https://mods.gay/scholar) *1.2.2* > *1.2.3*
+- [Simple Voice Chat](https://mods.gay/simple-voice-chat) *2.6.18* > *2.6.20*
+- [Snow! Real Magic! ⛄](https://mods.gay/snow-real-magic) *12.2.1* > *12.2.2*
+- [Sodium](https://mods.gay/sodium) *0.8.12-β1* > *0.8.12-β2*
+- [Sodium Extra](https://mods.gay/sodium-extra) *0.8.7* > *0.9.1*
+- [Spelunkery](https://mods.gay/spelunkery) *0.4.2* > *0.4.3*
+- [Starcatcher](https://mods.gay/starcatcher) *2.3.16* > *2.3.17*
+- [Structurify - Structure Control](https://mods.gay/structurify) *2.0.25* > *2.0.28*
+- [Stylish Effects](https://mods.gay/stylish-effects) *21.1.2* > *21.1.3*
+- [Supplementaries](https://mods.gay/supplementaries) *3.6.8* > *3.7.4*
+- [Supplementaries Squared](https://mods.gay/supplementaries-squared) *1.2.17* > *1.2.18*
+- [Tide 2](https://mods.gay/tide) *2.0.3* > *2.1*
+- [Vanilla Backport Compat](https://mods.gay/vb-compat) *2.0* > *2.1*
+- [ViewBoard](https://mods.gay/viewboard) *1.1.1* > *1.2.2*
+- [vista](https://mods.gay/vista_tv) *4.4.11* > *5.0.3*
+
+- [FastFurnace](https://mods.gay/fastfurnace) *modrinth version, for better version control*
+- [FastSuite](https://mods.gay/fastsuite) *modrinth version, for better version control*
+- [FastWorkbench](https://mods.gay/fastworkbench) *modrinth version, for better version control*
+
+- [Cupboard](https://curseforge.com/minecraft/mc-mods/cupboard) *3.5* > *3.8*
+- [Loot Integrations: Dungeons and Taverns](https://curseforge.com/minecraft/mc-mods/loot-integrations-dungeons-and-taverns) *2.5* > *2.6*
+- [Yung Structures Addon for Loot Integrations](https://curseforge.com/minecraft/mc-mods/yung-structures-addon-for-loot-integrations) *1.5* > *1.6*
+
+- Spice of Life Berry *0.8.190* > *0.8.203*
+- The Aether *1.5.10* > *1.5.10.1*
+
+removed:
+
+- Probejs *forgot to remove :skull:*
+- Tree Physics *something, something sable issue*
+- World Preview NeoForged *forgot to remove :skull:*
+
+changed:
+
+- a few recipes, configs here and there *check GitHub to see all changes made*

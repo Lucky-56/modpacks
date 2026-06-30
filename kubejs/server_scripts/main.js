@@ -41,36 +41,61 @@ const corundumColors = [
 ServerEvents.tags('block', event => {
 
     event.add('artifacts:rooted_boots_grass', 'trmt:eroded_grass_block')
+
+    event.add('create:wrench_pickup', 'dndesires:bore_block')
+
     event.add('c:chains', ['aether_beyond_parity:zanite_chain', 'abyssal_decor:seabrass_chain', 'abyssal_decor:deepbronze_chain'])
 
     event.add('kubejs:tuff_ore_replaceables', ['minecraft:tuff', 'caverns_and_chasms:schist'])
 
     event.add('kubejs:pots', 'minecraft:decorated_pot')
     colorsVanilla.forEach(color => {
+        event.add('create:wrench_pickup', `dndesires:${color}_bore_block`)
         event.add('kubejs:pots', `clayworks:${color}_decorated_pot`)
     })
     colorsDyeDepot.forEach(color => {
+        event.add('create:wrench_pickup', `dndesires:${color}_bore_block`)
         event.add('kubejs:pots', `dye_the_world:${color}_decorated_pot`)
     })
 })
 
 ServerEvents.tags('item', event => {
+
+    event.add('caverns_and_chasms:additional_toolbox_tools', [
+        '#supplementaries:altimeters', '#kubejs:tfmg/multimeters',
+
+        'caverns_and_chasms:barometer', 'caverns_and_chasms:depth_gauge',
+        'chalk:chalk_box', 'create:clipboard', 'create:wrench', 'creaturefeature:open_mind',
+        'measurements:tape_measure', 'minecraft:compass', 'oreganized:speedometer',
+        'oreganized:thermometer', 'oreganized:unknown_device', 'powergrid:multimeter', 'quark:abacus',
+        'refurbished_furniture:wrench', 'starcatcher:starcatcher_rod', 'tide:climate_gauge', 'tide:depth_meter'
+    ])
+
+    event.add('dynamiccrosshair:tools', [
+        'create:handheld_worldshaper', 'simulated:creative_physics_staff'
+    ])
+    event.add('dynamiccrosshair:ranged_weapons', [
+        '#quark:pickarangs',
+
+        'create:potato_cannon'
+    ])
+
     event.removeAllTagsFrom(['dndesires:handheld_drill', 'dndesires:handheld_saw'])
 
     event.add('c:hidden_from_recipe_viewers', [
         'lifesizebdubs:imposter_tnt', 'lifesizebdubs:imposter_egg'
     ])
 
-    event.add('c:chains', ['aether_beyond_parity:zanite_chain', 'abyssal_decor:seabrass_chain', 'abyssal_decor:deepbronze_chain'])
+    event.add('c:chains', [
+        'aether_beyond_parity:zanite_chain', 'abyssal_decor:seabrass_chain', 'abyssal_decor:deepbronze_chain'
+    ])
     copperVariants.forEach(variant => {
         event.remove('create:chain_rideable', `minecraft:${variant}copper_chain`)
     })
-
-    event.add('dynamiccrosshair:tools', ['create:handheld_worldshaper', 'simulated:creative_physics_staff'])
-    event.add('dynamiccrosshair:ranged_weapons', 'create:potato_cannon')
-
-    event.remove('curios:head', 'create:goggles')
-    event.add('accessories:face', 'create:goggles')
+    event.add('kubejs:tfmg/multimeters', 'tfmg:multimeter')
+    colorsVanilla.forEach(color => {
+        event.add('kubejs:tfmg/multimeters', `tfmg:${color}_multimeter`)
+    })
 
     //thanks to @pigturtle on discord
     // this works but returns an ItemStack[]
@@ -82,7 +107,7 @@ ServerEvents.tags('item', event => {
 
 ServerEvents.recipes(event => {
     function elemental_painting(dye, painting) {
-        event.shapeless(`minecraft:painting[entity_data={id:"minecraft:painting",variant:"${painting}"}]`, ['minecraft:painting', `minecraft:${dye}_dye`]).id(`kubejs:${dye}_elemental_painting_manual_only`)
+        event.shapeless(`minecraft:painting[entity_data={id:"minecraft:painting",variant:"${painting}"}]`, ['minecraft:painting', `minecraft:${dye}_dye`]).id(`kubejs:crafting/${dye}_elemental_painting_manual_only`)
     }
 
     elemental_painting('white', 'minecraft:wind')
@@ -145,15 +170,6 @@ ServerEvents.recipes(event => {
     event.smithing('betterarcheology:iron_brush', 'feather', 'brush', '#c:ingots/iron').id('betterarcheology:iron_brush')
     event.smithing('betterarcheology:diamond_brush', 'feather', 'betterarcheology:iron_brush', '#c:gems/diamond').id('betterarcheology:diamond_brush')
 
-    //crushed arkenium
-    event.recipes.create.crushing(['kubejs:crushed_raw_arkenium', CreateItem.of('create:experience_nugget', 0.75)], Ingredient.of('#c:raw_materials/arkenium'), 400).id('kubejs:crushing/raw_arkenium')
-    event.recipes.create.crushing(['9x kubejs:crushed_raw_arkenium', CreateItem.of('9x create:experience_nugget', 0.75)], Ingredient.of('#c:storage_blocks/raw_arkenium'), 400).id('kubejs:crushing/raw_arkenium_block')
-    event.recipes.create.crushing(['kubejs:crushed_raw_arkenium', CreateItem.of('kubejs:crushed_raw_arkenium', 0.75), CreateItem.of('create:experience_nugget', 0.75), CreateItem.of('aether:holystone', 0.125)], Ingredient.of('#c:ores/arkenium')).id('kubejs:crushing/arkenium_ore')
-
-    event.smelting('aethersdelight:arkenium_ingot', 'kubejs:crushed_raw_arkenium', 0.1).id('kubejs:smelting/arkenium_ingot')
-    event.blasting('aethersdelight:arkenium_ingot', 'kubejs:crushed_raw_arkenium', 0.1).id('kubejs:blasting/arkenium_ingot')
-    event.recipes.create.splashing(['9x aethersdelight:arkenium_nugget', CreateItem.of('aether:ambrosium_shard', 0.75)], 'kubejs:crushed_raw_arkenium').id('kubejs:splashing/arkenium_nugget')
-
     //netherite nugget ^^
     event.shapeless('supplementaries:netherite_door', ['supplementaries:gold_door', '#c:nuggets/netherite']).id('supplementaries:netherite_door')
     event.shapeless('supplementaries:netherite_trapdoor', ['supplementaries:gold_trapdoor', '#c:nuggets/netherite']).id('supplementaries:netherite_trapdoor')
@@ -203,6 +219,9 @@ ServerEvents.recipes(event => {
         }
     }).id('kubejs:sus_crafting/suspicious_red_arid_sand')
 
+    //unifying
+    event.remove({ id: 'aethersdelight:glass_bottles_from_quicksoil_glass' })
+
     event.remove([
         { id: 'farmersdelight:painting_from_canvas' }
     ])
@@ -215,7 +234,72 @@ ServerEvents.recipes(event => {
         c: ['#minecraft:wool', 'farmersdelight:canvas']
     }).id('minecraft:painting')
 
-    event.replaceInput({ id: /createdeco:green_.*_lamp/ }, 'minecraft:glow_berries', '#c:copper_torches')
+    event.remove([
+        { id: 'yungscavebiomes:tnt_from_ancient_sand' },
+        { id: 'biomesoplenty:tnt_from_bop_sand' },
+        { id: 'mynethersdelight:crafting/tnt_alt' }
+    ])
+    event.shaped('minecraft:tnt', [
+        'gS',
+        'Sg'
+    ], {
+        g: ['minecraft:gunpowder', 'mynethersdelight:powder_cannon'],
+        S: '#minecraft:sand'
+    }).id('minecraft:tnt')
+
+    event.remove({ id: 'minecraft:stick_from_bamboo_item' })
+
+    event.remove([
+        { id: 'farmersdelight:scaffolding_from_canvas' },
+        { id: 'mynethersdelight:crafting/scaffolding_alt' }
+    ])
+    event.shaped('6x minecraft:scaffolding', [
+        'bsb',
+        'b b',
+        'b b'
+    ], {
+        b: ['minecraft:bamboo', 'mynethersdelight:powder_cannon'],
+        s: ['#c:strings', 'farmersdelight:canvas']
+    }).id('minecraft:scaffolding')
+
+    event.remove({ id: 'aethersdelight:basket_from_skyroot_sticks' })
+    event.shaped('farmersdelight:wooden_basket', [
+        's s',
+        'c c',
+        'scs'
+    ], {
+        s: '#c:rods/wooden',
+        c: 'farmersdelight:canvas'
+    }).id('farmersdelight:wooden_basket')
+
+    event.remove({ id: 'mynethersdelight:crafting/basket_alt' })
+    event.shaped('farmersdelight:bamboo_basket', [
+        'b b',
+        'c c',
+        'bcb'
+    ], {
+        b: ['minecraft:bamboo', 'mynethersdelight:powder_cannon'],
+        c: 'farmersdelight:canvas'
+    }).id('farmersdelight:bamboo_basket')
+
+    event.shaped('create_integrated_farming:roost', [
+        'b b',
+        'cwc',
+        'bcb'
+    ], {
+        b: ['minecraft:bamboo', 'mynethersdelight:powder_cannon'],
+        c: 'farmersdelight:canvas',
+        w: 'minecraft:wheat'
+    }).id('create_integrated_farming:crafting/roost')
+    event.shapeless('create_integrated_farming:roost', [
+        'farmersdelight:bamboo_basket', 'minecraft:wheat'
+    ]).id('kubejs:crafting/roost')
+
+    event.shapeless('4x create_connected:brass_chute', [
+        'create:chute', 'create:chute', 'create:chute', 'create:chute', '#c:plates/brass', '#c:plates/brass'
+    ]).id('create_connected:crafting/kinetics/brass_chute')
+
+    event.replaceInput({ id: /^createdeco:green_.*_lamp/ }, 'minecraft:glow_berries', '#c:copper_torches')
     event.remove({ id: 'create:mixing/chocolate' })
 
     event.recipes.create.crushing([
@@ -271,4 +355,91 @@ ServerEvents.recipes(event => {
     narrails('crimson', 'minecraft:crimson_slab', Ingredient.of('#c:nuggets/gold'))
     narrails('warped', 'minecraft:warped_slab', Ingredient.of('#c:nuggets/gold'))
     narrails('phantom', 'minecraft:phantom_membrane', Ingredient.of('#c:ingots/iron'), 32)
+
+    event.shapeless('gnkinetics:cogstone', [
+        'create:cogwheel', '#c:stones'
+    ]).id('gnkinetics:crafting/cogstone')
+    event.shapeless('gnkinetics:andesite_cogwheel', [
+        'create:cogwheel', '#c:ingots/andesite_alloy'
+    ]).id('gnkinetics:crafting/andesite_cogwheel')
+
+    event.shapeless('dndecor:dark_metal_cogwheel', [
+        'create:cogwheel', 'dndecor:dark_metal_block'
+    ]).id('dndecor:crafting/dark_metal_cogwheel')
+    event.shapeless('dndecor:large_dark_metal_cogwheel', [
+        'create:large_cogwheel', 'dndecor:dark_metal_block'
+    ]).id('dndecor:crafting/large_dark_metal_cogwheel')
+
+    event.replaceInput({ input: '#dndecor:industrial_cogwheels' }, '#dndecor:industrial_cogwheels', ['gnkinetics:industrial_gear', '#dndecor:dyed_industrial_cogwheels'])
+
+    event.remove([
+        { id: 'dndecor:crafting/industrial_cogwheel' },
+        { id: 'dndecor:crafting/large_industrial_cogwheel' }
+    ])
+    event.shapeless('gnkinetics:industrial_gear', [
+        'create:cogwheel', ['create:industrial_iron_block', 'dndecor:industrial_plating_block']
+    ]).id('gnkinetics:crafting/industrial_gear')
+    event.shapeless('gnkinetics:large_industrial_gear', [
+        'create:large_cogwheel', ['create:industrial_iron_block', 'dndecor:industrial_plating_block']
+    ]).id('gnkinetics:crafting/large_industrial_gear')
+
+    event.shapeless('2x gnkinetics:brass_gear', [
+        'create:cogwheel', 'create:cogwheel', '#c:ingots/brass'
+    ]).id('gnkinetics:crafting/brass_gear')
+    event.shapeless('gnkinetics:large_brass_gear', [
+        'create:large_cogwheel', '#c:ingots/brass'
+    ]).id('gnkinetics:crafting/large_brass_gear')
+
+    event.shapeless('2x tfmg:steel_cogwheel', [
+        'create:cogwheel', 'create:cogwheel', '#c:ingots/steel'
+    ]).id('tfmg:crafting/materials/steel_cogwheel')
+    event.shapeless('tfmg:large_steel_cogwheel', [
+        'create:large_cogwheel', '#c:ingots/steel'
+    ]).id('tfmg:crafting/materials/large_steel_cogwheel')
+    event.shapeless('2x tfmg:aluminum_cogwheel', [
+        'create:cogwheel', 'create:cogwheel', '#c:ingots/aluminum'
+    ]).id('tfmg:crafting/materials/aluminum_cogwheel')
+    event.shapeless('tfmg:large_aluminum_cogwheel', [
+        'create:large_cogwheel', '#c:ingots/aluminum'
+    ]).id('tfmg:crafting/materials/large_aluminum_cogwheel')
+
+    event.shapeless('create_connected:vertical_parallel_gearbox', [
+        'create:vertical_gearbox', 'create:large_cogwheel'
+    ]).id('kubejs:crafting/vertical_parallel_gearbox')
+
+    event.shaped('create_connected:vertical_six_way_gearbox', [
+        's s',
+        'lcl',
+        's s'
+    ], {
+        s: 'create:cogwheel',
+        l: 'create:large_cogwheel',
+        c: 'create:andesite_casing'
+    }).id('kubejs:crafting/vertical_six_way_gearbox')
+    event.shapeless('create_connected:vertical_six_way_gearbox', [
+        'create_connected:vertical_parallel_gearbox', 'create:large_cogwheel'
+    ]).id('kubejs:crafting/vertical_six_way_gearbox_alt')
+    event.shapeless('create_connected:vertical_six_way_gearbox', [
+        'create:vertical_gearbox', 'create:large_cogwheel', 'create:large_cogwheel'
+    ]).id('kubejs:crafting/vertical_six_way_gearbox_alt2')
+
+    event.shaped('create_connected:vertical_brass_gearbox', [
+        'c c',
+        ' r ',
+        'c c'
+    ], {
+        r: 'create:rotation_speed_controller',
+        c: 'create:cogwheel'
+    }).id('kubejs:crafting/vertical_brass_gearbox')
+
+    event.shaped('tfmg:steel_vertical_gearbox', [
+        'c c',
+        ' m ',
+        'c c'
+    ], {
+        m: 'tfmg:heavy_machinery_casing',
+        c: 'tfmg:steel_cogwheel'
+    }).id('kubejs:crafting/steel_vertical_gearbox')
+    event.shapeless('tfmg:steel_gearbox', 'tfmg:steel_vertical_gearbox').id('kubejs:crafting/steel_gearbox_trans')
+    event.shapeless('tfmg:steel_vertical_gearbox', 'tfmg:steel_gearbox').id('kubejs:crafting/steel_vertical_gearbox_trans')
 })

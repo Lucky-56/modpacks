@@ -92,7 +92,7 @@ ServerEvents.recipes(event => {
     '#create:stone_types/andesite'
   ).id('kubejs:millstone/andesite_powder')
 
-  event.recipes.create.milling('kubejs:andesite_powder',
+  event.recipes.create.milling(['kubejs:andesite_powder', CreateItem.of('kubejs:andesite_powder', 0.1)],
     Ingredient.of('#create:stone_types/andesite')
   ).id('create:milling/andesite')
 
@@ -225,18 +225,18 @@ ServerEvents.recipes(event => {
   ]).superheated().id('kubejs:mixing/molten_andesite_alloy_from_recycle')
 
   event.custom({
-    'type': 'tfmg:casting',
-    'ingredients': [
+    type: 'tfmg:casting',
+    ingredients: [
       {
-        'type': 'neoforge:single',
-        'amount': 144,
-        'fluid': 'kubejs:molten_andesite_alloy'
+        type: 'neoforge:single',
+        amount: 144,
+        fluid: 'kubejs:molten_andesite_alloy'
       }
     ],
-    'processing_time': 200,
-    'results': [
+    processing_time: 200,
+    results: [
       {
-        'id': 'create:andesite_alloy'
+        id: 'create:andesite_alloy'
       }
     ]
   }).id('kubejs:casting/tfmg/andesite_alloy')
@@ -246,29 +246,29 @@ ServerEvents.recipes(event => {
     '72x kubejs:molten_andesite_alloy'
   ).id('kubejs:casting/createdieselgenerators/shaft')
   event.custom({
-    'type': 'ratatouille:squeezing',
-    'ingredients': [
+    type: 'ratatouille:squeezing',
+    ingredients: [
       {
-        'item': 'minecraft:stick'
+        item: 'minecraft:stick'
       },
       {
-        'type': 'neoforge:single',
-        'amount': 1000,
-        'fluid': 'kubejs:molten_andesite_alloy'
+        type: 'neoforge:single',
+        amount: 1000,
+        fluid: 'kubejs:molten_andesite_alloy'
       }
       //actual recipe if ratatouille would be cool
       /*
         {
-          'type': 'neoforge:single',
-          'amount': 18,
-          'fluid': 'kubejs:molten_andesite_alloy'
+          type: 'neoforge:single',
+          amount: 18,
+          fluid: 'kubejs:molten_andesite_alloy'
         }
       */
     ],
-    'results': [
+    results: [
       {
-        'id': 'create:shaft',
-        'count': 56
+        id: 'create:shaft',
+        count: 56
       }
     ]
   }).id('kubejs:squeezing/shaft')
@@ -351,7 +351,7 @@ ServerEvents.recipes(event => {
 
   ])
   event.shapeless('gnkinetics:tiny_cogwheel', [
-    ['gnkinetics:shaftless_tiny_cogwheel', 'create:shaft']
+    'gnkinetics:shaftless_tiny_cogwheel', 'create:shaft'
   ]).id('gnkinetics:crafting/tiny_cogwheel')
 
 })
@@ -369,7 +369,7 @@ BlockEvents.rightClicked(['gnkinetics:shaftless_cogwheel', 'gnkinetics:shaftless
 ServerEvents.tags('block', event => {
   event.add('thick_air:green_air_providers', [
     'aether_beyond_parity:ambrosium_campfire', 'aether_beyond_parity:ambrosium_lantern', 'aether:aether_portal',
-    'aether:ambrosium_torch', 'createnuclear:enriching_campfire', 'deep_aether:ambrosium_tiki_torch'
+    'aether:ambrosium_torch', 'aether:ambrosium_wall_torch', 'createnuclear:enriching_campfire', 'deep_aether:ambrosium_tiki_torch'
   ])
   event.add('thick_air:blue_air_providers', [
     '#chipped:soul_lantern',
@@ -378,7 +378,7 @@ ServerEvents.tags('block', event => {
 
     'caverns_and_chasms:soul_brazier', 'buzzier_bees:soul_candle', 'supplementaries:candle_holder_soul',
     'soulcandles:soul_jack_o_lantern', 'autumnity:soul_jack_o_lantern', 'autumnity:large_soul_jack_o_lantern_slice',
-    'supplementaries:sconce_soul',
+    'supplementaries:sconce_soul', 'supplementaries:sconce_wall_soul', 'supplementaries:blackstone_lamp'
   ])
   event.add('thick_air:yellow_air_providers', [
     '@sootychimneys', 'aeronautics:adjustable_burner', 'aeronautics:steam_vent', 'brewinandchewin:heating_cask', 'caverns_and_chasms:cupric_campfire',

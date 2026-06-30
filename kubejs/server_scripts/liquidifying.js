@@ -303,10 +303,10 @@ ServerEvents.recipes(event => {
     ]).id('bountifulfares:candy')
 
     event.shapeless('farmersdelight:gleaming_salad_block', [
-        'minecraft:glow_berries', 'minecraft:glow_berries', 'minecraft:beetroot', 'minecraft:golden_carrot', '#c:crops/tomato', 'farmersdelight:cabbage', 'farmersdelight:cabbage', 'minecraft:honey_bottle'
+        'minecraft:glow_berries', 'minecraft:glow_berries', '#c:crops/beetroot', '#c:foods/golden_carrot', '#c:crops/tomato', 'farmersdelight:cabbage', 'farmersdelight:cabbage', 'minecraft:honey_bottle'
     ]).id('farmersdelight:gleaming_salad_block_manual_only')
     event.recipes.create.mixing('farmersdelight:gleaming_salad_block', [
-        '2x minecraft:glow_berries', 'minecraft:beetroot', 'minecraft:golden_carrot', Ingredient.of('#c:crops/tomato'), '2x farmersdelight:cabbage', '250x #c:honey'
+        '2x minecraft:glow_berries', Ingredient.of('#c:crops/beetroot'), Ingredient.of('#c:foods/golden_carrot'), Ingredient.of('#c:crops/tomato'), '2x farmersdelight:cabbage', '250x #c:honey'
     ]).id('farmersdelight:gleaming_salad_block')
 
     event.shapeless('buzzier_bees:honey_apple', [

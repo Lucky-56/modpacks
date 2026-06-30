@@ -1,0 +1,13 @@
+{
+    "values": [
+        "#starcatcher:common_fishes"
+    ],
+    "remove": [
+        "minecraft:cod",
+        "minecraft:salmon",
+        "upgrade_aquatic:pike",
+        "upgrade_aquatic:perch",
+        "upgrade_aquatic:thrasher_tooth",
+        "crittersandcompanions:clam"
+    ]
+}

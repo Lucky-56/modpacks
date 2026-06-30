@@ -1,5 +1,14 @@
-[1.1] {maintenance} (client) Cubes Without Borders
+[1.2] {content:create} (common) Create Deep Seas
+[1.2] {content:create} (common) Create More: Parallel Pipes
+[1.2] {content:create} (common) Create Pipes n Physics
+[1.2] {content:create} (common) Lift n' Load
+[1.2] {maintenance} (common) Horseman
+[1.2] {maintenance} (common) Nest Egg
+[1.2] {maintenance} (common) VbIncubation
+[1.2] {visuals} (client) Aeronautics Propeller Blur
+
 [1.1] {ai-tweaks} (common) Peeping Angels
+[1.1] {maintenance} (client) Cubes Without Borders
 
 [1.0] {} (client) Aeronautics Camera Sync
 [1.0] {} (client) Barebones McQoy
@@ -131,7 +140,6 @@
 [1.0] {} (common) Nether Depths Upgrade
 [1.0] {} (common) Nirvana
 [1.0] {} (common) Not Enough Trials
-[1.0] {} (common) NoWeatherSkip
 [1.0] {} (common) Nullscape
 [1.0] {} (common) Nyf's Spiders
 [1.0] {} (common) Obscure Tooltips
@@ -155,7 +163,7 @@
 [1.0] {} (common) ReadyPlayerFun
 [1.0] {} (common) Resourcify
 [1.0] {} (common) Respawning Animals
-[1.0] {} (common) Sable Player Ragdoll
+[1.0] {} (common) Sable Ragdolls
 [1.0] {} (common) ServerCore
 [1.0] {} (common) Shepard Tone (Pitch Up)
 [1.0] {} (common) Shifting Wares
@@ -169,7 +177,6 @@
 [1.0] {} (common) Sounds
 [1.0] {} (common) Spelunkery
 [1.0] {} (common) Spice of Life Berry
-[1.0] {ai-tweaks} (common) Stalker Creepers
 [1.0] {} (common) Starcatcher
 [1.0] {} (common) Starcatcher's Delight
 [1.0] {} (common) Storage Labels
@@ -184,7 +191,7 @@
 [1.0] {} (common) Tree Physics
 [1.0] {} (common) Universal Bone Meal
 [1.0] {} (common) Universal Sawmill
-[1.0] {} (common) Vanilla Backport Compat (on-hold)
+[1.0] {} (common) Vanilla Backport Compat
 [1.0] {} (common) Vanilla Backport X Not Enough Trials
 [1.0] {} (common) VanillaBackport
 [1.0] {} (common) VanillaBackport: Mob Variants Compat
@@ -198,7 +205,7 @@
 [1.0] {} (common) WaterVision
 [1.0] {} (common) Waves
 [1.0] {} (common) What Are They Up To
-[1.0] {} (common) World Preview
+[1.0] {ai-tweaks} (common) Stalker Creepers
 [1.0] {bugfix} (common) Brainier Bees
 [1.0] {bugfix} (server) I'm Fast
 [1.0] {chunkgen} (common) Chunky
@@ -354,7 +361,6 @@
 [1.0] {kubejs} (common) AlmostUnified
 [1.0] {kubejs} (common) KubeJS
 [1.0] {kubejs} (common) KubeJS Create
-[1.0] {kubejs} (common) ProbeJS
 [1.0] {kubejs} (common) Quad
 [1.0] {lib:accessories} (common) Accessories
 [1.0] {lib:accessories} (common) Curios API
@@ -483,12 +489,14 @@
 [1.0] {visuals} (client) Minecraft Cursor
 [1.0] {worldgen} (common) RoadWeaver
 
+[1.0 - 1.2] {kubejs} (common) ProbeJS
+[1.0 - 1.2] {maintenance} (common) NoWeatherSkip
+[1.0 - 1.2] {maintenance} (common) World Preview
+
 [1.0 - 1.1] {optimization} (client) Sodium Extras
 
-[TBD] {visuals} (client) Chunks Fade In
-[TBD] {maintenance} (common) Advancements Reloaded
 [TBD] {content:everycomp} (common) Every Compat
 [TBD] {content:everycomp} (common) Gems Realm
 [TBD] {content:everycomp} (common) Stone Zone
-[TBD] {lib:accessories} (common) Accessories Compatibility Layer
-[TBD] {optimization} (common) smoothmovement mod
+[TBD] {maintenance} (common) Advancements Reloaded
+[TBD] {visuals} (client) Chunks Fade In

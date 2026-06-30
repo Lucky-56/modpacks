@@ -2,9 +2,19 @@
 
 ServerEvents.tags('item', event => {
     //no errors
+    colorsDyenamics.forEach(color => {
+        event.remove('c:glass_block/tinted', `dyenamics:${color}_stained_glass`)
+    })
     event.remove('c:foods/meat', ['#c:foods/meat/raw', '#c:foods/meat/cooked'])
     event.remove('c:cooked_meats', 'kaleidoscope_cookery:cooked_donkey_meat')
-    event.add('alexscaves:cave_paintings', /alexscaves:cave_painting_.*/)
+    event.remove('kaleidoscope_nether:mod_items', [
+        'kaleidoscope_nether:glowing_kabob',
+        'kaleidoscope_nether:glowing_pudding',
+        'kaleidoscope_nether:glowing_salad',
+        'kaleidoscope_nether:glowing_soup'
+    ])
+
+    event.add('alexscaves:cave_paintings', /^alexscaves:cave_painting_.*/)
 
     //preferences
     event.add('minecraft:wooden_stairs', [
@@ -15,11 +25,54 @@ ServerEvents.tags('item', event => {
         'abyssal_decor:white_wood_slab', 'abyssal_decor:blackwood_slab', 'abyssal_decor:cinnamon_slab', 'abyssal_decor:cinnamon_shingle_slab', 'abyssal_decor:mossy_cinnamon_shingle_slab', 'abyssal_decor:blackwood_shingle_slab'
     ])
 
-    event.add('minecraft:axes', /tfmg:.*_axe/)
-    event.add('minecraft:hoes', /tfmg:.*_hoe/)
-    event.add('minecraft:swords', /tfmg:.*_sword/)
-    event.add('minecraft:shovels', /tfmg:.*_shovel/)
-    event.add('minecraft:pickaxes', /tfmg:.*_pickaxe/)
+    event.add('minecraft:axes', /^tfmg:.*_axe/)
+    event.add('minecraft:hoes', /^tfmg:.*_hoe/)
+    event.add('minecraft:swords', /^tfmg:.*_sword/)
+    event.add('minecraft:shovels', /^tfmg:.*_shovel/)
+    event.add('minecraft:pickaxes', /^tfmg:.*_pickaxe/)
+
+    event.add('c:foods/golden', [
+        'someassemblyrequired:chopped_golden_carrot', 'someassemblyrequired:golden_apple_slices', 'someassemblyrequired:enchanted_golden_apple_slices'
+    ])
+
+    event.add('c:foods/vegetable', [
+        'someassemblyrequired:sliced_onion', 'someassemblyrequired:tomato_slices', 'someassemblyrequired:sliced_onion',
+        'someassemblyrequired:chopped_beetroot', 'someassemblyrequired:chopped_golden_carrot', 'someassemblyrequired:chopped_carrot'
+    ])
+
+    event.add('c:foods/fruit', [
+        'someassemblyrequired:apple_slices', 'someassemblyrequired:golden_apple_slices', 'someassemblyrequired:enchanted_golden_apple_slices'
+    ])
+
+    event.add('c:crops/onion', 'someassemblyrequired:sliced_onion')
+    event.add('c:foods/onion', 'someassemblyrequired:sliced_onion')
+
+    event.add('c:crops/tomato', 'someassemblyrequired:tomato_slices')
+    event.add('c:foods/tomato', 'someassemblyrequired:tomato_slices')
+
+    event.add('c:crops/beetroot', 'someassemblyrequired:chopped_beetroot')
+    event.add('c:foods/beetroot', [
+        'minecraft:beetroot', 'someassemblyrequired:chopped_beetroot'
+    ])
+
+    event.add('c:crops/carrot', 'someassemblyrequired:chopped_carrot')
+    event.add('c:foods/carrot', [
+        'minecraft:carrot', 'someassemblyrequired:chopped_carrot'
+    ])
+
+    event.add('c:foods/apple', [
+        'minecraft:apple', 'someassemblyrequired:apple_slices'
+    ])
+
+    event.add('c:foods/golden_apple', [
+        'minecraft:golden_apple', 'someassemblyrequired:golden_apple_slices'
+    ])
+
+    event.add('c:foods/golden_carrot', [
+        'minecraft:golden_carrot', 'someassemblyrequired:chopped_golden_carrot'
+    ])
+
+    event.add('createdieselgenerators:fermentable', 'someassemblyrequired:apple_slices')
 
     event.add('minecraft:meat', ['marbledschevon:raw_chevon', 'marbledschevon:cooked_chevon'])
     event.add('c:foods/raw_meat', 'marbledschevon:raw_chevon')
@@ -85,7 +138,16 @@ ServerEvents.tags('item', event => {
     event.add('c:nuggets/charcoal', 'spelunkery:charcoal_lump')
     event.add('c:nuggets', ['#c:nuggets/coal', '#c:nuggets/charcoal'])
 
-    event.add('c:seeds', 'bountifulfares:grass_seeds')
+    event.add('c:seeds', [
+        'bountifulfares:grass_seeds', 'abyssal_decor:amaranth_1'
+    ])
+
+    event.add('c:stripped_logs', [
+        'aether:stripped_skyroot_log', 'upgrade_aquatic:stripped_river_log'
+    ])
+    event.add('c:stripped_woods', [
+        'aether:stripped_skyroot_wood', 'upgrade_aquatic:stripped_river_wood'
+    ])
 
     event.add('c:copper_torches', ['minecraft:copper_torch', 'caverns_and_chasms:cupric_torch'])
 
@@ -108,12 +170,38 @@ ServerEvents.tags('item', event => {
         'burnt:ember_log', 'burnt:stripped_ember_log',
         'burnt:ember_wood'
     ])
+
+    event.removeAll('forge:seeds')
+    event.removeAll('forge:heads')
+    event.removeAll('forge:tools/fishing_rods')
+    event.removeAll('forge:bogroll_tag')
+    event.removeAll('forge:whitewood_log')
+    event.removeAll('forge:blackwood_log')
+    event.removeAll('forge:cinnamon_log')
+    event.removeAll('forge:shells')
+    event.add('abyssal_decor:cinnamon_log', [
+        'abyssal_decor:cinnamon_log', 'abyssal_decor:cinnamon_wood',
+        'abyssal_decor:stripped_cinnamon_log', 'abyssal_decor:stripped_cinnamon_wood'
+    ])
+
+    event.add('abyssal_decor:blackwood_log', [
+        'abyssal_decor:blackwood_log', 'abyssal_decor:blackwood_wood',
+        'abyssal_decor:stripped_blackwood_log'
+    ])
+
+    event.add('abyssal_decor:whitewood_log', [
+        'abyssal_decor:white_wood_log', 'abyssal_decor:white_wood_wood'
+    ])
+
+    event.add('quark:counts_as_weapon_for_gold_tools_have_fortune', [
+        'minecraft:golden_spear', 'kaleidoscope_cookery:gold_kitchen_knife'
+    ])
 })
 
 ServerEvents.tags('block', event => {
     //errorless
-    event.remove('minecraft:stairs', /dndecor:dark_metal_.*_slab/)
-    event.add('minecraft:slabs', /dndecor:dark_metal_.*_slab/)
+    event.remove('minecraft:stairs', /^dndecor:dark_metal_.*_slab/)
+    event.add('minecraft:slabs', /^dndecor:dark_metal_.*_slab/)
 
     //preferences
     event.add('minecraft:lanterns', [
@@ -182,11 +270,18 @@ ServerEvents.recipes(event => {
         { id: 'burnt:stripped_burnt_logs_recipe' },
         { id: 'burnt:burnt_wood_recipe' },
         { id: 'burnt:burnt_stripped_wood_recipe' },
+        { id: 'abyssal_decor:cinnamon_planks_stripped_recipe' },
+        { id: 'abyssal_decor:white_wood_stick_recipe' },
+        { id: 'abyssal_decor:blackwood_stick_recipe' },
+        { id: 'abyssal_decor:cinnamon_stick_recipe' },
 
         { id: 'tfmg:industrial_blasting/steel_from_dust' },
 
         { id: 'minecraft:furnace' },
+        { id: 'woodworks:oak_bookshelf' },
         { id: 'bountifulfares:sweet_berry_pips_from_sweet_berries' },
+
+        { id: 'create_dragons_plus:ending/chorus_fruit_from_apple' },
     ])
 
     event.shaped('2x dramaticdoors:tall_rue_socotra_door', [
@@ -211,18 +306,18 @@ ServerEvents.recipes(event => {
     ]).id('ratatouille:mixing/mince_meat')
 
     event.custom({
-        'type': 'tfmg:casting',
-        'ingredients': [
+        type: 'tfmg:casting',
+        ingredients: [
             {
-                'type': 'neoforge:single',
-                'amount': 144,
-                'fluid': 'tfmg:molten_plastic'
+                type: 'neoforge:single',
+                amount: 144,
+                fluid: 'tfmg:molten_plastic'
             }
         ],
-        'processing_time': 100,
-        'results': [
+        processing_time: 100,
+        results: [
             {
-                'id': 'tfmg:plastic_sheet'
+                id: 'tfmg:plastic_sheet'
             }
         ]
     }).id('tfmg:casting/plastic_sheet')
@@ -257,8 +352,193 @@ ServerEvents.recipes(event => {
         .transitionalItem('create:incomplete_precision_mechanism') // Set the transitional item
         .loops(5) // Set the number of loops
         .id('create:sequenced_assembly/precision_mechanism')
+
+    event.shapeless('4x abyssal_decor:cinnamon_planks',
+        '#abyssal_decor:cinnamon_log'
+    ).id('abyssal_decor:cinnamon_planks_recipe')
+
+    event.shapeless('4x abyssal_decor:blackwood_planks',
+        '#abyssal_decor:blackwood_log'
+    ).id('abyssal_decor:blackwood_planks_recipe')
+
+    event.shapeless('4x abyssal_decor:white_wood_planks',
+        '#abyssal_decor:whitewood_log'
+    ).id('abyssal_decor:white_wood_planks_recipe')
+
+    //event.recipes.farmersdelight.cutting
+    event.custom({
+        type: 'farmersdelight:cutting',
+        ingredients: [
+            {
+                tag: 'starcatcher_delight:common_fishes'
+            }
+        ],
+        result: [
+            {
+                item: {
+                    count: 1,
+                    id: 'starcatcher_delight:starcaught_fillet_common'
+                }
+            }
+        ],
+        tool: {
+            tag: 'c:tools/knife'
+        }
+    }).id('starcatcher_delight:cutting/starcaught_fillet_common')
+
+    function smokeCook(output, input, xp, id) {
+        event.smoking(output, input, xp).id(`kubejs:smoking/${id}`)
+        event.campfireCooking(output, input, xp, 600).id(`kubejs:campfire_cooking/${id}`)
+    }
+    smokeCook('abyssal_decor:cooked_muckroot', 'abyssal_decor:muckroot_item', 0.1, 'muckroot')
+    smokeCook('abyssal_decor:toasted_seeds', 'abyssal_decor:amaranth_1', 1.0, 'amaranth_seeds')
+    smokeCook('abyssal_decor:popped_spidercorn', 'abyssal_decor:spidercorn_crop', 1.0, 'spidercorn')
+
+    event.replaceInput({ id: 'someassemblyrequired:cutting/farmersdelight/onion' }, '#c:crops/onion', '#kubejs:sliceable/onion')
+    event.replaceInput({ id: 'someassemblyrequired:cutting/farmersdelight/tomato' }, '#c:crops/tomato', '#kubejs:sliceable/tomato')
+
+    event.replaceInput([
+        { id: 'bountifulfares:apple_compote_jar' },
+        { id: 'bountifulfares:apple_stew' },
+        { id: 'farmersdelight:fruit_salad' },
+        { id: 'farmersdelight:horse_feed' },
+        { id: 'abyssal_decor:cinnamon_apple_recipe' },
+        { id: 'bountifulfares:cooking/apple_compote' },
+        { id: 'farmersdelight:cooking/apple_cider' },
+        { id: 'brewinandchewin:cooking/apple_jelly' },
+        { id: 'bountifulfares:cooking/apple_stew' }
+    ], 'minecraft:apple', '#c:foods/apple')
+    event.custom({
+        type: 'bountifulfares:fermenting',
+        ingredient: {
+            tag: 'c:foods/apple'
+        },
+        particle_color: 16771237,
+        result: {
+            id: 'bountifulfares:apple_cider_jar'
+        },
+        result_count: 1
+    }).id('bountifulfares:apple_cider_jar_from_fermenting')
+    event.custom({
+        type: 'kaleidoscope_tavern:barrel',
+        carrier: {
+            item: 'kaleidoscope_tavern:empty_bottle'
+        },
+        fluid: 'kaleidoscope_tavern:grape_juice',
+        ingredients: [
+            {
+                tag: 'c:foods/apple'
+            }
+        ],
+        result: {
+            count: 1,
+            id: 'kaleidoscope_tavern:brandy'
+        }
+    }).id('kaleidoscope_tavern:barrel/brandy')
+
+    event.replaceInput([
+        { id: 'farmersdelight:cooking/sludge_stew' },
+        { id: 'mynethersdelight:cooking/giant_tentacles' },
+        { id: 'create_bic_bit:compat/farmersdelight/stamppot' }
+    ], 'farmersdelight:onion', '#c:crops/onion')
+
+    event.replaceInput([
+        { id: 'minecraft:beetroot_soup' },
+        { id: 'kaleidoscope_nether:pot/couples_lung_slice' },
+    ], 'minecraft:beetroot', '#c:crops/beetroot')
+
+    event.replaceInput([
+        { id: 'bountifulfares:bountiful_stew' },
+        { id: 'abnormals_delight:seared_venison' },
+        { id: 'kaleidoscope_end:pot/stuffed_shulker' },
+        { id: 'kaleidoscope_nether:stockpot/magma_cream_soup' },
+        { id: 'kaleidoscope_cookery:stockpot/lamb_and_radish_soup' },
+        { id: 'kaleidoscope_nether:stockpot/soul_soup' },
+        { id: 'bountifulfares:cooking/bountiful_stew' },
+        { id: 'kaleidoscope_cookery:flex_stockpot/lamb_and_radish_soup' },
+        { id: 'create_bic_bit:compat/farmersdelight/stamppot' }
+    ], 'minecraft:carrot', '#c:crops/carrot')
+    event.recipes.kaleidoscope_cookery.pot('kaleidoscope_nether:spicy_pot', [
+        '#c:raw_meats', '#c:raw_meats', ['#c:crops/carrot', '#c:crops/potato', '#c:crops/beetroot'], '#c:vegetables/lettuce', ['#c:vegetables/pepper', '#c:hot_spices'], ['#c:vegetables/pepper', '#c:hot_spices']
+    ], 'minecraft:bowl', 300, 5).id('kaleidoscope_nether:pot/spicy_pot')
+    event.recipes.kaleidoscope_cookery.pot('kaleidoscope_nether:spicy_pot_rice', [
+        '#c:raw_meats', ['#c:crops/carrot', '#c:crops/potato', '#c:crops/beetroot'], '#c:vegetables/lettuce', ['#c:vegetables/pepper', '#c:hot_spices'], ['#c:vegetables/pepper', '#c:hot_spices']
+    ], '#c:foods/cooked_rice', 300, 5).id('kaleidoscope_nether:pot/spicy_pot_rice')
+    event.custom({
+        type: 'farmersdelight:cooking',
+        ingredients: [
+            {
+                tag: 'c:foods/raw_dragon_meat'
+            },
+            {
+                type: 'neoforge:compound',
+                children: [
+                    {
+                        item: 'minecraft:chorus_fruit'
+                    },
+                    {
+                        item: 'ends_delight:chorus_fruit_grain'
+                    }
+                ]
+            },
+            {
+                item: 'ends_delight:chorus_succulent'
+            },
+            {
+                tag: 'c:crops/carrot'
+            },
+            {
+                item: 'minecraft:potato'
+            },
+            {
+                tag: 'c:crops/tomato'
+            }
+        ],
+        result: {
+            id: 'ends_delight:dragon_meat_stew_block'
+        },
+        container: {
+            id: 'ends_delight:half_dragon_egg_shell'
+        },
+        recipe_book_tab: 'meals',
+        cookingtime: 200,
+        experience: 2.0
+    }).id('ends_delight:food/dragon_meat_stew_block')
+    event.custom({
+        type: 'farmersdelight:cooking',
+        experience: 1.0,
+        ingredients: [
+            {
+                tag: 'c:foods/raw_duck'
+            },
+            {
+                tag: 'c:foods/pasta'
+            },
+            {
+                tag: 'c:crops/carrot'
+            },
+            {
+                tag: 'c:foods/vegetable'
+            }
+        ],
+        recipe_book_tab: 'meals',
+        result: {
+            count: 1,
+            id: 'abnormals_delight:duck_noodles'
+        }
+    }).id('abnormals_delight:cooking/duck_noodles')
+
+    event.replaceInput([
+        { id: 'kaleidoscope_cookery:golden_salad' }
+    ], 'minecraft:golden_apple', '#c:foods/golden_apple')
+
+    event.replaceInput([
+        { id: 'kaleidoscope_cookery:golden_salad' },
+        { id: 'farmersdelight:horse_feed' }
+    ], 'minecraft:golden_carrot', '#c:foods/golden_carrot')
 })
 
 RecipeViewerEvents.addEntries('item', event => {
     event.add('spelunkery:tuff_zinc_ore')
+    event.add('tide:small_cooked_fish')
 })

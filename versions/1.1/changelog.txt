@@ -4,7 +4,7 @@ added `client`:
 
 - [Cubes Without Borders *3.0.0*](https://mods.gay/cubes-without-borders/version/epixUL1j)
 
-added `common`;
+added `common`:
 
 - [Peeping Angels *3.0.0*](https://mods.gay/peeping-angels/version/bAOruOCk)
 

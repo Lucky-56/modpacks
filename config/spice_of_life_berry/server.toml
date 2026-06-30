@@ -46,6 +46,7 @@
 	# Default: 6.0
 	# Range: 0.0 ~ 40.0
 	naturalRegenExhaustionPerHeal = 6.0
+	cravingsAffectActionExhaustion = true
 
 [damage_hunger]
 	enabled = true
@@ -459,6 +460,9 @@
 
 	[compat.farmersdelight]
 		removeNourishmentEffect = false
+		compatDebugMode = false
+		enableGenericHungerEffectCompatibility = true
+		hungerDrainEffectMultipliers = ["farmersdelight:nourishment=0.0"]
 
 [transport]
 	enableBoatRowingSlowdown = true

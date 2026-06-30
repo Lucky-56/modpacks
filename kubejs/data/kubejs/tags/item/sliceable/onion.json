@@ -1,0 +1,8 @@
+{
+    "values": [
+        "#c:crops/onion"
+    ],
+    "remove": [
+        "someassemblyrequired:sliced_onion"
+    ]
+}
